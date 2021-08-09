@@ -1,0 +1,1204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<q1:Documents xmlns:q1="http://ns.electronichealth.net.au/pcehr/xsd/common/DocumentCoreElements/1.0">
+	<q1:creationDate>2021-08-09T01:07:26.0861936Z</q1:creationDate>
+	<q1:version>1</q1:version>
+	<q1:tags>
+		<q1:tag>
+			<q1:name>Continuity of Care</q1:name>
+			<q1:description>Consectetur adipiscing elit</q1:description>
+		</q1:tag>
+		<q1:tag>
+			<q1:name>Health Program</q1:name>
+			<q1:description>Ut enim ad minim veniam</q1:description>
+		</q1:tag>
+		<q1:tag>
+			<q1:name>Medicines</q1:name>
+			<q1:description>Et dolore magna aliqua.</q1:description>
+		</q1:tag>
+		<q1:tag>
+			<q1:name>Diagnostics</q1:name>
+			<q1:description>Et dolore magna aliqua.</q1:description>
+		</q1:tag>
+		<q1:tag>
+			<q1:name>Patient Entered Information</q1:name>
+			<q1:description>Amet dictum sit amet justo.</q1:description>
+		</q1:tag>
+	</q1:tags>
+	<q1:documentTypes>
+		<q1:documentType>
+			<q1:code>60591-5</q1:code>
+			<q1:codeSystem>2.16.840.1.113883.6.1</q1:codeSystem>
+			<q1:codeSystemName>LOINC</q1:codeSystemName>
+			<q1:displayName>Shared Health Summary</q1:displayName>
+			<q1:documentGenerationClassification>Document</q1:documentGenerationClassification>
+			<q1:actors>
+				<q1:actor type="CIS">
+					<q1:download accessible="true" requestable="true" recommended="true" />
+				</q1:actor>
+				<q1:actor type="CSP">
+					<q1:download accessible="true" requestable="true" recommended="true" />
+				</q1:actor>
+			</q1:actors>
+			<q1:description>Lorem ipsum dolor sit amet</q1:description>
+			<q1:documentSubTypes>
+				<q1:code>60591-5</q1:code>
+				<q1:codeSystem>2.16.840.1.113883.6.1</q1:codeSystem>
+				<q1:codeSystemName>LOINC</q1:codeSystemName>
+				<q1:displayName>Shared Health Summary</q1:displayName>
+				<q1:description>Lorem ipsum dolor sit amet</q1:description>
+				<q1:activationDate>2010-01-01</q1:activationDate>
+				<q1:actors>
+					<q1:actor type="CIS">
+						<q1:upload>Default</q1:upload>
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="CSP">
+						<q1:upload>Default</q1:upload>
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="CRP">
+						<q1:upload>Default</q1:upload>
+					</q1:actor>
+				</q1:actors>
+				<q1:tags>
+					<q1:name relationship="Primary">Continuity of Care</q1:name>
+				</q1:tags>
+			</q1:documentSubTypes>
+		</q1:documentType>
+		<q1:documentType>
+			<q1:code>57133-1</q1:code>
+			<q1:codeSystem>2.16.840.1.113883.6.1</q1:codeSystem>
+			<q1:codeSystemName>LOINC</q1:codeSystemName>
+			<q1:displayName>e-Referral</q1:displayName>
+			<q1:documentGenerationClassification>Document</q1:documentGenerationClassification>
+			<q1:actors>
+				<q1:actor type="CIS">
+					<q1:download accessible="true" requestable="true" recommended="true" />
+				</q1:actor>
+				<q1:actor type="CSP">
+					<q1:download accessible="true" requestable="true" recommended="true" />
+				</q1:actor>
+			</q1:actors>
+			<q1:description>Consectetur adipiscing elit</q1:description>
+			<q1:documentSubTypes>
+				<q1:code>57133-1</q1:code>
+				<q1:codeSystem>2.16.840.1.113883.6.1</q1:codeSystem>
+				<q1:codeSystemName>LOINC</q1:codeSystemName>
+				<q1:displayName>e-Referral</q1:displayName>
+				<q1:description>Consectetur adipiscing elit</q1:description>
+				<q1:activationDate>2010-01-01</q1:activationDate>
+				<q1:actors>
+					<q1:actor type="CIS">
+						<q1:upload>Default</q1:upload>
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="CSP">
+						<q1:upload>Default</q1:upload>
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="CRP">
+						<q1:upload>Default</q1:upload>
+					</q1:actor>
+				</q1:actors>
+				<q1:tags>
+					<q1:name relationship="Primary">Continuity of Care</q1:name>
+				</q1:tags>
+			</q1:documentSubTypes>
+		</q1:documentType>
+		<q1:documentType>
+			<q1:code>51852-2</q1:code>
+			<q1:codeSystem>2.16.840.1.113883.6.1</q1:codeSystem>
+			<q1:codeSystemName>LOINC</q1:codeSystemName>
+			<q1:displayName>Specialist Letter</q1:displayName>
+			<q1:documentGenerationClassification>Document</q1:documentGenerationClassification>
+			<q1:actors>
+				<q1:actor type="CIS">
+					<q1:download accessible="true" requestable="true" recommended="true" />
+				</q1:actor>
+				<q1:actor type="CSP">
+					<q1:download accessible="true" requestable="true" recommended="true" />
+				</q1:actor>
+			</q1:actors>
+			<q1:description>Ut enim ad minim veniam</q1:description>
+			<q1:documentSubTypes>
+				<q1:code>51852-2</q1:code>
+				<q1:codeSystem>2.16.840.1.113883.6.1</q1:codeSystem>
+				<q1:codeSystemName>LOINC</q1:codeSystemName>
+				<q1:displayName>Specialist Letter</q1:displayName>
+				<q1:description>Ut enim ad minim veniam</q1:description>
+				<q1:activationDate>2010-01-01</q1:activationDate>
+				<q1:actors>
+					<q1:actor type="CIS">
+						<q1:upload>Default</q1:upload>
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="CSP">
+						<q1:upload>Default</q1:upload>
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="CRP">
+						<q1:upload>Default</q1:upload>
+					</q1:actor>
+				</q1:actors>
+				<q1:tags>
+					<q1:name relationship="Primary">Continuity of Care</q1:name>
+				</q1:tags>
+			</q1:documentSubTypes>
+		</q1:documentType>
+		<q1:documentType>
+			<q1:code>18842-5</q1:code>
+			<q1:codeSystem>2.16.840.1.113883.6.1</q1:codeSystem>
+			<q1:codeSystemName>LOINC</q1:codeSystemName>
+			<q1:displayName>Discharge Summary</q1:displayName>
+			<q1:documentGenerationClassification>Document</q1:documentGenerationClassification>
+			<q1:actors>
+				<q1:actor type="CIS">
+					<q1:download accessible="true" requestable="true" recommended="true" />
+				</q1:actor>
+				<q1:actor type="CSP">
+					<q1:download accessible="true" requestable="true" recommended="true" />
+				</q1:actor>
+			</q1:actors>
+			<q1:description>Et dolore magna aliqua.</q1:description>
+			<q1:documentSubTypes>
+				<q1:code>18842-5</q1:code>
+				<q1:codeSystem>2.16.840.1.113883.6.1</q1:codeSystem>
+				<q1:codeSystemName>LOINC</q1:codeSystemName>
+				<q1:displayName>Discharge Summary</q1:displayName>
+				<q1:description>Et dolore magna aliqua.</q1:description>
+				<q1:activationDate>2010-01-01</q1:activationDate>
+				<q1:actors>
+					<q1:actor type="CIS">
+						<q1:upload>Default</q1:upload>
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="CSP">
+						<q1:upload>Default</q1:upload>
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="CRP">
+						<q1:upload>Default</q1:upload>
+					</q1:actor>
+				</q1:actors>
+				<q1:tags>
+					<q1:name relationship="Primary">Continuity of Care</q1:name>
+				</q1:tags>
+			</q1:documentSubTypes>
+			<q1:documentSubTypes>
+				<q1:code>59258-4</q1:code>
+				<q1:codeSystem>2.16.840.1.113883.6.1</q1:codeSystem>
+				<q1:codeSystemName>LOINC</q1:codeSystemName>
+				<q1:displayName>Emergency department Discharge summary</q1:displayName>
+				<q1:description>Et dolore magna aliqua.</q1:description>
+				<q1:activationDate>2010-01-01</q1:activationDate>
+				<q1:actors>
+					<q1:actor type="CIS">
+						<q1:upload>Default</q1:upload>
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="CSP">
+						<q1:upload>Default</q1:upload>
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="CRP">
+						<q1:upload>Default</q1:upload>
+					</q1:actor>
+				</q1:actors>
+				<q1:tags>
+					<q1:name relationship="Primary">Continuity of Care</q1:name>
+				</q1:tags>
+			</q1:documentSubTypes>
+		</q1:documentType>
+		<q1:documentType>
+			<q1:code>34133-9</q1:code>
+			<q1:codeSystem>2.16.840.1.113883.6.1</q1:codeSystem>
+			<q1:codeSystemName>LOINC</q1:codeSystemName>
+			<q1:displayName>Event Summary</q1:displayName>
+			<q1:documentGenerationClassification>Document</q1:documentGenerationClassification>
+			<q1:actors>
+				<q1:actor type="CIS">
+					<q1:download accessible="true" requestable="true" recommended="true" />
+				</q1:actor>
+				<q1:actor type="CSP">
+					<q1:download accessible="true" requestable="true" recommended="true" />
+				</q1:actor>
+			</q1:actors>
+			<q1:description>Neque sodales ut etiam sit amet.</q1:description>
+			<q1:documentSubTypes>
+				<q1:code>34133-9</q1:code>
+				<q1:codeSystem>2.16.840.1.113883.6.1</q1:codeSystem>
+				<q1:codeSystemName>LOINC</q1:codeSystemName>
+				<q1:displayName>Event Summary</q1:displayName>
+				<q1:description>Amet dictum sit amet justo.</q1:description>
+				<q1:activationDate>2010-01-01</q1:activationDate>
+				<q1:actors>
+					<q1:actor type="CIS">
+						<q1:upload>Default</q1:upload>
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="CSP">
+						<q1:upload>Default</q1:upload>
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="CRP">
+						<q1:upload>Default</q1:upload>
+					</q1:actor>
+				</q1:actors>
+				<q1:tags>
+					<q1:name relationship="Primary">Continuity of Care</q1:name>
+				</q1:tags>
+			</q1:documentSubTypes>
+			<q1:documentSubTypes>
+				<q1:code>59258-4</q1:code>
+				<q1:codeSystem>2.16.840.1.113883.6.1</q1:codeSystem>
+				<q1:codeSystemName>LOINC</q1:codeSystemName>
+				<q1:displayName>Emergency department Discharge summary</q1:displayName>
+				<q1:description>Neque sodales ut etiam sit amet.</q1:description>
+				<q1:activationDate>2010-01-01</q1:activationDate>
+				<q1:actors>
+					<q1:actor type="CIS">
+						<q1:upload>Default</q1:upload>
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="CSP">
+						<q1:upload>Default</q1:upload>
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="CRP">
+						<q1:upload>Default</q1:upload>
+					</q1:actor>
+				</q1:actors>
+				<q1:tags>
+					<q1:name relationship="Primary">Continuity of Care</q1:name>
+				</q1:tags>
+			</q1:documentSubTypes>
+		</q1:documentType>
+		<q1:documentType>
+			<q1:code>100.16650</q1:code>
+			<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+			<q1:codeSystemName>NCTIS</q1:codeSystemName>
+			<q1:displayName>Pharmaceutical Benefits Report</q1:displayName>
+			<q1:documentGenerationClassification>Document</q1:documentGenerationClassification>
+			<q1:actors>
+				<q1:actor type="CIS">
+					<q1:download accessible="true" requestable="true" recommended="true" />
+				</q1:actor>
+				<q1:actor type="CSP">
+					<q1:download accessible="true" requestable="true" recommended="true" />
+				</q1:actor>
+			</q1:actors>
+			<q1:description>Lorem ipsum dolor sit amet</q1:description>
+			<q1:documentSubTypes>
+				<q1:code>100.16650</q1:code>
+				<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+				<q1:codeSystemName>NCTIS</q1:codeSystemName>
+				<q1:displayName>Pharmaceutical Benefits Report</q1:displayName>
+				<q1:description>Lorem ipsum dolor sit amet</q1:description>
+				<q1:activationDate>2010-01-01</q1:activationDate>
+				<q1:actors>
+					<q1:actor type="CIS">
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="CSP">
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="CRP">
+						<q1:upload>Medicare</q1:upload>
+					</q1:actor>
+				</q1:actors>
+				<q1:tags>
+					<q1:name relationship="Primary">Continuity of Care</q1:name>
+				</q1:tags>
+			</q1:documentSubTypes>
+		</q1:documentType>
+		<q1:documentType>
+			<q1:code>100.16671</q1:code>
+			<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+			<q1:codeSystemName>NCTIS</q1:codeSystemName>
+			<q1:displayName>Australian Organ Donor Register</q1:displayName>
+			<q1:documentGenerationClassification>Document</q1:documentGenerationClassification>
+			<q1:actors>
+				<q1:actor type="CIS">
+					<q1:download accessible="true" requestable="true" recommended="true" />
+				</q1:actor>
+				<q1:actor type="CSP">
+					<q1:download accessible="true" requestable="true" recommended="true" />
+				</q1:actor>
+			</q1:actors>
+			<q1:description>Consectetur adipiscing elit</q1:description>
+			<q1:documentSubTypes>
+				<q1:code>100.16671</q1:code>
+				<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+				<q1:codeSystemName>NCTIS</q1:codeSystemName>
+				<q1:displayName>Australian Organ Donor Register</q1:displayName>
+				<q1:description>Consectetur adipiscing elit</q1:description>
+				<q1:activationDate>2010-01-01</q1:activationDate>
+				<q1:actors>
+					<q1:actor type="CIS">
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="CSP">
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="CRP">
+						<q1:upload>Medicare</q1:upload>
+					</q1:actor>
+				</q1:actors>
+				<q1:tags>
+					<q1:name relationship="Primary">Health Program</q1:name>
+				</q1:tags>
+			</q1:documentSubTypes>
+		</q1:documentType>
+		<q1:documentType>
+			<q1:code>100.17042</q1:code>
+			<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+			<q1:codeSystemName>NCTIS</q1:codeSystemName>
+			<q1:displayName>Australian Immunisation Register</q1:displayName>
+			<q1:documentGenerationClassification>Document</q1:documentGenerationClassification>
+			<q1:actors>
+				<q1:actor type="CIS">
+					<q1:download accessible="true" requestable="true" recommended="true" />
+				</q1:actor>
+				<q1:actor type="CSP">
+					<q1:download accessible="true" requestable="true" recommended="true" />
+				</q1:actor>
+			</q1:actors>
+			<q1:description>Ut enim ad minim veniam</q1:description>
+			<q1:documentSubTypes>
+				<q1:code>100.17042</q1:code>
+				<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+				<q1:codeSystemName>NCTIS</q1:codeSystemName>
+				<q1:displayName>Australian Immunisation Register</q1:displayName>
+				<q1:description>Ut enim ad minim veniam</q1:description>
+				<q1:activationDate>2010-01-01</q1:activationDate>
+				<q1:actors>
+					<q1:actor type="CIS">
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="CSP">
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="CRP">
+						<q1:upload>Medicare</q1:upload>
+					</q1:actor>
+				</q1:actors>
+				<q1:tags>
+					<q1:name relationship="Primary">Health Program</q1:name>
+				</q1:tags>
+			</q1:documentSubTypes>
+		</q1:documentType>
+		<q1:documentType>
+			<q1:code>100.16644</q1:code>
+			<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+			<q1:codeSystemName>NCTIS</q1:codeSystemName>
+			<q1:displayName>Medicare/DVA Benefits Report</q1:displayName>
+			<q1:documentGenerationClassification>Document</q1:documentGenerationClassification>
+			<q1:actors>
+				<q1:actor type="CIS">
+					<q1:download accessible="true" requestable="true" recommended="false" />
+				</q1:actor>
+				<q1:actor type="CSP">
+					<q1:download accessible="true" requestable="true" recommended="false" />
+				</q1:actor>
+			</q1:actors>
+			<q1:description>Et dolore magna aliqua.</q1:description>
+			<q1:documentSubTypes>
+				<q1:code>100.16644</q1:code>
+				<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+				<q1:codeSystemName>NCTIS</q1:codeSystemName>
+				<q1:displayName>Medicare/DVA Benefits Report</q1:displayName>
+				<q1:description>Et dolore magna aliqua.</q1:description>
+				<q1:activationDate>2010-01-01</q1:activationDate>
+				<q1:actors>
+					<q1:actor type="CIS">
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="CSP">
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="CRP">
+						<q1:upload>Medicare</q1:upload>
+					</q1:actor>
+				</q1:actors>
+				<q1:tags>
+					<q1:name relationship="Primary">Health Program</q1:name>
+				</q1:tags>
+			</q1:documentSubTypes>
+		</q1:documentType>
+		<q1:documentType>
+			<q1:code>100.16767</q1:code>
+			<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+			<q1:codeSystemName>NCTIS</q1:codeSystemName>
+			<q1:displayName>Medicare Overview</q1:displayName>
+			<q1:documentGenerationClassification>DocumentView</q1:documentGenerationClassification>
+			<q1:actors>
+				<q1:actor type="CIS">
+					<q1:download accessible="true" requestable="false" recommended="false" />
+				</q1:actor>
+				<q1:actor type="CSP">
+					<q1:download accessible="true" requestable="false" recommended="false" />
+				</q1:actor>
+			</q1:actors>
+			<q1:description>Amet dictum sit amet justo.</q1:description>
+			<q1:documentSubTypes>
+				<q1:code>100.16767.1</q1:code>
+				<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+				<q1:codeSystemName>NCTIS</q1:codeSystemName>
+				<q1:displayName>Medicare Overview - all</q1:displayName>
+				<q1:description>Et dolore magna aliqua.</q1:description>
+				<q1:activationDate>2010-01-01</q1:activationDate>
+				<q1:actors>
+					<q1:actor type="CIS">
+						<q1:download accessible="true" requestable="false" recommended="false" />
+					</q1:actor>
+					<q1:actor type="CSP">
+						<q1:download accessible="true" requestable="false" recommended="false" />
+					</q1:actor>
+				</q1:actors>
+				<q1:tags>
+					<q1:name relationship="Primary">Health Program</q1:name>
+				</q1:tags>
+			</q1:documentSubTypes>
+			<q1:documentSubTypes>
+				<q1:code>100.16767.2</q1:code>
+				<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+				<q1:codeSystemName>NCTIS</q1:codeSystemName>
+				<q1:displayName>Medicare Overview - past 12 months</q1:displayName>
+				<q1:description>Amet dictum sit amet justo.</q1:description>
+				<q1:activationDate>2010-01-01</q1:activationDate>
+				<q1:actors>
+					<q1:actor type="CIS">
+						<q1:download accessible="true" requestable="false" recommended="false" />
+					</q1:actor>
+					<q1:actor type="CSP">
+						<q1:download accessible="true" requestable="false" recommended="false" />
+					</q1:actor>
+				</q1:actors>
+				<q1:tags>
+					<q1:name relationship="Primary">Health Program</q1:name>
+				</q1:tags>
+			</q1:documentSubTypes>
+		</q1:documentType>
+		<q1:documentType>
+			<q1:code>100.16764</q1:code>
+			<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+			<q1:codeSystemName>NCTIS Data Components</q1:codeSystemName>
+			<q1:displayName>eHealth Prescription Record</q1:displayName>
+			<q1:documentGenerationClassification>Document</q1:documentGenerationClassification>
+			<q1:actors>
+				<q1:actor type="CIS">
+					<q1:download accessible="true" requestable="true" recommended="false" />
+				</q1:actor>
+				<q1:actor type="CSP">
+					<q1:download accessible="true" requestable="true" recommended="false" />
+				</q1:actor>
+			</q1:actors>
+			<q1:description>Neque sodales ut etiam sit amet.</q1:description>
+			<q1:documentSubTypes>
+				<q1:code>100.16764</q1:code>
+				<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+				<q1:codeSystemName>NCTIS Data Components</q1:codeSystemName>
+				<q1:displayName>eHealth Prescription Record</q1:displayName>
+				<q1:description>Neque sodales ut etiam sit amet.</q1:description>
+				<q1:activationDate>2010-01-01</q1:activationDate>
+				<q1:actors>
+					<q1:actor type="CIS">
+						<q1:upload>Default</q1:upload>
+						<q1:download accessible="true" requestable="true" recommended="false" />
+					</q1:actor>
+					<q1:actor type="CSP">
+						<q1:upload>Default</q1:upload>
+						<q1:download accessible="true" requestable="true" recommended="false" />
+					</q1:actor>
+					<q1:actor type="CRP">
+						<q1:upload>NPDR</q1:upload>
+					</q1:actor>
+				</q1:actors>
+				<q1:tags>
+					<q1:name relationship="Primary">Medicines</q1:name>
+				</q1:tags>
+			</q1:documentSubTypes>
+		</q1:documentType>
+		<q1:documentType>
+			<q1:code>100.16765</q1:code>
+			<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+			<q1:codeSystemName>NCTIS Data Components</q1:codeSystemName>
+			<q1:displayName>eHealth Dispense Record</q1:displayName>
+			<q1:documentGenerationClassification>Document</q1:documentGenerationClassification>
+			<q1:actors>
+				<q1:actor type="CIS">
+					<q1:download accessible="true" requestable="true" recommended="false" />
+				</q1:actor>
+				<q1:actor type="CSP">
+					<q1:download accessible="true" requestable="true" recommended="false" />
+				</q1:actor>
+			</q1:actors>
+			<q1:description>Lorem ipsum dolor sit amet</q1:description>
+			<q1:documentSubTypes>
+				<q1:code>100.16765</q1:code>
+				<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+				<q1:codeSystemName>NCTIS Data Components</q1:codeSystemName>
+				<q1:displayName>eHealth Dispense Record</q1:displayName>
+				<q1:description>Lorem ipsum dolor sit amet</q1:description>
+				<q1:activationDate>2010-01-01</q1:activationDate>
+				<q1:actors>
+					<q1:actor type="CIS">
+						<q1:upload>Default</q1:upload>
+						<q1:download accessible="true" requestable="true" recommended="false" />
+					</q1:actor>
+					<q1:actor type="CSP">
+						<q1:upload>Default</q1:upload>
+						<q1:download accessible="true" requestable="true" recommended="false" />
+					</q1:actor>
+					<q1:actor type="CRP">
+						<q1:upload>NPDR</q1:upload>
+					</q1:actor>
+				</q1:actors>
+				<q1:tags>
+					<q1:name relationship="Primary">Medicines</q1:name>
+				</q1:tags>
+			</q1:documentSubTypes>
+		</q1:documentType>
+		<q1:documentType>
+			<q1:code>56445-0</q1:code>
+			<q1:codeSystem>2.16.840.1.113883.6.1</q1:codeSystem>
+			<q1:codeSystemName>LOINC</q1:codeSystemName>
+			<q1:displayName>Pharmacist Shared Medicines List</q1:displayName>
+			<q1:documentGenerationClassification>Document</q1:documentGenerationClassification>
+			<q1:actors>
+				<q1:actor type="CIS">
+					<q1:download accessible="true" requestable="true" recommended="false" />
+				</q1:actor>
+				<q1:actor type="CSP">
+					<q1:download accessible="true" requestable="true" recommended="false" />
+				</q1:actor>
+			</q1:actors>
+			<q1:description>Consectetur adipiscing elit</q1:description>
+			<q1:documentSubTypes>
+				<q1:code>56445-0</q1:code>
+				<q1:codeSystem>2.16.840.1.113883.6.1</q1:codeSystem>
+				<q1:codeSystemName>LOINC</q1:codeSystemName>
+				<q1:displayName>Pharmacist Shared Medicines List</q1:displayName>
+				<q1:description>Consectetur adipiscing elit</q1:description>
+				<q1:activationDate>2010-01-01</q1:activationDate>
+				<q1:actors>
+					<q1:actor type="CIS">
+						<q1:upload>Default</q1:upload>
+						<q1:download accessible="true" requestable="true" recommended="false" />
+					</q1:actor>
+					<q1:actor type="CSP">
+						<q1:upload>Default</q1:upload>
+						<q1:download accessible="true" requestable="true" recommended="false" />
+					</q1:actor>
+				</q1:actors>
+				<q1:tags>
+					<q1:name relationship="Primary">Medicines</q1:name>
+				</q1:tags>
+			</q1:documentSubTypes>
+		</q1:documentType>
+		<q1:documentType>
+			<q1:code>100.32002</q1:code>
+			<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+			<q1:codeSystemName>NCTIS</q1:codeSystemName>
+			<q1:displayName>Medicines View</q1:displayName>
+			<q1:documentGenerationClassification>DocumentView</q1:documentGenerationClassification>
+			<q1:actors>
+				<q1:actor type="CIS">
+					<q1:download accessible="true" requestable="false" recommended="false" />
+				</q1:actor>
+				<q1:actor type="CSP">
+					<q1:download accessible="true" requestable="false" recommended="false" />
+				</q1:actor>
+			</q1:actors>
+			<q1:description>Ut enim ad minim veniam</q1:description>
+			<q1:documentSubTypes>
+				<q1:code>100.32002</q1:code>
+				<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+				<q1:codeSystemName>NCTIS</q1:codeSystemName>
+				<q1:displayName>Medicines View</q1:displayName>
+				<q1:description>Ut enim ad minim veniam</q1:description>
+				<q1:activationDate>2010-01-01</q1:activationDate>
+				<q1:actors>
+					<q1:actor type="CIS">
+						<q1:download accessible="true" requestable="false" recommended="false" />
+					</q1:actor>
+					<q1:actor type="CSP">
+						<q1:download accessible="true" requestable="false" recommended="false" />
+					</q1:actor>
+				</q1:actors>
+				<q1:tags>
+					<q1:name relationship="Primary">Medicines</q1:name>
+				</q1:tags>
+			</q1:documentSubTypes>
+		</q1:documentType>
+		<q1:documentType>
+			<q1:code>100.32034</q1:code>
+			<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+			<q1:codeSystemName>NCTIS</q1:codeSystemName>
+			<q1:displayName>Immunisation Consolidated View</q1:displayName>
+			<q1:documentGenerationClassification>DocumentView</q1:documentGenerationClassification>
+			<q1:actors>
+				<q1:actor type="CIS">
+					<q1:download accessible="true" requestable="false" recommended="false" />
+				</q1:actor>
+				<q1:actor type="CSP">
+					<q1:download accessible="true" requestable="false" recommended="false" />
+				</q1:actor>
+			</q1:actors>
+			<q1:description>Et dolore magna aliqua.</q1:description>
+			<q1:documentSubTypes>
+				<q1:code>100.32034</q1:code>
+				<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+				<q1:codeSystemName>NCTIS</q1:codeSystemName>
+				<q1:displayName>Immunisation Consolidated View</q1:displayName>
+				<q1:description>Et dolore magna aliqua.</q1:description>
+				<q1:activationDate>2010-01-01</q1:activationDate>
+				<q1:actors>
+					<q1:actor type="CIS">
+						<q1:download accessible="true" requestable="false" recommended="false" />
+					</q1:actor>
+					<q1:actor type="CSP">
+						<q1:download accessible="true" requestable="false" recommended="false" />
+					</q1:actor>
+				</q1:actors>
+				<q1:tags>
+					<q1:name relationship="Primary">Medicines</q1:name>
+				</q1:tags>
+			</q1:documentSubTypes>
+		</q1:documentType>
+		<q1:documentType>
+			<q1:code>100.16957</q1:code>
+			<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+			<q1:codeSystemName>NCTIS Data Components</q1:codeSystemName>
+			<q1:displayName>Diagnostic Imaging Report</q1:displayName>
+			<q1:documentGenerationClassification>Document</q1:documentGenerationClassification>
+			<q1:actors>
+				<q1:actor type="CIS">
+					<q1:download accessible="true" requestable="true" recommended="true" />
+				</q1:actor>
+				<q1:actor type="CSP">
+					<q1:download accessible="true" requestable="true" recommended="true" />
+				</q1:actor>
+			</q1:actors>
+			<q1:description>Et dolore magna aliqua.</q1:description>
+			<q1:documentSubTypes>
+				<q1:code>100.16957</q1:code>
+				<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+				<q1:codeSystemName>NCTIS Data Components</q1:codeSystemName>
+				<q1:displayName>Diagnostic Imaging Report</q1:displayName>
+				<q1:description>Et dolore magna aliqua.</q1:description>
+				<q1:activationDate>2010-01-01</q1:activationDate>
+				<q1:actors>
+					<q1:actor type="CIS">
+						<q1:upload>Default</q1:upload>
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="CSP">
+						<q1:upload>Default</q1:upload>
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="CRP">
+						<q1:upload>Default</q1:upload>
+					</q1:actor>
+				</q1:actors>
+				<q1:tags>
+					<q1:name relationship="Primary">Diagnostics</q1:name>
+				</q1:tags>
+			</q1:documentSubTypes>
+		</q1:documentType>
+		<q1:documentType>
+			<q1:code>100.32001</q1:code>
+			<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+			<q1:codeSystemName>NCTIS Data Components</q1:codeSystemName>
+			<q1:displayName>Pathology Report</q1:displayName>
+			<q1:documentGenerationClassification>Document</q1:documentGenerationClassification>
+			<q1:actors>
+				<q1:actor type="CIS">
+					<q1:download accessible="true" requestable="true" recommended="false" />
+				</q1:actor>
+				<q1:actor type="CSP">
+					<q1:download accessible="true" requestable="true" recommended="false" />
+				</q1:actor>
+			</q1:actors>
+			<q1:description>Amet dictum sit amet justo.</q1:description>
+			<q1:documentSubTypes>
+				<q1:code>100.32001</q1:code>
+				<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+				<q1:codeSystemName>NCTIS Data Components</q1:codeSystemName>
+				<q1:displayName>Pathology Report</q1:displayName>
+				<q1:description>Amet dictum sit amet justo.</q1:description>
+				<q1:activationDate>2010-01-01</q1:activationDate>
+				<q1:actors>
+					<q1:actor type="CIS">
+						<q1:upload>Default</q1:upload>
+						<q1:download accessible="true" requestable="true" recommended="false" />
+					</q1:actor>
+					<q1:actor type="CSP">
+						<q1:upload>Default</q1:upload>
+						<q1:download accessible="true" requestable="true" recommended="false" />
+					</q1:actor>
+					<q1:actor type="CRP">
+						<q1:upload>Default</q1:upload>
+					</q1:actor>
+				</q1:actors>
+				<q1:tags>
+					<q1:name relationship="Primary">Diagnostics</q1:name>
+				</q1:tags>
+			</q1:documentSubTypes>
+		</q1:documentType>
+		<q1:documentType>
+			<q1:code>100.32026</q1:code>
+			<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+			<q1:codeSystemName>NCTIS</q1:codeSystemName>
+			<q1:displayName>Pathology Overview</q1:displayName>
+			<q1:documentGenerationClassification>DocumentView</q1:documentGenerationClassification>
+			<q1:actors>
+				<q1:actor type="CIS">
+					<q1:download accessible="true" requestable="false" recommended="false" />
+				</q1:actor>
+				<q1:actor type="CSP">
+					<q1:download accessible="true" requestable="false" recommended="false" />
+				</q1:actor>
+			</q1:actors>
+			<q1:description>Neque sodales ut etiam sit amet.</q1:description>
+			<q1:documentSubTypes>
+				<q1:code>100.32026</q1:code>
+				<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+				<q1:codeSystemName>NCTIS</q1:codeSystemName>
+				<q1:displayName>Pathology Overview</q1:displayName>
+				<q1:description>Neque sodales ut etiam sit amet.</q1:description>
+				<q1:activationDate>2010-01-01</q1:activationDate>
+				<q1:actors>
+					<q1:actor type="CIS">
+						<q1:download accessible="true" requestable="false" recommended="false" />
+					</q1:actor>
+					<q1:actor type="CSP">
+						<q1:download accessible="true" requestable="false" recommended="false" />
+					</q1:actor>
+				</q1:actors>
+				<q1:tags>
+					<q1:name relationship="Primary">Diagnostics</q1:name>
+				</q1:tags>
+			</q1:documentSubTypes>
+		</q1:documentType>
+		<q1:documentType>
+			<q1:code>100.32025</q1:code>
+			<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+			<q1:codeSystemName>NCTIS</q1:codeSystemName>
+			<q1:displayName>Diagnostic Imaging Overview</q1:displayName>
+			<q1:documentGenerationClassification>DocumentView</q1:documentGenerationClassification>
+			<q1:actors>
+				<q1:actor type="CIS">
+					<q1:download accessible="true" requestable="false" recommended="false" />
+				</q1:actor>
+				<q1:actor type="CSP">
+					<q1:download accessible="true" requestable="false" recommended="false" />
+				</q1:actor>
+			</q1:actors>
+			<q1:description>Lorem ipsum dolor sit amet</q1:description>
+			<q1:documentSubTypes>
+				<q1:code>100.32025</q1:code>
+				<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+				<q1:codeSystemName>NCTIS</q1:codeSystemName>
+				<q1:displayName>Diagnostic Imaging Overview</q1:displayName>
+				<q1:description>Lorem ipsum dolor sit amet</q1:description>
+				<q1:activationDate>2010-01-01</q1:activationDate>
+				<q1:actors>
+					<q1:actor type="CIS">
+						<q1:download accessible="true" requestable="false" recommended="false" />
+					</q1:actor>
+					<q1:actor type="CSP">
+						<q1:download accessible="true" requestable="false" recommended="false" />
+					</q1:actor>
+				</q1:actors>
+				<q1:tags>
+					<q1:name relationship="Primary">Diagnostics</q1:name>
+				</q1:tags>
+			</q1:documentSubTypes>
+		</q1:documentType>
+		<q1:documentType>
+			<q1:code>100.16975</q1:code>
+			<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+			<q1:codeSystemName>NCTIS Data Components</q1:codeSystemName>
+			<q1:displayName>Advance Care Information</q1:displayName>
+			<q1:documentGenerationClassification>Document</q1:documentGenerationClassification>
+			<q1:actors>
+				<q1:actor type="CIS">
+					<q1:download accessible="true" requestable="true" recommended="true" />
+				</q1:actor>
+				<q1:actor type="CSP">
+					<q1:download accessible="true" requestable="true" recommended="true" />
+				</q1:actor>
+			</q1:actors>
+			<q1:description>Ut enim ad minim veniam</q1:description>
+			<q1:documentSubTypes>
+				<q1:code>100.16998</q1:code>
+				<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+				<q1:codeSystemName>NCTIS Data Components</q1:codeSystemName>
+				<q1:displayName>Advance Care Planning Document</q1:displayName>
+				<q1:description>Consectetur adipiscing elit</q1:description>
+				<q1:activationDate>2010-01-01</q1:activationDate>
+				<q1:actors>
+					<q1:actor type="CIS">
+						<q1:upload>Default</q1:upload>
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="CSP">
+						<q1:upload>Default</q1:upload>
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="NCP">
+						<q1:upload>Consumer</q1:upload>
+					</q1:actor>
+				</q1:actors>
+				<q1:tags>
+					<q1:name relationship="Primary">Patient Entered Information</q1:name>
+				</q1:tags>
+			</q1:documentSubTypes>
+			<q1:documentSubTypes>
+				<q1:code>100.32016</q1:code>
+				<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+				<q1:codeSystemName>NCTIS Data Components</q1:codeSystemName>
+				<q1:displayName>Goals of Care Document</q1:displayName>
+				<q1:description>Ut enim ad minim veniam</q1:description>
+				<q1:activationDate>2010-01-01</q1:activationDate>
+				<q1:actors>
+					<q1:actor type="CIS">
+						<q1:upload>Default</q1:upload>
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="CSP">
+						<q1:upload>Default</q1:upload>
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+				</q1:actors>
+				<q1:tags>
+					<q1:name relationship="Primary">Patient Entered Information</q1:name>
+				</q1:tags>
+			</q1:documentSubTypes>
+		</q1:documentType>
+		<q1:documentType>
+			<q1:code>100.16919</q1:code>
+			<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+			<q1:codeSystemName>NCTIS Data Components</q1:codeSystemName>
+			<q1:displayName>Child Parent Questionnaire</q1:displayName>
+			<q1:documentGenerationClassification>Document</q1:documentGenerationClassification>
+			<q1:actors>
+				<q1:actor type="CIS">
+					<q1:download accessible="true" requestable="true" recommended="true" />
+				</q1:actor>
+				<q1:actor type="CSP">
+					<q1:download accessible="true" requestable="true" recommended="true" />
+				</q1:actor>
+			</q1:actors>
+			<q1:description>Et dolore magna aliqua.</q1:description>
+			<q1:documentSubTypes>
+				<q1:code>100.16919</q1:code>
+				<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+				<q1:codeSystemName>NCTIS Data Components</q1:codeSystemName>
+				<q1:displayName>Child Parent Questionnaire</q1:displayName>
+				<q1:description>Et dolore magna aliqua.</q1:description>
+				<q1:activationDate>2010-01-01</q1:activationDate>
+				<q1:actors>
+					<q1:actor type="CIS">
+						<q1:upload>Default</q1:upload>
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="CSP">
+						<q1:upload>Default</q1:upload>
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="MOS">
+						<q1:upload>Consumer</q1:upload>
+					</q1:actor>
+					<q1:actor type="NCP">
+						<q1:upload>Consumer</q1:upload>
+					</q1:actor>
+				</q1:actors>
+				<q1:tags>
+					<q1:name relationship="Primary">Patient Entered Information</q1:name>
+				</q1:tags>
+			</q1:documentSubTypes>
+		</q1:documentType>
+		<q1:documentType>
+			<q1:code>100.16870</q1:code>
+			<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+			<q1:codeSystemName>NCTIS Data Components</q1:codeSystemName>
+			<q1:displayName>Consumer Entered Measurements</q1:displayName>
+			<q1:documentGenerationClassification>Document</q1:documentGenerationClassification>
+			<q1:actors>
+				<q1:actor type="CIS">
+					<q1:download accessible="true" requestable="true" recommended="true" />
+				</q1:actor>
+				<q1:actor type="CSP">
+					<q1:download accessible="true" requestable="true" recommended="true" />
+				</q1:actor>
+			</q1:actors>
+			<q1:description>Et dolore magna aliqua.</q1:description>
+			<q1:documentSubTypes>
+				<q1:code>100.16870</q1:code>
+				<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+				<q1:codeSystemName>NCTIS Data Components</q1:codeSystemName>
+				<q1:displayName>Consumer Entered Measurements</q1:displayName>
+				<q1:description>Et dolore magna aliqua.</q1:description>
+				<q1:activationDate>2010-01-01</q1:activationDate>
+				<q1:actors>
+					<q1:actor type="CIS">
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="CSP">
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="MOS">
+						<q1:upload>Consumer</q1:upload>
+					</q1:actor>
+					<q1:actor type="NCP">
+						<q1:upload>Consumer</q1:upload>
+					</q1:actor>
+				</q1:actors>
+				<q1:tags>
+					<q1:name relationship="Primary">Patient Entered Information</q1:name>
+				</q1:tags>
+			</q1:documentSubTypes>
+		</q1:documentType>
+		<q1:documentType>
+			<q1:code>100.16685</q1:code>
+			<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+			<q1:codeSystemName>NCTIS Data Components</q1:codeSystemName>
+			<q1:displayName>Personal Health Summary</q1:displayName>
+			<q1:documentGenerationClassification>Document</q1:documentGenerationClassification>
+			<q1:actors>
+				<q1:actor type="CIS">
+					<q1:download accessible="true" requestable="true" recommended="true" />
+				</q1:actor>
+				<q1:actor type="CSP">
+					<q1:download accessible="true" requestable="true" recommended="true" />
+				</q1:actor>
+			</q1:actors>
+			<q1:description>Amet dictum sit amet justo.</q1:description>
+			<q1:documentSubTypes>
+				<q1:code>100.16685</q1:code>
+				<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+				<q1:codeSystemName>NCTIS Data Components</q1:codeSystemName>
+				<q1:displayName>Personal Health Summary</q1:displayName>
+				<q1:description>Amet dictum sit amet justo.</q1:description>
+				<q1:activationDate>2010-01-01</q1:activationDate>
+				<q1:actors>
+					<q1:actor type="CIS">
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="CSP">
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+				</q1:actors>
+				<q1:tags>
+					<q1:name relationship="Primary">Patient Entered Information</q1:name>
+				</q1:tags>
+			</q1:documentSubTypes>
+		</q1:documentType>
+		<q1:documentType>
+			<q1:code>100.16696</q1:code>
+			<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+			<q1:codeSystemName>NCTIS Data Components</q1:codeSystemName>
+			<q1:displayName>Advance Care Directive Custodian Record</q1:displayName>
+			<q1:documentGenerationClassification>Document</q1:documentGenerationClassification>
+			<q1:actors>
+				<q1:actor type="CIS">
+					<q1:download accessible="true" requestable="true" recommended="true" />
+				</q1:actor>
+				<q1:actor type="CSP">
+					<q1:download accessible="true" requestable="true" recommended="true" />
+				</q1:actor>
+			</q1:actors>
+			<q1:description>Neque sodales ut etiam sit amet.</q1:description>
+			<q1:documentSubTypes>
+				<q1:code>100.16696</q1:code>
+				<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+				<q1:codeSystemName>NCTIS Data Components</q1:codeSystemName>
+				<q1:displayName>Advance Care Directive Custodian Record</q1:displayName>
+				<q1:description>Neque sodales ut etiam sit amet.</q1:description>
+				<q1:activationDate>2010-01-01</q1:activationDate>
+				<q1:actors>
+					<q1:actor type="CIS">
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="CSP">
+						<q1:download accessible="true" requestable="true" recommended="true" />
+					</q1:actor>
+					<q1:actor type="MOS">
+						<q1:upload>Consumer</q1:upload>
+					</q1:actor>
+					<q1:actor type="NCP">
+						<q1:upload>Consumer</q1:upload>
+					</q1:actor>
+				</q1:actors>
+				<q1:tags>
+					<q1:name relationship="Primary">Patient Entered Information</q1:name>
+				</q1:tags>
+			</q1:documentSubTypes>
+		</q1:documentType>
+		<q1:documentType>
+			<q1:code>100.16920</q1:code>
+			<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+			<q1:codeSystemName>NCTIS Data Components</q1:codeSystemName>
+			<q1:displayName>Health Check Assessment</q1:displayName>
+			<q1:documentGenerationClassification>Document</q1:documentGenerationClassification>
+			<q1:actors>
+				<q1:actor type="CIS">
+					<q1:download accessible="true" requestable="true" recommended="false" />
+				</q1:actor>
+				<q1:actor type="CSP">
+					<q1:download accessible="true" requestable="true" recommended="false" />
+				</q1:actor>
+			</q1:actors>
+			<q1:description>Lorem ipsum dolor sit amet</q1:description>
+			<q1:documentSubTypes>
+				<q1:code>100.16920</q1:code>
+				<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+				<q1:codeSystemName>NCTIS Data Components</q1:codeSystemName>
+				<q1:displayName>Health Check Assessment</q1:displayName>
+				<q1:description>Consectetur adipiscing elit</q1:description>
+				<q1:activationDate>2010-01-01</q1:activationDate>
+				<q1:actors>
+					<q1:actor type="CIS">
+						<q1:upload>Default</q1:upload>
+						<q1:download accessible="true" requestable="true" recommended="false" />
+					</q1:actor>
+					<q1:actor type="CSP">
+						<q1:upload>Default</q1:upload>
+						<q1:download accessible="true" requestable="true" recommended="false" />
+					</q1:actor>
+					<q1:actor type="NPP">
+						<q1:upload>Default</q1:upload>
+					</q1:actor>
+				</q1:actors>
+				<q1:tags>
+					<q1:name relationship="Primary">Patient Entered Information</q1:name>
+				</q1:tags>
+			</q1:documentSubTypes>
+		</q1:documentType>
+		<q1:documentType>
+			<q1:code>100.16812</q1:code>
+			<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+			<q1:codeSystemName>NCTIS Data Components</q1:codeSystemName>
+			<q1:displayName>Consumer Entered Achievements</q1:displayName>
+			<q1:documentGenerationClassification>Document</q1:documentGenerationClassification>
+			<q1:actors>
+				<q1:actor type="CIS">
+					<q1:download accessible="true" requestable="true" recommended="false" />
+				</q1:actor>
+				<q1:actor type="CSP">
+					<q1:download accessible="true" requestable="true" recommended="false" />
+				</q1:actor>
+			</q1:actors>
+			<q1:description>Consectetur adipiscing elit</q1:description>
+			<q1:documentSubTypes>
+				<q1:code>100.16812</q1:code>
+				<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+				<q1:codeSystemName>NCTIS Data Components</q1:codeSystemName>
+				<q1:displayName>Consumer Entered Achievements</q1:displayName>
+				<q1:description>Ut enim ad minim veniam</q1:description>
+				<q1:activationDate>2010-01-01</q1:activationDate>
+				<q1:actors>
+					<q1:actor type="CIS">
+						<q1:download accessible="true" requestable="true" recommended="false" />
+					</q1:actor>
+					<q1:actor type="CSP">
+						<q1:download accessible="true" requestable="true" recommended="false" />
+					</q1:actor>
+					<q1:actor type="MOS">
+						<q1:upload>Consumer</q1:upload>
+					</q1:actor>
+					<q1:actor type="NCP">
+						<q1:upload>Consumer</q1:upload>
+					</q1:actor>
+				</q1:actors>
+				<q1:tags>
+					<q1:name relationship="Primary">Patient Entered Information</q1:name>
+				</q1:tags>
+			</q1:documentSubTypes>
+		</q1:documentType>
+		<q1:documentType>
+			<q1:code>100.16685</q1:code>
+			<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+			<q1:codeSystemName>NCTIS Data Components</q1:codeSystemName>
+			<q1:displayName>Consumer Entered Health Summary</q1:displayName>
+			<q1:documentGenerationClassification>Document</q1:documentGenerationClassification>
+			<q1:actors>
+				<q1:actor type="CIS">
+					<q1:download accessible="true" requestable="true" recommended="false" />
+				</q1:actor>
+				<q1:actor type="CSP">
+					<q1:download accessible="true" requestable="true" recommended="false" />
+				</q1:actor>
+			</q1:actors>
+			<q1:description>Ut enim ad minim veniam</q1:description>
+			<q1:documentSubTypes>
+				<q1:code>100.16685</q1:code>
+				<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+				<q1:codeSystemName>NCTIS Data Components</q1:codeSystemName>
+				<q1:displayName>Consumer Entered Health Summary</q1:displayName>
+				<q1:description>Et dolore magna aliqua.</q1:description>
+				<q1:activationDate>2010-01-01</q1:activationDate>
+				<q1:actors>
+					<q1:actor type="CIS">
+						<q1:download accessible="true" requestable="true" recommended="false" />
+					</q1:actor>
+					<q1:actor type="CSP">
+						<q1:download accessible="true" requestable="true" recommended="false" />
+					</q1:actor>
+					<q1:actor type="MOS">
+						<q1:upload>Consumer</q1:upload>
+					</q1:actor>
+					<q1:actor type="NCP">
+						<q1:upload>Consumer</q1:upload>
+					</q1:actor>
+				</q1:actors>
+				<q1:tags>
+					<q1:name relationship="Primary">Patient Entered Information</q1:name>
+				</q1:tags>
+			</q1:documentSubTypes>
+		</q1:documentType>
+		<q1:documentType>
+			<q1:code>100.16681</q1:code>
+			<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+			<q1:codeSystemName>NCTIS Data Components</q1:codeSystemName>
+			<q1:displayName>Consumer Entered Notes</q1:displayName>
+			<q1:documentGenerationClassification>Document</q1:documentGenerationClassification>
+			<q1:actors>
+				<q1:actor type="CIS">
+					<q1:download accessible="false" requestable="false" recommended="false" />
+				</q1:actor>
+				<q1:actor type="CSP">
+					<q1:download accessible="false" requestable="false" recommended="false" />
+				</q1:actor>
+			</q1:actors>
+			<q1:description>Et dolore magna aliqua.</q1:description>
+			<q1:documentSubTypes>
+				<q1:code>100.16681</q1:code>
+				<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
+				<q1:codeSystemName>NCTIS Data Components</q1:codeSystemName>
+				<q1:displayName>Consumer Entered Notes</q1:displayName>
+				<q1:description>Et dolore magna aliqua.</q1:description>
+				<q1:activationDate>2010-01-01</q1:activationDate>
+				<q1:actors>
+					<q1:actor type="CIS">
+						<q1:download accessible="false" requestable="false" recommended="false" />
+					</q1:actor>
+					<q1:actor type="CSP">
+						<q1:download accessible="false" requestable="false" recommended="false" />
+					</q1:actor>
+					<q1:actor type="MOS">
+						<q1:upload>Consumer</q1:upload>
+					</q1:actor>
+					<q1:actor type="NCP">
+						<q1:upload>Consumer</q1:upload>
+					</q1:actor>
+				</q1:actors>
+				<q1:tags>
+					<q1:name relationship="Primary">Patient Entered Information</q1:name>
+				</q1:tags>
+			</q1:documentSubTypes>
+		</q1:documentType>
+	</q1:documentTypes>
+</q1:Documents>

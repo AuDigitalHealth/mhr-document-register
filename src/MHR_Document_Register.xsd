@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Version 1.0.0 issued 01 Aug 2021-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+			xmlns:ns1="http://ns.electronichealth.net.au/pcehr/xsd/common/DocumentCoreElements/1.0" 
+			targetNamespace="http://ns.electronichealth.net.au/pcehr/xsd/common/DocumentCoreElements/1.0" 
+			elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+	<xs:element name="DocumentRegister">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="creationDate" type="xs:dateTime" minOccurs="1"/>
+				<xs:element name="version" type="xs:int" minOccurs="1"/>
+				<xs:element name="tags" type="ns1:Tags" minOccurs="1"/>
+				<xs:element name="documentTypes" type="ns1:DocumentTypes" minOccurs="1"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="Tags">
+		<xs:sequence>
+			<xs:element name="tag" type="ns1:Tag" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="Tag">
+		<xs:sequence>
+			<xs:element name="name" type="xs:string" minOccurs="1"/>
+			<xs:element name="description" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="DocumentTypes">
+		<xs:sequence>
+			<xs:element name="documentType" type="ns1:DocumentClassCodeType" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="DocumentClassCodeType">
+		<xs:sequence>
+			<xs:element name="code" type="xs:string" minOccurs="1"/>
+			<xs:element name="codeSystem" type="xs:string" minOccurs="1"/>
+			<xs:element name="codeSystemName" type="xs:string" minOccurs="1"/>
+			<xs:element name="displayName" type="xs:string" minOccurs="1"/>
+			<xs:element name="documentGenerationClassification" type="ns1:DocumentGenerationClassificationType" minOccurs="1"/>
+			<xs:element name="actors" type="ns1:Actors" minOccurs="1"/>
+			<xs:element name="description" type="xs:string" minOccurs="0"/>
+			<xs:element name="documentSubTypes" type="ns1:DocumentTypeCodeType" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="DocumentTypeCodeType">
+		<xs:sequence>
+			<xs:element name="code" type="xs:string" minOccurs="1"/>
+			<xs:element name="codeSystem" type="xs:string" minOccurs="1"/>
+			<xs:element name="codeSystemName" type="xs:string" minOccurs="1"/>
+			<xs:element name="displayName" type="xs:string" minOccurs="1"/>
+			<xs:element name="description" type="xs:string" minOccurs="0"/>
+			<xs:element name="activationDate" type="xs:date" minOccurs="1"/>
+			<xs:element name="deprecationDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="retirementDate" type="xs:date" minOccurs="0"/>
+			<xs:element name="actors" type="ns1:Actors" minOccurs="1"/>
+			<xs:element name="tags" type="ns1:DTTags" minOccurs="1" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="DTTags">
+		<xs:sequence>
+			<xs:element name="name" type="ns1:TagName" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="TagName">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="relationship" type="ns1:RelationshipType"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+	<xs:complexType name="Actors">
+		<xs:sequence>
+			<xs:element name="actor" type="ns1:Actor" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="Actor">
+		<xs:sequence>
+			<xs:element name="upload" type="ns1:UploadAction" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="download" type="ns1:Download" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+		<xs:attribute name="type" type="ns1:ActorType"/>
+	</xs:complexType>
+
+	<xs:complexType name="Download">
+		<xs:attribute name="accessible" type="xs:boolean"/>
+		<xs:attribute name="requestable" type="xs:boolean"/>
+		<xs:attribute name="recommended" type="xs:boolean"/>
+	</xs:complexType>
+
+	<xs:simpleType name="DocumentGenerationClassificationType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Document" />
+			<xs:enumeration value="DocumentView" />
+		</xs:restriction>			
+	</xs:simpleType>
+
+	<xs:simpleType name="ActorType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="CIS" />
+			<xs:enumeration value="CRP" />
+			<xs:enumeration value="CSP" />
+			<xs:enumeration value="MOS" />
+			<xs:enumeration value="NCP" />
+			<xs:enumeration value="NPP" />
+		</xs:restriction>			
+	</xs:simpleType>
+
+	<xs:simpleType name="UploadAction">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Consumer" />
+			<xs:enumeration value="Default" />
+			<xs:enumeration value="Medicare" />
+			<xs:enumeration value="NPDR" />
+		</xs:restriction>			
+	</xs:simpleType>
+
+	<xs:simpleType name="RelationshipType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Primary" />
+			<xs:enumeration value="Secondary" />
+		</xs:restriction>			
+	</xs:simpleType>
+
+</xs:schema>
