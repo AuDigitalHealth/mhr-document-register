@@ -2,7 +2,7 @@
 
 THIS IS A TRIAL ONLY VERSION - NOT TO BE USED FOR PRODUCTION PURPOSES AT THIS STAGE.
 
-### Version 1 - 01 Sep 2021
+## Version 1 - 01 Sep 2021
 
 The list below are the recommended tags for document types each document may have (there may be more than one).
 
@@ -14,11 +14,10 @@ The list below are the recommended tags for document types each document may hav
 | Diagnostics | Diagnostics Tag |
 | Patient Entered Information | Patient Entered Information Tag |
 
-
 The list below is the current list of document types and subtypes that the My Health Record currently supports.
 
 | Class Code | Class Code System | Class Code System Name | Class Code Display Name | Class Document Generation Classification | Class CisCsp Accessible   | Class CisCsp Requestable | Class CisCsp Recommended Request | Class Descripion | Type Code | Type Code System | Type Code System Name | Type Code Display Name | Type Descripion | Type Activation Date | Type Deprecation Date | Type Retirement Date | Type CisCsp Accessible | Type CisCsp Requestable | Type CisCsp Recommended Request |  CIS/CSP Upload | CRP Upload | MOS  Upload | NCP  Upload | NPP  Upload |Tag 1 Name | Tag 2 Relationship | Tag 2 Name | Tag 2 Relationship |
-| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
 |60591-5|2.16.840.1.113883.6.1|LOINC|Shared Health Summary|Document|True|True|True|Shared Health Summary Document|60591-5|2.16.840.1.113883.6.1|LOINC|Shared Health Summary|Shared Health Summary Document|01/01/2010|||True|True|True|Default|Default||||Continuity of Care|Primary|||
 |57133-1|2.16.840.1.113883.6.1|LOINC|e-Referral|Document|True|True|True|e-Referral Document|57133-1|2.16.840.1.113883.6.1|LOINC|e-Referral|e-Referral Document|01/01/2010|||True|True|True|Default|Default||||Continuity of Care|Primary|||
 |51852-2|2.16.840.1.113883.6.1|LOINC|Specialist Letter|Document|True|True|True|Specialist Letter Document|51852-2|2.16.840.1.113883.6.1|LOINC|Specialist Letter|Specialist Letter Document|01/01/2010|||True|True|True|Default|Default||||Continuity of Care|Primary|||
@@ -48,4 +47,3 @@ The list below is the current list of document types and subtypes that the My He
 |100.16812|1.2.36.1.2001.1001.101|NCTIS Data Components|Consumer Entered Achievements|Document|True|True|False|Consumer Entered Achievements Document|100.16812|1.2.36.1.2001.1001.101|NCTIS Data Components|Consumer Entered Achievements|Consumer Entered Achievements Document|01/01/2010|||True|True|False|||Consumer|Consumer||Patient Entered Information|Primary|||
 |100.16685|1.2.36.1.2001.1001.101|NCTIS Data Components|Consumer Entered Health Summary|Document|True|True|False|Consumer Entered Health Summary Document|100.16685|1.2.36.1.2001.1001.101|NCTIS Data Components|Consumer Entered Health Summary|Consumer Entered Health Summary Document|01/01/2010|||True|True|False|||Consumer|Consumer||Patient Entered Information|Primary|||
 |100.16681|1.2.36.1.2001.1001.101|NCTIS Data Components|Consumer Entered Notes|Document|False|False|False|Consumer Entered Notes Document|100.16681|1.2.36.1.2001.1001.101|NCTIS Data Components|Consumer Entered Notes|Consumer Entered Notes Document|01/01/2010|||False|False|False|||Consumer|Consumer||Patient Entered Information|Primary|||
-
