@@ -801,7 +801,7 @@
 				<q1:code>100.16998</q1:code>
 				<q1:codeSystem>1.2.36.1.2001.1001.101</q1:codeSystem>
 				<q1:codeSystemName>NCTIS Data Components</q1:codeSystemName>
-				<q1:category>Consumer Document</q1:category>
+				<q1:category>Clinical Document</q1:category>
 				<q1:displayName>Advance Care Planning Document</q1:displayName>
 				<q1:description>Advance care planning information can include a statement by a competent person expressing decisions about his or her future care, should they become incapable of participating in medical treatment decisions. These statements are currently recorded in paper-based advance care directives. </q1:description>
 				<q1:activationDate>2010-01-01</q1:activationDate>

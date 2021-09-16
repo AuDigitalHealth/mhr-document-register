@@ -1803,7 +1803,7 @@
           "code": "100.16998",
           "codeSystem": "1.2.36.1.2001.1001.101",
           "codeSystemName": "NCTIS Data Components",
-          "category": "Consumer Document",
+          "category": "Clinical Document",
           "displayName": "Advance Care Planning Document",
           "description": "Advance care planning information can include a statement by a competent person expressing decisions about his or her future care, should they become incapable of participating in medical treatment decisions. These statements are currently recorded in paper-based advance care directives. ",
           "activationDate": "2010-01-01T00:00:00",
