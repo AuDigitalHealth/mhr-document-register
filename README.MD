@@ -1,7 +1,5 @@
 # My Health Record Document Types and Sub Types Register
 
-THIS IS A TRIAL ONLY VERSION - NOT TO BE USED FOR PRODUCTION PURPOSES AT THIS STAGE.
-
 ## Version 1 - 05 Oct 2021
 
 The list below are the recommended tags for document types each document may have (there may be more than one).
