@@ -1,2603 +1,2603 @@
 {
-  "creationDate": "2022-03-16T04:16:03.2375876Z",
-  "version": 2,
-  "tags": [
-    {
-      "name": "Continuity of Care",
-      "description": "Continuity of Care Tag"
-    },
-    {
-      "name": "Health Program",
-      "description": "Health Program Tag"
-    },
-    {
-      "name": "Medicines",
-      "description": "Medicines Tag"
-    },
-    {
-      "name": "Diagnostics",
-      "description": "Diagnostics Tag"
-    },
-    {
-      "name": "Patient Entered Information",
-      "description": "Patient Entered Information Tag"
-    }
-  ],
-  "documentTypes": [
-    {
-      "code": "60591-5",
-      "codeSystem": "2.16.840.1.113883.6.1",
-      "codeSystemName": "LOINC",
-      "displayName": "Shared Health Summary",
-      "documentGenerationClassification": "Document",
-      "actors": [
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": true,
-            "recommendedSpecified": true
-          },
-          "type": "CIS",
-          "typeSpecified": true
-        },
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": true,
-            "recommendedSpecified": true
-          },
-          "type": "CSP",
-          "typeSpecified": true
-        }
-      ],
-      "description": "The shared health summary provides key pieces of information about an individual�s health status, facilitating care across their entire healthcare domain. Nominated healthcare providers author a shared health summary during or soon after a consultation with a patient. It might contain information about allergies and adverse reactions, past medical history and or immunisation information.",
-      "documentSubTypes": [
-        {
-          "code": "60591-5",
-          "codeSystem": "2.16.840.1.113883.6.1",
-          "codeSystemName": "LOINC",
-          "category": "Clinical Document",
-          "displayName": "Shared Health Summary",
-          "description": "The shared health summary provides key pieces of information about an individual�s health status, facilitating care across their entire healthcare domain. Nominated healthcare providers author a shared health summary during or soon after a consultation with a patient. It might contain information about allergies and adverse reactions, past medical history and or immunisation information.",
-          "activationDate": "2010-01-01T00:00:00",
-          "deprecationDateSpecified": false,
-          "retirementDateSpecified": false,
-          "actors": [
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": true,
-                "recommendedSpecified": true
-              },
-              "type": "CIS",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": true,
-                "recommendedSpecified": true
-              },
-              "type": "CSP",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": null,
-              "type": "CRP",
-              "typeSpecified": true
-            }
-          ],
-          "tags": [
-            {
-              "relationship": "Primary",
-              "relationshipSpecified": true,
-              "Value": "Continuity of Care"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "57133-1",
-      "codeSystem": "2.16.840.1.113883.6.1",
-      "codeSystemName": "LOINC",
-      "displayName": "e-Referral",
-      "documentGenerationClassification": "Document",
-      "actors": [
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": true,
-            "recommendedSpecified": true
-          },
-          "type": "CIS",
-          "typeSpecified": true
-        },
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": true,
-            "recommendedSpecified": true
-          },
-          "type": "CSP",
-          "typeSpecified": true
-        }
-      ],
-      "description": "Referrals are communications with the intention of initiating a transfer of responsibility for some aspects of a consumer�s ongoing management from one provider to another across a range of healthcare and human services fields.",
-      "documentSubTypes": [
-        {
-          "code": "57133-1",
-          "codeSystem": "2.16.840.1.113883.6.1",
-          "codeSystemName": "LOINC",
-          "category": "Clinical Document",
-          "displayName": "e-Referral",
-          "description": "Referrals are communications with the intention of initiating a transfer of responsibility for some aspects of a consumer�s ongoing management from one provider to another across a range of healthcare and human services fields.",
-          "activationDate": "2010-01-01T00:00:00",
-          "deprecationDateSpecified": false,
-          "retirementDateSpecified": false,
-          "actors": [
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": true,
-                "recommendedSpecified": true
-              },
-              "type": "CIS",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": true,
-                "recommendedSpecified": true
-              },
-              "type": "CSP",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": null,
-              "type": "CRP",
-              "typeSpecified": true
-            }
-          ],
-          "tags": [
-            {
-              "relationship": "Primary",
-              "relationshipSpecified": true,
-              "Value": "Continuity of Care"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "51852-2",
-      "codeSystem": "2.16.840.1.113883.6.1",
-      "codeSystemName": "LOINC",
-      "displayName": "Specialist Letter",
-      "documentGenerationClassification": "Document",
-      "actors": [
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": true,
-            "recommendedSpecified": true
-          },
-          "type": "CIS",
-          "typeSpecified": true
-        },
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": true,
-            "recommendedSpecified": true
-          },
-          "type": "CSP",
-          "typeSpecified": true
-        }
-      ],
-      "description": "Specialist letters are used in replying to a referral or reporting on a health event. They contain information related to the event or the requested diagnosis or treatment by a specialist.",
-      "documentSubTypes": [
-        {
-          "code": "51852-2",
-          "codeSystem": "2.16.840.1.113883.6.1",
-          "codeSystemName": "LOINC",
-          "category": "Clinical Document",
-          "displayName": "Specialist Letter",
-          "description": "Specialist letters are used in replying to a referral or reporting on a health event. They contain information related to the event or the requested diagnosis or treatment by a specialist.",
-          "activationDate": "2010-01-01T00:00:00",
-          "deprecationDateSpecified": false,
-          "retirementDateSpecified": false,
-          "actors": [
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": true,
-                "recommendedSpecified": true
-              },
-              "type": "CIS",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": true,
-                "recommendedSpecified": true
-              },
-              "type": "CSP",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": null,
-              "type": "CRP",
-              "typeSpecified": true
-            }
-          ],
-          "tags": [
-            {
-              "relationship": "Primary",
-              "relationshipSpecified": true,
-              "Value": "Continuity of Care"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "18842-5",
-      "codeSystem": "2.16.840.1.113883.6.1",
-      "codeSystemName": "LOINC",
-      "displayName": "Discharge Summary",
-      "documentGenerationClassification": "Document",
-      "actors": [
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": true,
-            "recommendedSpecified": true
-          },
-          "type": "CIS",
-          "typeSpecified": true
-        },
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": true,
-            "recommendedSpecified": true
-          },
-          "type": "CSP",
-          "typeSpecified": true
-        }
-      ],
-      "description": "Discharge Summary documents support the transfer of a patient from a hospital back to the care of their nominated primary healthcare provider. They capture details about the patient's hospital stay, including the diagnosis, diagnostic procedures performed, the prognosis, medications prescribed and follow-up actions recommended.",
-      "documentSubTypes": [
-        {
-          "code": "18842-5",
-          "codeSystem": "2.16.840.1.113883.6.1",
-          "codeSystemName": "LOINC",
-          "category": "Clinical Document",
-          "displayName": "Discharge Summary",
-          "description": "Discharge Summary documents support the transfer of a patient from a hospital back to the care of their nominated primary healthcare provider. They capture details about the patient's hospital stay, including the diagnosis, diagnostic procedures performed, the prognosis, medications prescribed and follow-up actions recommended.",
-          "activationDate": "2010-01-01T00:00:00",
-          "deprecationDateSpecified": false,
-          "retirementDateSpecified": false,
-          "actors": [
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": true,
-                "recommendedSpecified": true
-              },
-              "type": "CIS",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": true,
-                "recommendedSpecified": true
-              },
-              "type": "CSP",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": null,
-              "type": "CRP",
-              "typeSpecified": true
-            }
-          ],
-          "tags": [
-            {
-              "relationship": "Primary",
-              "relationshipSpecified": true,
-              "Value": "Continuity of Care"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "34133-9",
-      "codeSystem": "2.16.840.1.113883.6.1",
-      "codeSystemName": "LOINC",
-      "displayName": "Event Summary",
-      "documentGenerationClassification": "Document",
-      "actors": [
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": true,
-            "recommendedSpecified": true
-          },
-          "type": "CIS",
-          "typeSpecified": true
-        },
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": true,
-            "recommendedSpecified": true
-          },
-          "type": "CSP",
-          "typeSpecified": true
-        }
-      ],
-      "description": "Event Summary documents are used to capture key health information about significant healthcare events that are relevant to the ongoing care of an individual.",
-      "documentSubTypes": [
-        {
-          "code": "34133-9",
-          "codeSystem": "2.16.840.1.113883.6.1",
-          "codeSystemName": "LOINC",
-          "category": "Clinical Document",
-          "displayName": "Event Summary",
-          "description": "Event Summary documents are used to capture key health information about significant healthcare events that are relevant to the ongoing care of an individual.",
-          "activationDate": "2010-01-01T00:00:00",
-          "deprecationDateSpecified": false,
-          "retirementDateSpecified": false,
-          "actors": [
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": true,
-                "recommendedSpecified": true
-              },
-              "type": "CIS",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": true,
-                "recommendedSpecified": true
-              },
-              "type": "CSP",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": null,
-              "type": "CRP",
-              "typeSpecified": true
-            }
-          ],
-          "tags": [
-            {
-              "relationship": "Primary",
-              "relationshipSpecified": true,
-              "Value": "Continuity of Care"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "100.16650",
-      "codeSystem": "1.2.36.1.2001.1001.101",
-      "codeSystemName": "NCTIS",
-      "displayName": "Pharmaceutical Benefits Report",
-      "documentGenerationClassification": "Document",
-      "actors": [
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": true,
-            "recommendedSpecified": true
-          },
-          "type": "CIS",
-          "typeSpecified": true
-        },
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": true,
-            "recommendedSpecified": true
-          },
-          "type": "CSP",
-          "typeSpecified": true
-        }
-      ],
-      "description": "Information about pharmaceutical items prescribed and dispensed to an individual that were partially or fully funded under the Pharmaceutical Benefit Schedule (PBS) or Repatriation Pharmaceutical Benefits Scheme (RPBS).",
-      "documentSubTypes": [
-        {
-          "code": "100.16650",
-          "codeSystem": "1.2.36.1.2001.1001.101",
-          "codeSystemName": "NCTIS",
-          "category": "Medicare Document",
-          "displayName": "Pharmaceutical Benefits Report",
-          "description": "Information about pharmaceutical items prescribed and dispensed to an individual that were partially or fully funded under the Pharmaceutical Benefit Schedule (PBS) or Repatriation Pharmaceutical Benefits Scheme (RPBS).",
-          "activationDate": "2010-01-01T00:00:00",
-          "deprecationDateSpecified": false,
-          "retirementDateSpecified": false,
-          "actors": [
-            {
-              "uploadSpecified": false,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": true,
-                "recommendedSpecified": true
-              },
-              "type": "CIS",
-              "typeSpecified": true
-            },
-            {
-              "uploadSpecified": false,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": true,
-                "recommendedSpecified": true
-              },
-              "type": "CSP",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Medicare",
-              "uploadSpecified": true,
-              "download": null,
-              "type": "CRP",
-              "typeSpecified": true
-            }
-          ],
-          "tags": [
-            {
-              "relationship": "Primary",
-              "relationshipSpecified": true,
-              "Value": "Continuity of Care"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "100.16671",
-      "codeSystem": "1.2.36.1.2001.1001.101",
-      "codeSystemName": "NCTIS",
-      "displayName": "Australian Organ Donor Register",
-      "documentGenerationClassification": "Document",
-      "actors": [
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": true,
-            "recommendedSpecified": true
-          },
-          "type": "CIS",
-          "typeSpecified": true
-        },
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": true,
-            "recommendedSpecified": true
-          },
-          "type": "CSP",
-          "typeSpecified": true
-        }
-      ],
-      "description": "The Australian Organ Donor Register (AODR) is the national register for people to record their decision about becoming an organ and tissue donor. The AODR is the only national register for people to record their decision about becoming an organ and tissue donor for transplantation after death. ",
-      "documentSubTypes": [
-        {
-          "code": "100.16671",
-          "codeSystem": "1.2.36.1.2001.1001.101",
-          "codeSystemName": "NCTIS",
-          "category": "Medicare Document",
-          "displayName": "Australian Organ Donor Register",
-          "description": "The Australian Organ Donor Register (AODR) is the national register for people to record their decision about becoming an organ and tissue donor. The AODR is the only national register for people to record their decision about becoming an organ and tissue donor for transplantation after death. ",
-          "activationDate": "2010-01-01T00:00:00",
-          "deprecationDateSpecified": false,
-          "retirementDateSpecified": false,
-          "actors": [
-            {
-              "uploadSpecified": false,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": true,
-                "recommendedSpecified": true
-              },
-              "type": "CIS",
-              "typeSpecified": true
-            },
-            {
-              "uploadSpecified": false,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": true,
-                "recommendedSpecified": true
-              },
-              "type": "CSP",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Medicare",
-              "uploadSpecified": true,
-              "download": null,
-              "type": "CRP",
-              "typeSpecified": true
-            }
-          ],
-          "tags": [
-            {
-              "relationship": "Primary",
-              "relationshipSpecified": true,
-              "Value": "Health Program"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "100.17042",
-      "codeSystem": "1.2.36.1.2001.1001.101",
-      "codeSystemName": "NCTIS",
-      "displayName": "Australian Immunisation Register",
-      "documentGenerationClassification": "Document",
-      "actors": [
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": true,
-            "recommendedSpecified": true
-          },
-          "type": "CIS",
-          "typeSpecified": true
-        },
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": true,
-            "recommendedSpecified": true
-          },
-          "type": "CSP",
-          "typeSpecified": true
-        }
-      ],
-      "description": "The Australian Immunisation Register (AIR) (Formally the Australian Childhood Immunisation Register) is a national register that records vaccinations given to people of all ages in Australia.",
-      "documentSubTypes": [
-        {
-          "code": "100.17042",
-          "codeSystem": "1.2.36.1.2001.1001.101",
-          "codeSystemName": "NCTIS",
-          "category": "Medicare Document",
-          "displayName": "Australian Immunisation Register",
-          "description": "The Australian Immunisation Register (AIR) (Formally the Australian Childhood Immunisation Register) is a national register that records vaccinations given to people of all ages in Australia.",
-          "activationDate": "2010-01-01T00:00:00",
-          "deprecationDateSpecified": false,
-          "retirementDateSpecified": false,
-          "actors": [
-            {
-              "uploadSpecified": false,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": true,
-                "recommendedSpecified": true
-              },
-              "type": "CIS",
-              "typeSpecified": true
-            },
-            {
-              "uploadSpecified": false,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": true,
-                "recommendedSpecified": true
-              },
-              "type": "CSP",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Medicare",
-              "uploadSpecified": true,
-              "download": null,
-              "type": "CRP",
-              "typeSpecified": true
-            }
-          ],
-          "tags": [
-            {
-              "relationship": "Primary",
-              "relationshipSpecified": true,
-              "Value": "Health Program"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "100.16644",
-      "codeSystem": "1.2.36.1.2001.1001.101",
-      "codeSystemName": "NCTIS",
-      "displayName": "Medicare/DVA Benefits Report",
-      "documentGenerationClassification": "Document",
-      "actors": [
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": false,
-            "recommendedSpecified": true
-          },
-          "type": "CIS",
-          "typeSpecified": true
-        },
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": false,
-            "recommendedSpecified": true
-          },
-          "type": "CSP",
-          "typeSpecified": true
-        }
-      ],
-      "description": "Information about a Medicare or DVA partially or fully funded service under the Medicare Benefits Schedule or Department of Veterans� Affairs (DVA).",
-      "documentSubTypes": [
-        {
-          "code": "100.16644",
-          "codeSystem": "1.2.36.1.2001.1001.101",
-          "codeSystemName": "NCTIS",
-          "category": "Medicare Document",
-          "displayName": "Medicare/DVA Benefits Report",
-          "description": "Information about a Medicare or DVA partially or fully funded service under the Medicare Benefits Schedule or Department of Veterans� Affairs (DVA).",
-          "activationDate": "2010-01-01T00:00:00",
-          "deprecationDateSpecified": false,
-          "retirementDateSpecified": false,
-          "actors": [
-            {
-              "uploadSpecified": false,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": true,
-                "recommendedSpecified": true
-              },
-              "type": "CIS",
-              "typeSpecified": true
-            },
-            {
-              "uploadSpecified": false,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": true,
-                "recommendedSpecified": true
-              },
-              "type": "CSP",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Medicare",
-              "uploadSpecified": true,
-              "download": null,
-              "type": "CRP",
-              "typeSpecified": true
-            }
-          ],
-          "tags": [
-            {
-              "relationship": "Primary",
-              "relationshipSpecified": true,
-              "Value": "Health Program"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "100.16767",
-      "codeSystem": "1.2.36.1.2001.1001.101",
-      "codeSystemName": "NCTIS",
-      "displayName": "Medicare Overview",
-      "documentGenerationClassification": "DocumentView",
-      "actors": [
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": false,
-            "requestableSpecified": true,
-            "recommended": false,
-            "recommendedSpecified": true
-          },
-          "type": "CIS",
-          "typeSpecified": true
-        },
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": false,
-            "requestableSpecified": true,
-            "recommended": false,
-            "recommendedSpecified": true
-          },
-          "type": "CSP",
-          "typeSpecified": true
-        }
-      ],
-      "description": "Medicare Overview documents provide an overview of Medicare-sourced information stored in an individual�s My Health Record.",
-      "documentSubTypes": [
-        {
-          "code": "100.16767.1",
-          "codeSystem": "1.2.36.1.2001.1001.101",
-          "codeSystemName": "NCTIS",
-          "category": "Medicare Document",
-          "displayName": "Medicare Overview - all",
-          "description": "Medicare Overview documents provide an overview of Medicare-sourced information stored in an individual�s My Health Record.",
-          "activationDate": "2010-01-01T00:00:00",
-          "deprecationDateSpecified": false,
-          "retirementDateSpecified": false,
-          "actors": [
-            {
-              "uploadSpecified": false,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": false,
-                "requestableSpecified": true,
-                "recommended": false,
-                "recommendedSpecified": true
-              },
-              "type": "CIS",
-              "typeSpecified": true
-            },
-            {
-              "uploadSpecified": false,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": false,
-                "requestableSpecified": true,
-                "recommended": false,
-                "recommendedSpecified": true
-              },
-              "type": "CSP",
-              "typeSpecified": true
-            }
-          ],
-          "tags": [
-            {
-              "relationship": "Primary",
-              "relationshipSpecified": true,
-              "Value": "Health Program"
-            }
-          ]
-        },
-        {
-          "code": "100.16767.2",
-          "codeSystem": "1.2.36.1.2001.1001.101",
-          "codeSystemName": "NCTIS",
-          "category": "Medicare Document",
-          "displayName": "Medicare Overview - past 12 months",
-          "description": "Medicare Overview documents provide an overview of Medicare-sourced information stored in an individual�s My Health Record.",
-          "activationDate": "2010-01-01T00:00:00",
-          "deprecationDateSpecified": false,
-          "retirementDateSpecified": false,
-          "actors": [
-            {
-              "uploadSpecified": false,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": false,
-                "requestableSpecified": true,
-                "recommended": false,
-                "recommendedSpecified": true
-              },
-              "type": "CIS",
-              "typeSpecified": true
-            },
-            {
-              "uploadSpecified": false,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": false,
-                "requestableSpecified": true,
-                "recommended": false,
-                "recommendedSpecified": true
-              },
-              "type": "CSP",
-              "typeSpecified": true
-            }
-          ],
-          "tags": [
-            {
-              "relationship": "Primary",
-              "relationshipSpecified": true,
-              "Value": "Health Program"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "100.16764",
-      "codeSystem": "1.2.36.1.2001.1001.101",
-      "codeSystemName": "NCTIS Data Components",
-      "displayName": "eHealth Prescription Record",
-      "documentGenerationClassification": "Document",
-      "actors": [
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": false,
-            "recommendedSpecified": true
-          },
-          "type": "CIS",
-          "typeSpecified": true
-        },
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": false,
-            "recommendedSpecified": true
-          },
-          "type": "CSP",
-          "typeSpecified": true
-        }
-      ],
-      "description": "Prescription records are a digital record of prescribed medications. These documents do not represent actual prescriptions, but instead support the sharing of information about medication prescriptions.",
-      "documentSubTypes": [
-        {
-          "code": "100.16764",
-          "codeSystem": "1.2.36.1.2001.1001.101",
-          "codeSystemName": "NCTIS Data Components",
-          "category": "Clinical Document",
-          "displayName": "eHealth Prescription Record",
-          "description": "Prescription records are a digital record of prescribed medications. These documents do not represent actual prescriptions, but instead support the sharing of information about medication prescriptions.",
-          "activationDate": "2010-01-01T00:00:00",
-          "deprecationDateSpecified": false,
-          "retirementDateSpecified": false,
-          "actors": [
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": false,
-                "recommendedSpecified": true
-              },
-              "type": "CIS",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": false,
-                "recommendedSpecified": true
-              },
-              "type": "CSP",
-              "typeSpecified": true
-            },
-            {
-              "upload": "NPDR",
-              "uploadSpecified": true,
-              "download": null,
-              "type": "CRP",
-              "typeSpecified": true
-            }
-          ],
-          "tags": [
-            {
-              "relationship": "Primary",
-              "relationshipSpecified": true,
-              "Value": "Medicines"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "100.16765",
-      "codeSystem": "1.2.36.1.2001.1001.101",
-      "codeSystemName": "NCTIS Data Components",
-      "displayName": "eHealth Dispense Record",
-      "documentGenerationClassification": "Document",
-      "actors": [
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": false,
-            "recommendedSpecified": true
-          },
-          "type": "CIS",
-          "typeSpecified": true
-        },
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": false,
-            "recommendedSpecified": true
-          },
-          "type": "CSP",
-          "typeSpecified": true
-        }
-      ],
-      "description": "Dispense Records are a digital record of dispensed medications by a pharmacist.",
-      "documentSubTypes": [
-        {
-          "code": "100.16765",
-          "codeSystem": "1.2.36.1.2001.1001.101",
-          "codeSystemName": "NCTIS Data Components",
-          "category": "Clinical Document",
-          "displayName": "eHealth Dispense Record",
-          "description": "Dispense Records are a digital record of dispensed medications by a pharmacist.",
-          "activationDate": "2010-01-01T00:00:00",
-          "deprecationDateSpecified": false,
-          "retirementDateSpecified": false,
-          "actors": [
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": false,
-                "recommendedSpecified": true
-              },
-              "type": "CIS",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": false,
-                "recommendedSpecified": true
-              },
-              "type": "CSP",
-              "typeSpecified": true
-            },
-            {
-              "upload": "NPDR",
-              "uploadSpecified": true,
-              "download": null,
-              "type": "CRP",
-              "typeSpecified": true
-            }
-          ],
-          "tags": [
-            {
-              "relationship": "Primary",
-              "relationshipSpecified": true,
-              "Value": "Medicines"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "56445-0",
-      "codeSystem": "2.16.840.1.113883.6.1",
-      "codeSystemName": "LOINC",
-      "displayName": "Pharmacist Shared Medicines List",
-      "documentGenerationClassification": "Document",
-      "actors": [
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": false,
-            "recommendedSpecified": true
-          },
-          "type": "CIS",
-          "typeSpecified": true
-        },
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": false,
-            "recommendedSpecified": true
-          },
-          "type": "CSP",
-          "typeSpecified": true
-        }
-      ],
-      "description": "The Shared Medicine List contains detailed information about medicines the consumer is known to be taking when the list was created. This includes both prescription and non-prescription medicines, including �over-the-counter� (OTC) medicines and complementary medicines such as vitamins and herbal products.",
-      "documentSubTypes": [
-        {
-          "code": "56445-0",
-          "codeSystem": "2.16.840.1.113883.6.1",
-          "codeSystemName": "LOINC",
-          "category": "Clinical Document",
-          "displayName": "Pharmacist Shared Medicines List",
-          "description": "The Shared Medicine List contains detailed information about medicines the consumer is known to be taking when the list was created. This includes both prescription and non-prescription medicines, including �over-the-counter� (OTC) medicines and complementary medicines such as vitamins and herbal products.",
-          "activationDate": "2010-01-01T00:00:00",
-          "deprecationDateSpecified": false,
-          "retirementDateSpecified": false,
-          "actors": [
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": false,
-                "recommendedSpecified": true
-              },
-              "type": "CIS",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": false,
-                "recommendedSpecified": true
-              },
-              "type": "CSP",
-              "typeSpecified": true
-            }
-          ],
-          "tags": [
-            {
-              "relationship": "Primary",
-              "relationshipSpecified": true,
-              "Value": "Medicines"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "100.32002",
-      "codeSystem": "1.2.36.1.2001.1001.101",
-      "codeSystemName": "NCTIS",
-      "displayName": "Medicines View",
-      "documentGenerationClassification": "DocumentView",
-      "actors": [
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": false,
-            "requestableSpecified": true,
-            "recommended": false,
-            "recommendedSpecified": true
-          },
-          "type": "CIS",
-          "typeSpecified": true
-        },
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": false,
-            "requestableSpecified": true,
-            "recommended": false,
-            "recommendedSpecified": true
-          },
-          "type": "CSP",
-          "typeSpecified": true
-        }
-      ],
-      "description": "Medicines View Document",
-      "documentSubTypes": [
-        {
-          "code": "100.32002",
-          "codeSystem": "1.2.36.1.2001.1001.101",
-          "codeSystemName": "NCTIS",
-          "category": "Clinical View",
-          "displayName": "Medicines View",
-          "description": "Medicines View Document",
-          "activationDate": "2010-01-01T00:00:00",
-          "deprecationDateSpecified": false,
-          "retirementDateSpecified": false,
-          "actors": [
-            {
-              "uploadSpecified": false,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": false,
-                "requestableSpecified": true,
-                "recommended": false,
-                "recommendedSpecified": true
-              },
-              "type": "CIS",
-              "typeSpecified": true
-            },
-            {
-              "uploadSpecified": false,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": false,
-                "requestableSpecified": true,
-                "recommended": false,
-                "recommendedSpecified": true
-              },
-              "type": "CSP",
-              "typeSpecified": true
-            }
-          ],
-          "tags": [
-            {
-              "relationship": "Primary",
-              "relationshipSpecified": true,
-              "Value": "Medicines"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "100.32034",
-      "codeSystem": "1.2.36.1.2001.1001.101",
-      "codeSystemName": "NCTIS",
-      "displayName": "Immunisation Consolidated View",
-      "documentGenerationClassification": "DocumentView",
-      "actors": [
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": false,
-            "requestableSpecified": true,
-            "recommended": false,
-            "recommendedSpecified": true
-          },
-          "type": "CIS",
-          "typeSpecified": true
-        },
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": false,
-            "requestableSpecified": true,
-            "recommended": false,
-            "recommendedSpecified": true
-          },
-          "type": "CSP",
-          "typeSpecified": true
-        }
-      ],
-      "description": "Immunisation Consolidated View Document",
-      "documentSubTypes": [
-        {
-          "code": "100.32034",
-          "codeSystem": "1.2.36.1.2001.1001.101",
-          "codeSystemName": "NCTIS",
-          "category": "Clinical View",
-          "displayName": "Immunisation Consolidated View",
-          "description": "Immunisation Consolidated View Document",
-          "activationDate": "2010-01-01T00:00:00",
-          "deprecationDateSpecified": false,
-          "retirementDateSpecified": false,
-          "actors": [
-            {
-              "uploadSpecified": false,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": false,
-                "requestableSpecified": true,
-                "recommended": false,
-                "recommendedSpecified": true
-              },
-              "type": "CIS",
-              "typeSpecified": true
-            },
-            {
-              "uploadSpecified": false,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": false,
-                "requestableSpecified": true,
-                "recommended": false,
-                "recommendedSpecified": true
-              },
-              "type": "CSP",
-              "typeSpecified": true
-            }
-          ],
-          "tags": [
-            {
-              "relationship": "Primary",
-              "relationshipSpecified": true,
-              "Value": "Medicines"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "100.16957",
-      "codeSystem": "1.2.36.1.2001.1001.101",
-      "codeSystemName": "NCTIS Data Components",
-      "displayName": "Diagnostic Imaging Report",
-      "documentGenerationClassification": "Document",
-      "actors": [
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": true,
-            "recommendedSpecified": true
-          },
-          "type": "CIS",
-          "typeSpecified": true
-        },
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": true,
-            "recommendedSpecified": true
-          },
-          "type": "CSP",
-          "typeSpecified": true
-        }
-      ],
-      "description": "Diagnostic imaging reports are used to share information about diagnostic imaging examinations via an individual's digital health record. The Diagnostic Imaging Report PDF may contain one or more examinations that are uploaded by the diagnostic imaging provider to the individual's digital health record.",
-      "documentSubTypes": [
-        {
-          "code": "100.16957",
-          "codeSystem": "1.2.36.1.2001.1001.101",
-          "codeSystemName": "NCTIS Data Components",
-          "category": "Clinical Document",
-          "displayName": "Diagnostic Imaging Report",
-          "description": "Diagnostic imaging reports are used to share information about diagnostic imaging examinations via an individual's digital health record. The Diagnostic Imaging Report PDF may contain one or more examinations that are uploaded by the diagnostic imaging provider to the individual's digital health record.",
-          "activationDate": "2010-01-01T00:00:00",
-          "deprecationDateSpecified": false,
-          "retirementDateSpecified": false,
-          "actors": [
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": true,
-                "recommendedSpecified": true
-              },
-              "type": "CIS",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": true,
-                "recommendedSpecified": true
-              },
-              "type": "CSP",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": null,
-              "type": "CRP",
-              "typeSpecified": true
-            }
-          ],
-          "tags": [
-            {
-              "relationship": "Primary",
-              "relationshipSpecified": true,
-              "Value": "Diagnostics"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "100.32001",
-      "codeSystem": "1.2.36.1.2001.1001.101",
-      "codeSystemName": "NCTIS Data Components",
-      "displayName": "Pathology Report",
-      "documentGenerationClassification": "Document",
-      "actors": [
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": false,
-            "recommendedSpecified": true
-          },
-          "type": "CIS",
-          "typeSpecified": true
-        },
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": false,
-            "recommendedSpecified": true
-          },
-          "type": "CSP",
-          "typeSpecified": true
-        }
-      ],
-      "description": "Pathology reports can be used to share information about pathology tests via an individual's digital health record. The Pathology Report PDF may contain one or more tests that are uploaded by the pathology provider to the individual's digital health record.",
-      "documentSubTypes": [
-        {
-          "code": "100.32001",
-          "codeSystem": "1.2.36.1.2001.1001.101",
-          "codeSystemName": "NCTIS Data Components",
-          "category": "Clinical Document",
-          "displayName": "Pathology Report",
-          "description": "Pathology reports can be used to share information about pathology tests via an individual's digital health record. The Pathology Report PDF may contain one or more tests that are uploaded by the pathology provider to the individual's digital health record.",
-          "activationDate": "2010-01-01T00:00:00",
-          "deprecationDateSpecified": false,
-          "retirementDateSpecified": false,
-          "actors": [
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": false,
-                "recommendedSpecified": true
-              },
-              "type": "CIS",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": false,
-                "recommendedSpecified": true
-              },
-              "type": "CSP",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": null,
-              "type": "CRP",
-              "typeSpecified": true
-            }
-          ],
-          "tags": [
-            {
-              "relationship": "Primary",
-              "relationshipSpecified": true,
-              "Value": "Diagnostics"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "100.32026",
-      "codeSystem": "1.2.36.1.2001.1001.101",
-      "codeSystemName": "NCTIS",
-      "displayName": "Pathology Overview",
-      "documentGenerationClassification": "DocumentView",
-      "actors": [
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": false,
-            "requestableSpecified": true,
-            "recommended": false,
-            "recommendedSpecified": true
-          },
-          "type": "CIS",
-          "typeSpecified": true
-        },
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": false,
-            "requestableSpecified": true,
-            "recommended": false,
-            "recommendedSpecified": true
-          },
-          "type": "CSP",
-          "typeSpecified": true
-        }
-      ],
-      "description": "A consolidated overview of some of the Pathology Reports in a patient's record.",
-      "documentSubTypes": [
-        {
-          "code": "100.32026",
-          "codeSystem": "1.2.36.1.2001.1001.101",
-          "codeSystemName": "NCTIS",
-          "category": "Clinical View",
-          "displayName": "Pathology Overview",
-          "description": "A consolidated overview of some of the Pathology Reports in a patient's record.",
-          "activationDate": "2010-01-01T00:00:00",
-          "deprecationDateSpecified": false,
-          "retirementDateSpecified": false,
-          "actors": [
-            {
-              "uploadSpecified": false,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": false,
-                "requestableSpecified": true,
-                "recommended": false,
-                "recommendedSpecified": true
-              },
-              "type": "CIS",
-              "typeSpecified": true
-            },
-            {
-              "uploadSpecified": false,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": false,
-                "requestableSpecified": true,
-                "recommended": false,
-                "recommendedSpecified": true
-              },
-              "type": "CSP",
-              "typeSpecified": true
-            }
-          ],
-          "tags": [
-            {
-              "relationship": "Primary",
-              "relationshipSpecified": true,
-              "Value": "Diagnostics"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "100.32025",
-      "codeSystem": "1.2.36.1.2001.1001.101",
-      "codeSystemName": "NCTIS",
-      "displayName": "Diagnostic Imaging Overview",
-      "documentGenerationClassification": "DocumentView",
-      "actors": [
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": false,
-            "requestableSpecified": true,
-            "recommended": false,
-            "recommendedSpecified": true
-          },
-          "type": "CIS",
-          "typeSpecified": true
-        },
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": false,
-            "requestableSpecified": true,
-            "recommended": false,
-            "recommendedSpecified": true
-          },
-          "type": "CSP",
-          "typeSpecified": true
-        }
-      ],
-      "description": "A consolidated overview of some of the Diagnostic Imaging Reports in a patient's record.",
-      "documentSubTypes": [
-        {
-          "code": "100.32025",
-          "codeSystem": "1.2.36.1.2001.1001.101",
-          "codeSystemName": "NCTIS",
-          "category": "Clinical View",
-          "displayName": "Diagnostic Imaging Overview",
-          "description": "A consolidated overview of some of the Diagnostic Imaging Reports in a patient's record.",
-          "activationDate": "2010-01-01T00:00:00",
-          "deprecationDateSpecified": false,
-          "retirementDateSpecified": false,
-          "actors": [
-            {
-              "uploadSpecified": false,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": false,
-                "requestableSpecified": true,
-                "recommended": false,
-                "recommendedSpecified": true
-              },
-              "type": "CIS",
-              "typeSpecified": true
-            },
-            {
-              "uploadSpecified": false,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": false,
-                "requestableSpecified": true,
-                "recommended": false,
-                "recommendedSpecified": true
-              },
-              "type": "CSP",
-              "typeSpecified": true
-            }
-          ],
-          "tags": [
-            {
-              "relationship": "Primary",
-              "relationshipSpecified": true,
-              "Value": "Diagnostics"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "100.16975",
-      "codeSystem": "1.2.36.1.2001.1001.101",
-      "codeSystemName": "NCTIS Data Components",
-      "displayName": "Advance Care Information",
-      "documentGenerationClassification": "Document",
-      "actors": [
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": true,
-            "recommendedSpecified": true
-          },
-          "type": "CIS",
-          "typeSpecified": true
-        },
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": true,
-            "recommendedSpecified": true
-          },
-          "type": "CSP",
-          "typeSpecified": true
-        }
-      ],
-      "description": "Advance care planning information can include a statement by a competent person expressing decisions about his or her future care, should they become incapable of participating in medical treatment decisions. These statements are currently recorded in paper-based advance care directives. ",
-      "documentSubTypes": [
-        {
-          "code": "100.16998",
-          "codeSystem": "1.2.36.1.2001.1001.101",
-          "codeSystemName": "NCTIS Data Components",
-          "category": "Clinical Document",
-          "displayName": "Advance Care Planning Document",
-          "description": "Advance care planning information can include a statement by a competent person expressing decisions about his or her future care, should they become incapable of participating in medical treatment decisions. These statements are currently recorded in paper-based advance care directives. ",
-          "activationDate": "2010-01-01T00:00:00",
-          "deprecationDateSpecified": false,
-          "retirementDateSpecified": false,
-          "actors": [
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": true,
-                "recommendedSpecified": true
-              },
-              "type": "CIS",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": true,
-                "recommendedSpecified": true
-              },
-              "type": "CSP",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Consumer",
-              "uploadSpecified": true,
-              "download": null,
-              "type": "NCP",
-              "typeSpecified": true
-            }
-          ],
-          "tags": [
-            {
-              "relationship": "Primary",
-              "relationshipSpecified": true,
-              "Value": "Patient Entered Information"
-            }
-          ]
-        },
-        {
-          "code": "100.32016",
-          "codeSystem": "1.2.36.1.2001.1001.101",
-          "codeSystemName": "NCTIS Data Components",
-          "category": "Clinical Document",
-          "displayName": "Goals of Care Document",
-          "description": "The Goals of Care clinical document type is used to capture advance care information and can a statement related to a person�s care in the context of a serious illness, as agreed between him/her, his/her family, carers and healthcare team.",
-          "activationDate": "2010-01-01T00:00:00",
-          "deprecationDateSpecified": false,
-          "retirementDateSpecified": false,
-          "actors": [
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": true,
-                "recommendedSpecified": true
-              },
-              "type": "CIS",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": true,
-                "recommendedSpecified": true
-              },
-              "type": "CSP",
-              "typeSpecified": true
-            }
-          ],
-          "tags": [
-            {
-              "relationship": "Primary",
-              "relationshipSpecified": true,
-              "Value": "Patient Entered Information"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "100.16919",
-      "codeSystem": "1.2.36.1.2001.1001.101",
-      "codeSystemName": "NCTIS Data Components",
-      "displayName": "Child Parent Questionnaire",
-      "documentGenerationClassification": "Document",
-      "actors": [
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": true,
-            "recommendedSpecified": true
-          },
-          "type": "CIS",
-          "typeSpecified": true
-        },
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": true,
-            "recommendedSpecified": true
-          },
-          "type": "CSP",
-          "typeSpecified": true
-        }
-      ],
-      "description": "Child Parent Questionnaire Document",
-      "documentSubTypes": [
-        {
-          "code": "100.16919",
-          "codeSystem": "1.2.36.1.2001.1001.101",
-          "codeSystemName": "NCTIS Data Components",
-          "category": "Child eHealth Record (CeHR) Document",
-          "displayName": "Child Parent Questionnaire",
-          "description": "Child Parent Questionnaire Document",
-          "activationDate": "2010-01-01T00:00:00",
-          "deprecationDateSpecified": false,
-          "retirementDateSpecified": false,
-          "actors": [
-            {
-              "uploadSpecified": false,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": true,
-                "recommendedSpecified": true
-              },
-              "type": "CIS",
-              "typeSpecified": true
-            },
-            {
-              "uploadSpecified": false,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": true,
-                "recommendedSpecified": true
-              },
-              "type": "CSP",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Consumer",
-              "uploadSpecified": true,
-              "download": null,
-              "type": "MOS",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Consumer",
-              "uploadSpecified": true,
-              "download": null,
-              "type": "NCP",
-              "typeSpecified": true
-            }
-          ],
-          "tags": [
-            {
-              "relationship": "Primary",
-              "relationshipSpecified": true,
-              "Value": "Patient Entered Information"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "100.16870",
-      "codeSystem": "1.2.36.1.2001.1001.101",
-      "codeSystemName": "NCTIS Data Components",
-      "displayName": "Consumer Entered Measurements",
-      "documentGenerationClassification": "Document",
-      "actors": [
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": true,
-            "recommendedSpecified": true
-          },
-          "type": "CIS",
-          "typeSpecified": true
-        },
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": true,
-            "recommendedSpecified": true
-          },
-          "type": "CSP",
-          "typeSpecified": true
-        }
-      ],
-      "description": "Consumer Entered Measurements Document",
-      "documentSubTypes": [
-        {
-          "code": "100.16870",
-          "codeSystem": "1.2.36.1.2001.1001.101",
-          "codeSystemName": "NCTIS Data Components",
-          "category": "Consumer Document",
-          "displayName": "Consumer Entered Measurements",
-          "description": "Consumer Entered Measurements Document",
-          "activationDate": "2010-01-01T00:00:00",
-          "deprecationDateSpecified": false,
-          "retirementDateSpecified": false,
-          "actors": [
-            {
-              "uploadSpecified": false,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": true,
-                "recommendedSpecified": true
-              },
-              "type": "CIS",
-              "typeSpecified": true
-            },
-            {
-              "uploadSpecified": false,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": true,
-                "recommendedSpecified": true
-              },
-              "type": "CSP",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Consumer",
-              "uploadSpecified": true,
-              "download": null,
-              "type": "MOS",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Consumer",
-              "uploadSpecified": true,
-              "download": null,
-              "type": "NCP",
-              "typeSpecified": true
-            }
-          ],
-          "tags": [
-            {
-              "relationship": "Primary",
-              "relationshipSpecified": true,
-              "Value": "Patient Entered Information"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "100.16696",
-      "codeSystem": "1.2.36.1.2001.1001.101",
-      "codeSystemName": "NCTIS Data Components",
-      "displayName": "Advance Care Directive Custodian Record",
-      "documentGenerationClassification": "Document",
-      "actors": [
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": true,
-            "recommendedSpecified": true
-          },
-          "type": "CIS",
-          "typeSpecified": true
-        },
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": true,
-            "recommendedSpecified": true
-          },
-          "type": "CSP",
-          "typeSpecified": true
-        }
-      ],
-      "description": "The advance care document custodian form provides information about the custodian of the individual�s advance care directive. Such documents do not contain the advance care directive itself.",
-      "documentSubTypes": [
-        {
-          "code": "100.16696",
-          "codeSystem": "1.2.36.1.2001.1001.101",
-          "codeSystemName": "NCTIS Data Components",
-          "category": "Consumer Document",
-          "displayName": "Advance Care Directive Custodian Record",
-          "description": "The advance care document custodian form provides information about the custodian of the individual�s advance care directive. Such documents do not contain the advance care directive itself.",
-          "activationDate": "2010-01-01T00:00:00",
-          "deprecationDateSpecified": false,
-          "retirementDateSpecified": false,
-          "actors": [
-            {
-              "uploadSpecified": false,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": true,
-                "recommendedSpecified": true
-              },
-              "type": "CIS",
-              "typeSpecified": true
-            },
-            {
-              "uploadSpecified": false,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": true,
-                "recommendedSpecified": true
-              },
-              "type": "CSP",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Consumer",
-              "uploadSpecified": true,
-              "download": null,
-              "type": "MOS",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Consumer",
-              "uploadSpecified": true,
-              "download": null,
-              "type": "NCP",
-              "typeSpecified": true
-            }
-          ],
-          "tags": [
-            {
-              "relationship": "Primary",
-              "relationshipSpecified": true,
-              "Value": "Patient Entered Information"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "100.16920",
-      "codeSystem": "1.2.36.1.2001.1001.101",
-      "codeSystemName": "NCTIS Data Components",
-      "displayName": "Health Check Assessment",
-      "documentGenerationClassification": "Document",
-      "actors": [
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": false,
-            "recommendedSpecified": true
-          },
-          "type": "CIS",
-          "typeSpecified": true
-        },
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": false,
-            "recommendedSpecified": true
-          },
-          "type": "CSP",
-          "typeSpecified": true
-        }
-      ],
-      "description": "Health Check Assessment Document",
-      "documentSubTypes": [
-        {
-          "code": "100.16920",
-          "codeSystem": "1.2.36.1.2001.1001.101",
-          "codeSystemName": "NCTIS Data Components",
-          "category": "Consumer Document",
-          "displayName": "Health Check Assessment",
-          "description": "Health Check Assessment Document",
-          "activationDate": "2010-01-01T00:00:00",
-          "deprecationDateSpecified": false,
-          "retirementDateSpecified": false,
-          "actors": [
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": false,
-                "recommendedSpecified": true
-              },
-              "type": "CIS",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": false,
-                "recommendedSpecified": true
-              },
-              "type": "CSP",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Default",
-              "uploadSpecified": true,
-              "download": null,
-              "type": "NPP",
-              "typeSpecified": true
-            }
-          ],
-          "tags": [
-            {
-              "relationship": "Primary",
-              "relationshipSpecified": true,
-              "Value": "Patient Entered Information"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "100.16812",
-      "codeSystem": "1.2.36.1.2001.1001.101",
-      "codeSystemName": "NCTIS Data Components",
-      "displayName": "Consumer Entered Achievements",
-      "documentGenerationClassification": "Document",
-      "actors": [
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": false,
-            "recommendedSpecified": true
-          },
-          "type": "CIS",
-          "typeSpecified": true
-        },
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": false,
-            "recommendedSpecified": true
-          },
-          "type": "CSP",
-          "typeSpecified": true
-        }
-      ],
-      "description": "Consumer Entered Achievements Document",
-      "documentSubTypes": [
-        {
-          "code": "100.16812",
-          "codeSystem": "1.2.36.1.2001.1001.101",
-          "codeSystemName": "NCTIS Data Components",
-          "category": "Consumer Document",
-          "displayName": "Consumer Entered Achievements",
-          "description": "Consumer Entered Achievements Document",
-          "activationDate": "2010-01-01T00:00:00",
-          "deprecationDateSpecified": false,
-          "retirementDateSpecified": false,
-          "actors": [
-            {
-              "uploadSpecified": false,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": false,
-                "recommendedSpecified": true
-              },
-              "type": "CIS",
-              "typeSpecified": true
-            },
-            {
-              "uploadSpecified": false,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": false,
-                "recommendedSpecified": true
-              },
-              "type": "CSP",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Consumer",
-              "uploadSpecified": true,
-              "download": null,
-              "type": "MOS",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Consumer",
-              "uploadSpecified": true,
-              "download": null,
-              "type": "NCP",
-              "typeSpecified": true
-            }
-          ],
-          "tags": [
-            {
-              "relationship": "Primary",
-              "relationshipSpecified": true,
-              "Value": "Patient Entered Information"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "100.16685",
-      "codeSystem": "1.2.36.1.2001.1001.101",
-      "codeSystemName": "NCTIS Data Components",
-      "displayName": "Consumer Entered Health Summary",
-      "documentGenerationClassification": "Document",
-      "actors": [
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": false,
-            "recommendedSpecified": true
-          },
-          "type": "CIS",
-          "typeSpecified": true
-        },
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": true,
-            "accessibleSpecified": true,
-            "requestable": true,
-            "requestableSpecified": true,
-            "recommended": false,
-            "recommendedSpecified": true
-          },
-          "type": "CSP",
-          "typeSpecified": true
-        }
-      ],
-      "description": "Consumer Entered Health Summary Document",
-      "documentSubTypes": [
-        {
-          "code": "100.16685",
-          "codeSystem": "1.2.36.1.2001.1001.101",
-          "codeSystemName": "NCTIS Data Components",
-          "category": "Consumer Document",
-          "displayName": "Consumer Entered Health Summary",
-          "description": "Consumer Entered Health Summary Document",
-          "activationDate": "2010-01-01T00:00:00",
-          "deprecationDateSpecified": false,
-          "retirementDateSpecified": false,
-          "actors": [
-            {
-              "uploadSpecified": false,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": false,
-                "recommendedSpecified": true
-              },
-              "type": "CIS",
-              "typeSpecified": true
-            },
-            {
-              "uploadSpecified": false,
-              "download": {
-                "accessible": true,
-                "accessibleSpecified": true,
-                "requestable": true,
-                "requestableSpecified": true,
-                "recommended": false,
-                "recommendedSpecified": true
-              },
-              "type": "CSP",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Consumer",
-              "uploadSpecified": true,
-              "download": null,
-              "type": "MOS",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Consumer",
-              "uploadSpecified": true,
-              "download": null,
-              "type": "NCP",
-              "typeSpecified": true
-            }
-          ],
-          "tags": [
-            {
-              "relationship": "Primary",
-              "relationshipSpecified": true,
-              "Value": "Patient Entered Information"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "code": "100.16681",
-      "codeSystem": "1.2.36.1.2001.1001.101",
-      "codeSystemName": "NCTIS Data Components",
-      "displayName": "Consumer Entered Notes",
-      "documentGenerationClassification": "Document",
-      "actors": [
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": false,
-            "accessibleSpecified": true,
-            "requestable": false,
-            "requestableSpecified": true,
-            "recommended": false,
-            "recommendedSpecified": true
-          },
-          "type": "CIS",
-          "typeSpecified": true
-        },
-        {
-          "uploadSpecified": false,
-          "download": {
-            "accessible": false,
-            "accessibleSpecified": true,
-            "requestable": false,
-            "requestableSpecified": true,
-            "recommended": false,
-            "recommendedSpecified": true
-          },
-          "type": "CSP",
-          "typeSpecified": true
-        }
-      ],
-      "description": "Consumer Entered Notes Document",
-      "documentSubTypes": [
-        {
-          "code": "100.16681",
-          "codeSystem": "1.2.36.1.2001.1001.101",
-          "codeSystemName": "NCTIS Data Components",
-          "category": "Consumer Document",
-          "displayName": "Consumer Entered Notes",
-          "description": "Consumer Entered Notes Document",
-          "activationDate": "2010-01-01T00:00:00",
-          "deprecationDateSpecified": false,
-          "retirementDateSpecified": false,
-          "actors": [
-            {
-              "uploadSpecified": false,
-              "download": {
-                "accessible": false,
-                "accessibleSpecified": true,
-                "requestable": false,
-                "requestableSpecified": true,
-                "recommended": false,
-                "recommendedSpecified": true
-              },
-              "type": "CIS",
-              "typeSpecified": true
-            },
-            {
-              "uploadSpecified": false,
-              "download": {
-                "accessible": false,
-                "accessibleSpecified": true,
-                "requestable": false,
-                "requestableSpecified": true,
-                "recommended": false,
-                "recommendedSpecified": true
-              },
-              "type": "CSP",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Consumer",
-              "uploadSpecified": true,
-              "download": null,
-              "type": "MOS",
-              "typeSpecified": true
-            },
-            {
-              "upload": "Consumer",
-              "uploadSpecified": true,
-              "download": null,
-              "type": "NCP",
-              "typeSpecified": true
-            }
-          ],
-          "tags": [
-            {
-              "relationship": "Primary",
-              "relationshipSpecified": true,
-              "Value": "Patient Entered Information"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+	"creationDate": "2022-03-16T04:38:46.4048369Z",
+	"version": 2,
+	"tags": [
+		{
+			"name": "Continuity of Care",
+			"description": "Continuity of Care Tag"
+		},
+		{
+			"name": "Health Program",
+			"description": "Health Program Tag"
+		},
+		{
+			"name": "Medicines",
+			"description": "Medicines Tag"
+		},
+		{
+			"name": "Diagnostics",
+			"description": "Diagnostics Tag"
+		},
+		{
+			"name": "Patient Entered Information",
+			"description": "Patient Entered Information Tag"
+		}
+	],
+	"documentTypes": [
+		{
+			"code": "60591-5",
+			"codeSystem": "2.16.840.1.113883.6.1",
+			"codeSystemName": "LOINC",
+			"displayName": "Shared Health Summary",
+			"documentGenerationClassification": "Document",
+			"actors": [
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": true,
+						"recommendedSpecified": true
+					},
+					"type": "CIS",
+					"typeSpecified": true
+				},
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": true,
+						"recommendedSpecified": true
+					},
+					"type": "CSP",
+					"typeSpecified": true
+				}
+			],
+			"description": "The shared health summary provides key pieces of information about an individual's health status, facilitating care across their entire healthcare domain. Nominated healthcare providers author a shared health summary during or soon after a consultation with a patient. It might contain information about allergies and adverse reactions, past medical history and or immunisation information.",
+			"documentSubTypes": [
+				{
+					"code": "60591-5",
+					"codeSystem": "2.16.840.1.113883.6.1",
+					"codeSystemName": "LOINC",
+					"category": "Clinical Document",
+					"displayName": "Shared Health Summary",
+					"description": "The shared health summary provides key pieces of information about an individual's health status, facilitating care across their entire healthcare domain. Nominated healthcare providers author a shared health summary during or soon after a consultation with a patient. It might contain information about allergies and adverse reactions, past medical history and or immunisation information.",
+					"activationDate": "2010-01-01T00:00:00",
+					"deprecationDateSpecified": false,
+					"retirementDateSpecified": false,
+					"actors": [
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": true,
+								"recommendedSpecified": true
+							},
+							"type": "CIS",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": true,
+								"recommendedSpecified": true
+							},
+							"type": "CSP",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": null,
+							"type": "CRP",
+							"typeSpecified": true
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"relationshipSpecified": true,
+							"Value": "Continuity of Care"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "57133-1",
+			"codeSystem": "2.16.840.1.113883.6.1",
+			"codeSystemName": "LOINC",
+			"displayName": "e-Referral",
+			"documentGenerationClassification": "Document",
+			"actors": [
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": true,
+						"recommendedSpecified": true
+					},
+					"type": "CIS",
+					"typeSpecified": true
+				},
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": true,
+						"recommendedSpecified": true
+					},
+					"type": "CSP",
+					"typeSpecified": true
+				}
+			],
+			"description": "Referrals are communications with the intention of initiating a transfer of responsibility for some aspects of a consumer's ongoing management from one provider to another across a range of healthcare and human services fields.",
+			"documentSubTypes": [
+				{
+					"code": "57133-1",
+					"codeSystem": "2.16.840.1.113883.6.1",
+					"codeSystemName": "LOINC",
+					"category": "Clinical Document",
+					"displayName": "e-Referral",
+					"description": "Referrals are communications with the intention of initiating a transfer of responsibility for some aspects of a consumer's ongoing management from one provider to another across a range of healthcare and human services fields.",
+					"activationDate": "2010-01-01T00:00:00",
+					"deprecationDateSpecified": false,
+					"retirementDateSpecified": false,
+					"actors": [
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": true,
+								"recommendedSpecified": true
+							},
+							"type": "CIS",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": true,
+								"recommendedSpecified": true
+							},
+							"type": "CSP",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": null,
+							"type": "CRP",
+							"typeSpecified": true
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"relationshipSpecified": true,
+							"Value": "Continuity of Care"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "51852-2",
+			"codeSystem": "2.16.840.1.113883.6.1",
+			"codeSystemName": "LOINC",
+			"displayName": "Specialist Letter",
+			"documentGenerationClassification": "Document",
+			"actors": [
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": true,
+						"recommendedSpecified": true
+					},
+					"type": "CIS",
+					"typeSpecified": true
+				},
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": true,
+						"recommendedSpecified": true
+					},
+					"type": "CSP",
+					"typeSpecified": true
+				}
+			],
+			"description": "Specialist letters are used in replying to a referral or reporting on a health event. They contain information related to the event or the requested diagnosis or treatment by a specialist.",
+			"documentSubTypes": [
+				{
+					"code": "51852-2",
+					"codeSystem": "2.16.840.1.113883.6.1",
+					"codeSystemName": "LOINC",
+					"category": "Clinical Document",
+					"displayName": "Specialist Letter",
+					"description": "Specialist letters are used in replying to a referral or reporting on a health event. They contain information related to the event or the requested diagnosis or treatment by a specialist.",
+					"activationDate": "2010-01-01T00:00:00",
+					"deprecationDateSpecified": false,
+					"retirementDateSpecified": false,
+					"actors": [
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": true,
+								"recommendedSpecified": true
+							},
+							"type": "CIS",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": true,
+								"recommendedSpecified": true
+							},
+							"type": "CSP",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": null,
+							"type": "CRP",
+							"typeSpecified": true
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"relationshipSpecified": true,
+							"Value": "Continuity of Care"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "18842-5",
+			"codeSystem": "2.16.840.1.113883.6.1",
+			"codeSystemName": "LOINC",
+			"displayName": "Discharge Summary",
+			"documentGenerationClassification": "Document",
+			"actors": [
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": true,
+						"recommendedSpecified": true
+					},
+					"type": "CIS",
+					"typeSpecified": true
+				},
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": true,
+						"recommendedSpecified": true
+					},
+					"type": "CSP",
+					"typeSpecified": true
+				}
+			],
+			"description": "Discharge Summary documents support the transfer of a patient from a hospital back to the care of their nominated primary healthcare provider. They capture details about the patient's hospital stay, including the diagnosis, diagnostic procedures performed, the prognosis, medications prescribed and follow-up actions recommended.",
+			"documentSubTypes": [
+				{
+					"code": "18842-5",
+					"codeSystem": "2.16.840.1.113883.6.1",
+					"codeSystemName": "LOINC",
+					"category": "Clinical Document",
+					"displayName": "Discharge Summary",
+					"description": "Discharge Summary documents support the transfer of a patient from a hospital back to the care of their nominated primary healthcare provider. They capture details about the patient's hospital stay, including the diagnosis, diagnostic procedures performed, the prognosis, medications prescribed and follow-up actions recommended.",
+					"activationDate": "2010-01-01T00:00:00",
+					"deprecationDateSpecified": false,
+					"retirementDateSpecified": false,
+					"actors": [
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": true,
+								"recommendedSpecified": true
+							},
+							"type": "CIS",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": true,
+								"recommendedSpecified": true
+							},
+							"type": "CSP",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": null,
+							"type": "CRP",
+							"typeSpecified": true
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"relationshipSpecified": true,
+							"Value": "Continuity of Care"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "34133-9",
+			"codeSystem": "2.16.840.1.113883.6.1",
+			"codeSystemName": "LOINC",
+			"displayName": "Event Summary",
+			"documentGenerationClassification": "Document",
+			"actors": [
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": true,
+						"recommendedSpecified": true
+					},
+					"type": "CIS",
+					"typeSpecified": true
+				},
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": true,
+						"recommendedSpecified": true
+					},
+					"type": "CSP",
+					"typeSpecified": true
+				}
+			],
+			"description": "Event Summary documents are used to capture key health information about significant healthcare events that are relevant to the ongoing care of an individual.",
+			"documentSubTypes": [
+				{
+					"code": "34133-9",
+					"codeSystem": "2.16.840.1.113883.6.1",
+					"codeSystemName": "LOINC",
+					"category": "Clinical Document",
+					"displayName": "Event Summary",
+					"description": "Event Summary documents are used to capture key health information about significant healthcare events that are relevant to the ongoing care of an individual.",
+					"activationDate": "2010-01-01T00:00:00",
+					"deprecationDateSpecified": false,
+					"retirementDateSpecified": false,
+					"actors": [
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": true,
+								"recommendedSpecified": true
+							},
+							"type": "CIS",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": true,
+								"recommendedSpecified": true
+							},
+							"type": "CSP",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": null,
+							"type": "CRP",
+							"typeSpecified": true
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"relationshipSpecified": true,
+							"Value": "Continuity of Care"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "100.16650",
+			"codeSystem": "1.2.36.1.2001.1001.101",
+			"codeSystemName": "NCTIS",
+			"displayName": "Pharmaceutical Benefits Report",
+			"documentGenerationClassification": "Document",
+			"actors": [
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": true,
+						"recommendedSpecified": true
+					},
+					"type": "CIS",
+					"typeSpecified": true
+				},
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": true,
+						"recommendedSpecified": true
+					},
+					"type": "CSP",
+					"typeSpecified": true
+				}
+			],
+			"description": "Information about pharmaceutical items prescribed and dispensed to an individual that were partially or fully funded under the Pharmaceutical Benefit Schedule (PBS) or Repatriation Pharmaceutical Benefits Scheme (RPBS).",
+			"documentSubTypes": [
+				{
+					"code": "100.16650",
+					"codeSystem": "1.2.36.1.2001.1001.101",
+					"codeSystemName": "NCTIS",
+					"category": "Medicare Document",
+					"displayName": "Pharmaceutical Benefits Report",
+					"description": "Information about pharmaceutical items prescribed and dispensed to an individual that were partially or fully funded under the Pharmaceutical Benefit Schedule (PBS) or Repatriation Pharmaceutical Benefits Scheme (RPBS).",
+					"activationDate": "2010-01-01T00:00:00",
+					"deprecationDateSpecified": false,
+					"retirementDateSpecified": false,
+					"actors": [
+						{
+							"uploadSpecified": false,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": true,
+								"recommendedSpecified": true
+							},
+							"type": "CIS",
+							"typeSpecified": true
+						},
+						{
+							"uploadSpecified": false,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": true,
+								"recommendedSpecified": true
+							},
+							"type": "CSP",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Medicare",
+							"uploadSpecified": true,
+							"download": null,
+							"type": "CRP",
+							"typeSpecified": true
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"relationshipSpecified": true,
+							"Value": "Continuity of Care"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "100.16671",
+			"codeSystem": "1.2.36.1.2001.1001.101",
+			"codeSystemName": "NCTIS",
+			"displayName": "Australian Organ Donor Register",
+			"documentGenerationClassification": "Document",
+			"actors": [
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": true,
+						"recommendedSpecified": true
+					},
+					"type": "CIS",
+					"typeSpecified": true
+				},
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": true,
+						"recommendedSpecified": true
+					},
+					"type": "CSP",
+					"typeSpecified": true
+				}
+			],
+			"description": "The Australian Organ Donor Register (AODR) is the national register for people to record their decision about becoming an organ and tissue donor. The AODR is the only national register for people to record their decision about becoming an organ and tissue donor for transplantation after death. ",
+			"documentSubTypes": [
+				{
+					"code": "100.16671",
+					"codeSystem": "1.2.36.1.2001.1001.101",
+					"codeSystemName": "NCTIS",
+					"category": "Medicare Document",
+					"displayName": "Australian Organ Donor Register",
+					"description": "The Australian Organ Donor Register (AODR) is the national register for people to record their decision about becoming an organ and tissue donor. The AODR is the only national register for people to record their decision about becoming an organ and tissue donor for transplantation after death. ",
+					"activationDate": "2010-01-01T00:00:00",
+					"deprecationDateSpecified": false,
+					"retirementDateSpecified": false,
+					"actors": [
+						{
+							"uploadSpecified": false,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": true,
+								"recommendedSpecified": true
+							},
+							"type": "CIS",
+							"typeSpecified": true
+						},
+						{
+							"uploadSpecified": false,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": true,
+								"recommendedSpecified": true
+							},
+							"type": "CSP",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Medicare",
+							"uploadSpecified": true,
+							"download": null,
+							"type": "CRP",
+							"typeSpecified": true
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"relationshipSpecified": true,
+							"Value": "Health Program"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "100.17042",
+			"codeSystem": "1.2.36.1.2001.1001.101",
+			"codeSystemName": "NCTIS",
+			"displayName": "Australian Immunisation Register",
+			"documentGenerationClassification": "Document",
+			"actors": [
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": true,
+						"recommendedSpecified": true
+					},
+					"type": "CIS",
+					"typeSpecified": true
+				},
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": true,
+						"recommendedSpecified": true
+					},
+					"type": "CSP",
+					"typeSpecified": true
+				}
+			],
+			"description": "The Australian Immunisation Register (AIR) (Formally the Australian Childhood Immunisation Register) is a national register that records vaccinations given to people of all ages in Australia.",
+			"documentSubTypes": [
+				{
+					"code": "100.17042",
+					"codeSystem": "1.2.36.1.2001.1001.101",
+					"codeSystemName": "NCTIS",
+					"category": "Medicare Document",
+					"displayName": "Australian Immunisation Register",
+					"description": "The Australian Immunisation Register (AIR) (Formally the Australian Childhood Immunisation Register) is a national register that records vaccinations given to people of all ages in Australia.",
+					"activationDate": "2010-01-01T00:00:00",
+					"deprecationDateSpecified": false,
+					"retirementDateSpecified": false,
+					"actors": [
+						{
+							"uploadSpecified": false,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": true,
+								"recommendedSpecified": true
+							},
+							"type": "CIS",
+							"typeSpecified": true
+						},
+						{
+							"uploadSpecified": false,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": true,
+								"recommendedSpecified": true
+							},
+							"type": "CSP",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Medicare",
+							"uploadSpecified": true,
+							"download": null,
+							"type": "CRP",
+							"typeSpecified": true
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"relationshipSpecified": true,
+							"Value": "Health Program"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "100.16644",
+			"codeSystem": "1.2.36.1.2001.1001.101",
+			"codeSystemName": "NCTIS",
+			"displayName": "Medicare/DVA Benefits Report",
+			"documentGenerationClassification": "Document",
+			"actors": [
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": false,
+						"recommendedSpecified": true
+					},
+					"type": "CIS",
+					"typeSpecified": true
+				},
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": false,
+						"recommendedSpecified": true
+					},
+					"type": "CSP",
+					"typeSpecified": true
+				}
+			],
+			"description": "Information about a Medicare or DVA partially or fully funded service under the Medicare Benefits Schedule or Department of Veterans' Affairs (DVA).",
+			"documentSubTypes": [
+				{
+					"code": "100.16644",
+					"codeSystem": "1.2.36.1.2001.1001.101",
+					"codeSystemName": "NCTIS",
+					"category": "Medicare Document",
+					"displayName": "Medicare/DVA Benefits Report",
+					"description": "Information about a Medicare or DVA partially or fully funded service under the Medicare Benefits Schedule or Department of Veterans' Affairs (DVA).",
+					"activationDate": "2010-01-01T00:00:00",
+					"deprecationDateSpecified": false,
+					"retirementDateSpecified": false,
+					"actors": [
+						{
+							"uploadSpecified": false,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": true,
+								"recommendedSpecified": true
+							},
+							"type": "CIS",
+							"typeSpecified": true
+						},
+						{
+							"uploadSpecified": false,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": true,
+								"recommendedSpecified": true
+							},
+							"type": "CSP",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Medicare",
+							"uploadSpecified": true,
+							"download": null,
+							"type": "CRP",
+							"typeSpecified": true
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"relationshipSpecified": true,
+							"Value": "Health Program"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "100.16767",
+			"codeSystem": "1.2.36.1.2001.1001.101",
+			"codeSystemName": "NCTIS",
+			"displayName": "Medicare Overview",
+			"documentGenerationClassification": "DocumentView",
+			"actors": [
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": false,
+						"requestableSpecified": true,
+						"recommended": false,
+						"recommendedSpecified": true
+					},
+					"type": "CIS",
+					"typeSpecified": true
+				},
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": false,
+						"requestableSpecified": true,
+						"recommended": false,
+						"recommendedSpecified": true
+					},
+					"type": "CSP",
+					"typeSpecified": true
+				}
+			],
+			"description": "Medicare Overview documents provide an overview of Medicare-sourced information stored in an individual's My Health Record.",
+			"documentSubTypes": [
+				{
+					"code": "100.16767.1",
+					"codeSystem": "1.2.36.1.2001.1001.101",
+					"codeSystemName": "NCTIS",
+					"category": "Medicare Document",
+					"displayName": "Medicare Overview - all",
+					"description": "Medicare Overview documents provide an overview of Medicare-sourced information stored in an individual's My Health Record.",
+					"activationDate": "2010-01-01T00:00:00",
+					"deprecationDateSpecified": false,
+					"retirementDateSpecified": false,
+					"actors": [
+						{
+							"uploadSpecified": false,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": false,
+								"requestableSpecified": true,
+								"recommended": false,
+								"recommendedSpecified": true
+							},
+							"type": "CIS",
+							"typeSpecified": true
+						},
+						{
+							"uploadSpecified": false,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": false,
+								"requestableSpecified": true,
+								"recommended": false,
+								"recommendedSpecified": true
+							},
+							"type": "CSP",
+							"typeSpecified": true
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"relationshipSpecified": true,
+							"Value": "Health Program"
+						}
+					]
+				},
+				{
+					"code": "100.16767.2",
+					"codeSystem": "1.2.36.1.2001.1001.101",
+					"codeSystemName": "NCTIS",
+					"category": "Medicare Document",
+					"displayName": "Medicare Overview - past 12 months",
+					"description": "Medicare Overview documents provide an overview of Medicare-sourced information stored in an individual's My Health Record.",
+					"activationDate": "2010-01-01T00:00:00",
+					"deprecationDateSpecified": false,
+					"retirementDateSpecified": false,
+					"actors": [
+						{
+							"uploadSpecified": false,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": false,
+								"requestableSpecified": true,
+								"recommended": false,
+								"recommendedSpecified": true
+							},
+							"type": "CIS",
+							"typeSpecified": true
+						},
+						{
+							"uploadSpecified": false,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": false,
+								"requestableSpecified": true,
+								"recommended": false,
+								"recommendedSpecified": true
+							},
+							"type": "CSP",
+							"typeSpecified": true
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"relationshipSpecified": true,
+							"Value": "Health Program"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "100.16764",
+			"codeSystem": "1.2.36.1.2001.1001.101",
+			"codeSystemName": "NCTIS Data Components",
+			"displayName": "eHealth Prescription Record",
+			"documentGenerationClassification": "Document",
+			"actors": [
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": false,
+						"recommendedSpecified": true
+					},
+					"type": "CIS",
+					"typeSpecified": true
+				},
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": false,
+						"recommendedSpecified": true
+					},
+					"type": "CSP",
+					"typeSpecified": true
+				}
+			],
+			"description": "Prescription records are a digital record of prescribed medications. These documents do not represent actual prescriptions, but instead support the sharing of information about medication prescriptions.",
+			"documentSubTypes": [
+				{
+					"code": "100.16764",
+					"codeSystem": "1.2.36.1.2001.1001.101",
+					"codeSystemName": "NCTIS Data Components",
+					"category": "Clinical Document",
+					"displayName": "eHealth Prescription Record",
+					"description": "Prescription records are a digital record of prescribed medications. These documents do not represent actual prescriptions, but instead support the sharing of information about medication prescriptions.",
+					"activationDate": "2010-01-01T00:00:00",
+					"deprecationDateSpecified": false,
+					"retirementDateSpecified": false,
+					"actors": [
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": false,
+								"recommendedSpecified": true
+							},
+							"type": "CIS",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": false,
+								"recommendedSpecified": true
+							},
+							"type": "CSP",
+							"typeSpecified": true
+						},
+						{
+							"upload": "NPDR",
+							"uploadSpecified": true,
+							"download": null,
+							"type": "CRP",
+							"typeSpecified": true
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"relationshipSpecified": true,
+							"Value": "Medicines"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "100.16765",
+			"codeSystem": "1.2.36.1.2001.1001.101",
+			"codeSystemName": "NCTIS Data Components",
+			"displayName": "eHealth Dispense Record",
+			"documentGenerationClassification": "Document",
+			"actors": [
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": false,
+						"recommendedSpecified": true
+					},
+					"type": "CIS",
+					"typeSpecified": true
+				},
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": false,
+						"recommendedSpecified": true
+					},
+					"type": "CSP",
+					"typeSpecified": true
+				}
+			],
+			"description": "Dispense Records are a digital record of dispensed medications by a pharmacist.",
+			"documentSubTypes": [
+				{
+					"code": "100.16765",
+					"codeSystem": "1.2.36.1.2001.1001.101",
+					"codeSystemName": "NCTIS Data Components",
+					"category": "Clinical Document",
+					"displayName": "eHealth Dispense Record",
+					"description": "Dispense Records are a digital record of dispensed medications by a pharmacist.",
+					"activationDate": "2010-01-01T00:00:00",
+					"deprecationDateSpecified": false,
+					"retirementDateSpecified": false,
+					"actors": [
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": false,
+								"recommendedSpecified": true
+							},
+							"type": "CIS",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": false,
+								"recommendedSpecified": true
+							},
+							"type": "CSP",
+							"typeSpecified": true
+						},
+						{
+							"upload": "NPDR",
+							"uploadSpecified": true,
+							"download": null,
+							"type": "CRP",
+							"typeSpecified": true
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"relationshipSpecified": true,
+							"Value": "Medicines"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "56445-0",
+			"codeSystem": "2.16.840.1.113883.6.1",
+			"codeSystemName": "LOINC",
+			"displayName": "Pharmacist Shared Medicines List",
+			"documentGenerationClassification": "Document",
+			"actors": [
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": false,
+						"recommendedSpecified": true
+					},
+					"type": "CIS",
+					"typeSpecified": true
+				},
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": false,
+						"recommendedSpecified": true
+					},
+					"type": "CSP",
+					"typeSpecified": true
+				}
+			],
+			"description": "The Shared Medicine List contains detailed information about medicines the consumer is known to be taking when the list was created. This includes both prescription and non-prescription medicines, including 'over-the-counter' (OTC) medicines and complementary medicines such as vitamins and herbal products.",
+			"documentSubTypes": [
+				{
+					"code": "56445-0",
+					"codeSystem": "2.16.840.1.113883.6.1",
+					"codeSystemName": "LOINC",
+					"category": "Clinical Document",
+					"displayName": "Pharmacist Shared Medicines List",
+					"description": "The Shared Medicine List contains detailed information about medicines the consumer is known to be taking when the list was created. This includes both prescription and non-prescription medicines, including 'over-the-counter' (OTC) medicines and complementary medicines such as vitamins and herbal products.",
+					"activationDate": "2010-01-01T00:00:00",
+					"deprecationDateSpecified": false,
+					"retirementDateSpecified": false,
+					"actors": [
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": false,
+								"recommendedSpecified": true
+							},
+							"type": "CIS",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": false,
+								"recommendedSpecified": true
+							},
+							"type": "CSP",
+							"typeSpecified": true
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"relationshipSpecified": true,
+							"Value": "Medicines"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "100.32002",
+			"codeSystem": "1.2.36.1.2001.1001.101",
+			"codeSystemName": "NCTIS",
+			"displayName": "Medicines View",
+			"documentGenerationClassification": "DocumentView",
+			"actors": [
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": false,
+						"requestableSpecified": true,
+						"recommended": false,
+						"recommendedSpecified": true
+					},
+					"type": "CIS",
+					"typeSpecified": true
+				},
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": false,
+						"requestableSpecified": true,
+						"recommended": false,
+						"recommendedSpecified": true
+					},
+					"type": "CSP",
+					"typeSpecified": true
+				}
+			],
+			"description": "Medicines View Document",
+			"documentSubTypes": [
+				{
+					"code": "100.32002",
+					"codeSystem": "1.2.36.1.2001.1001.101",
+					"codeSystemName": "NCTIS",
+					"category": "Clinical View",
+					"displayName": "Medicines View",
+					"description": "Medicines View Document",
+					"activationDate": "2010-01-01T00:00:00",
+					"deprecationDateSpecified": false,
+					"retirementDateSpecified": false,
+					"actors": [
+						{
+							"uploadSpecified": false,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": false,
+								"requestableSpecified": true,
+								"recommended": false,
+								"recommendedSpecified": true
+							},
+							"type": "CIS",
+							"typeSpecified": true
+						},
+						{
+							"uploadSpecified": false,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": false,
+								"requestableSpecified": true,
+								"recommended": false,
+								"recommendedSpecified": true
+							},
+							"type": "CSP",
+							"typeSpecified": true
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"relationshipSpecified": true,
+							"Value": "Medicines"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "100.32034",
+			"codeSystem": "1.2.36.1.2001.1001.101",
+			"codeSystemName": "NCTIS",
+			"displayName": "Immunisation Consolidated View",
+			"documentGenerationClassification": "DocumentView",
+			"actors": [
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": false,
+						"requestableSpecified": true,
+						"recommended": false,
+						"recommendedSpecified": true
+					},
+					"type": "CIS",
+					"typeSpecified": true
+				},
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": false,
+						"requestableSpecified": true,
+						"recommended": false,
+						"recommendedSpecified": true
+					},
+					"type": "CSP",
+					"typeSpecified": true
+				}
+			],
+			"description": "Immunisation Consolidated View Document",
+			"documentSubTypes": [
+				{
+					"code": "100.32034",
+					"codeSystem": "1.2.36.1.2001.1001.101",
+					"codeSystemName": "NCTIS",
+					"category": "Clinical View",
+					"displayName": "Immunisation Consolidated View",
+					"description": "Immunisation Consolidated View Document",
+					"activationDate": "2010-01-01T00:00:00",
+					"deprecationDateSpecified": false,
+					"retirementDateSpecified": false,
+					"actors": [
+						{
+							"uploadSpecified": false,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": false,
+								"requestableSpecified": true,
+								"recommended": false,
+								"recommendedSpecified": true
+							},
+							"type": "CIS",
+							"typeSpecified": true
+						},
+						{
+							"uploadSpecified": false,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": false,
+								"requestableSpecified": true,
+								"recommended": false,
+								"recommendedSpecified": true
+							},
+							"type": "CSP",
+							"typeSpecified": true
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"relationshipSpecified": true,
+							"Value": "Medicines"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "100.16957",
+			"codeSystem": "1.2.36.1.2001.1001.101",
+			"codeSystemName": "NCTIS Data Components",
+			"displayName": "Diagnostic Imaging Report",
+			"documentGenerationClassification": "Document",
+			"actors": [
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": true,
+						"recommendedSpecified": true
+					},
+					"type": "CIS",
+					"typeSpecified": true
+				},
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": true,
+						"recommendedSpecified": true
+					},
+					"type": "CSP",
+					"typeSpecified": true
+				}
+			],
+			"description": "Diagnostic imaging reports are used to share information about diagnostic imaging examinations via an individual's digital health record. The Diagnostic Imaging Report PDF may contain one or more examinations that are uploaded by the diagnostic imaging provider to the individual's digital health record.",
+			"documentSubTypes": [
+				{
+					"code": "100.16957",
+					"codeSystem": "1.2.36.1.2001.1001.101",
+					"codeSystemName": "NCTIS Data Components",
+					"category": "Clinical Document",
+					"displayName": "Diagnostic Imaging Report",
+					"description": "Diagnostic imaging reports are used to share information about diagnostic imaging examinations via an individual's digital health record. The Diagnostic Imaging Report PDF may contain one or more examinations that are uploaded by the diagnostic imaging provider to the individual's digital health record.",
+					"activationDate": "2010-01-01T00:00:00",
+					"deprecationDateSpecified": false,
+					"retirementDateSpecified": false,
+					"actors": [
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": true,
+								"recommendedSpecified": true
+							},
+							"type": "CIS",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": true,
+								"recommendedSpecified": true
+							},
+							"type": "CSP",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": null,
+							"type": "CRP",
+							"typeSpecified": true
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"relationshipSpecified": true,
+							"Value": "Diagnostics"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "100.32001",
+			"codeSystem": "1.2.36.1.2001.1001.101",
+			"codeSystemName": "NCTIS Data Components",
+			"displayName": "Pathology Report",
+			"documentGenerationClassification": "Document",
+			"actors": [
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": false,
+						"recommendedSpecified": true
+					},
+					"type": "CIS",
+					"typeSpecified": true
+				},
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": false,
+						"recommendedSpecified": true
+					},
+					"type": "CSP",
+					"typeSpecified": true
+				}
+			],
+			"description": "Pathology reports can be used to share information about pathology tests via an individual's digital health record. The Pathology Report PDF may contain one or more tests that are uploaded by the pathology provider to the individual's digital health record.",
+			"documentSubTypes": [
+				{
+					"code": "100.32001",
+					"codeSystem": "1.2.36.1.2001.1001.101",
+					"codeSystemName": "NCTIS Data Components",
+					"category": "Clinical Document",
+					"displayName": "Pathology Report",
+					"description": "Pathology reports can be used to share information about pathology tests via an individual's digital health record. The Pathology Report PDF may contain one or more tests that are uploaded by the pathology provider to the individual's digital health record.",
+					"activationDate": "2010-01-01T00:00:00",
+					"deprecationDateSpecified": false,
+					"retirementDateSpecified": false,
+					"actors": [
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": false,
+								"recommendedSpecified": true
+							},
+							"type": "CIS",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": false,
+								"recommendedSpecified": true
+							},
+							"type": "CSP",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": null,
+							"type": "CRP",
+							"typeSpecified": true
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"relationshipSpecified": true,
+							"Value": "Diagnostics"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "100.32026",
+			"codeSystem": "1.2.36.1.2001.1001.101",
+			"codeSystemName": "NCTIS",
+			"displayName": "Pathology Overview",
+			"documentGenerationClassification": "DocumentView",
+			"actors": [
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": false,
+						"requestableSpecified": true,
+						"recommended": false,
+						"recommendedSpecified": true
+					},
+					"type": "CIS",
+					"typeSpecified": true
+				},
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": false,
+						"requestableSpecified": true,
+						"recommended": false,
+						"recommendedSpecified": true
+					},
+					"type": "CSP",
+					"typeSpecified": true
+				}
+			],
+			"description": "A consolidated overview of some of the Pathology Reports in a patient's record.",
+			"documentSubTypes": [
+				{
+					"code": "100.32026",
+					"codeSystem": "1.2.36.1.2001.1001.101",
+					"codeSystemName": "NCTIS",
+					"category": "Clinical View",
+					"displayName": "Pathology Overview",
+					"description": "A consolidated overview of some of the Pathology Reports in a patient's record.",
+					"activationDate": "2010-01-01T00:00:00",
+					"deprecationDateSpecified": false,
+					"retirementDateSpecified": false,
+					"actors": [
+						{
+							"uploadSpecified": false,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": false,
+								"requestableSpecified": true,
+								"recommended": false,
+								"recommendedSpecified": true
+							},
+							"type": "CIS",
+							"typeSpecified": true
+						},
+						{
+							"uploadSpecified": false,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": false,
+								"requestableSpecified": true,
+								"recommended": false,
+								"recommendedSpecified": true
+							},
+							"type": "CSP",
+							"typeSpecified": true
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"relationshipSpecified": true,
+							"Value": "Diagnostics"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "100.32025",
+			"codeSystem": "1.2.36.1.2001.1001.101",
+			"codeSystemName": "NCTIS",
+			"displayName": "Diagnostic Imaging Overview",
+			"documentGenerationClassification": "DocumentView",
+			"actors": [
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": false,
+						"requestableSpecified": true,
+						"recommended": false,
+						"recommendedSpecified": true
+					},
+					"type": "CIS",
+					"typeSpecified": true
+				},
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": false,
+						"requestableSpecified": true,
+						"recommended": false,
+						"recommendedSpecified": true
+					},
+					"type": "CSP",
+					"typeSpecified": true
+				}
+			],
+			"description": "A consolidated overview of some of the Diagnostic Imaging Reports in a patient's record.",
+			"documentSubTypes": [
+				{
+					"code": "100.32025",
+					"codeSystem": "1.2.36.1.2001.1001.101",
+					"codeSystemName": "NCTIS",
+					"category": "Clinical View",
+					"displayName": "Diagnostic Imaging Overview",
+					"description": "A consolidated overview of some of the Diagnostic Imaging Reports in a patient's record.",
+					"activationDate": "2010-01-01T00:00:00",
+					"deprecationDateSpecified": false,
+					"retirementDateSpecified": false,
+					"actors": [
+						{
+							"uploadSpecified": false,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": false,
+								"requestableSpecified": true,
+								"recommended": false,
+								"recommendedSpecified": true
+							},
+							"type": "CIS",
+							"typeSpecified": true
+						},
+						{
+							"uploadSpecified": false,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": false,
+								"requestableSpecified": true,
+								"recommended": false,
+								"recommendedSpecified": true
+							},
+							"type": "CSP",
+							"typeSpecified": true
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"relationshipSpecified": true,
+							"Value": "Diagnostics"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "100.16975",
+			"codeSystem": "1.2.36.1.2001.1001.101",
+			"codeSystemName": "NCTIS Data Components",
+			"displayName": "Advance Care Information",
+			"documentGenerationClassification": "Document",
+			"actors": [
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": true,
+						"recommendedSpecified": true
+					},
+					"type": "CIS",
+					"typeSpecified": true
+				},
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": true,
+						"recommendedSpecified": true
+					},
+					"type": "CSP",
+					"typeSpecified": true
+				}
+			],
+			"description": "Advance care planning information can include a statement by a competent person expressing decisions about his or her future care, should they become incapable of participating in medical treatment decisions. These statements are currently recorded in paper-based advance care directives. ",
+			"documentSubTypes": [
+				{
+					"code": "100.16998",
+					"codeSystem": "1.2.36.1.2001.1001.101",
+					"codeSystemName": "NCTIS Data Components",
+					"category": "Clinical Document",
+					"displayName": "Advance Care Planning Document",
+					"description": "Advance care planning information can include a statement by a competent person expressing decisions about his or her future care, should they become incapable of participating in medical treatment decisions. These statements are currently recorded in paper-based advance care directives. ",
+					"activationDate": "2010-01-01T00:00:00",
+					"deprecationDateSpecified": false,
+					"retirementDateSpecified": false,
+					"actors": [
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": true,
+								"recommendedSpecified": true
+							},
+							"type": "CIS",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": true,
+								"recommendedSpecified": true
+							},
+							"type": "CSP",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Consumer",
+							"uploadSpecified": true,
+							"download": null,
+							"type": "NCP",
+							"typeSpecified": true
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"relationshipSpecified": true,
+							"Value": "Patient Entered Information"
+						}
+					]
+				},
+				{
+					"code": "100.32016",
+					"codeSystem": "1.2.36.1.2001.1001.101",
+					"codeSystemName": "NCTIS Data Components",
+					"category": "Clinical Document",
+					"displayName": "Goals of Care Document",
+					"description": "The Goals of Care clinical document type is used to capture advance care information and can a statement related to a person's care in the context of a serious illness, as agreed between him/her, his/her family, carers and healthcare team.",
+					"activationDate": "2010-01-01T00:00:00",
+					"deprecationDateSpecified": false,
+					"retirementDateSpecified": false,
+					"actors": [
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": true,
+								"recommendedSpecified": true
+							},
+							"type": "CIS",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": true,
+								"recommendedSpecified": true
+							},
+							"type": "CSP",
+							"typeSpecified": true
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"relationshipSpecified": true,
+							"Value": "Patient Entered Information"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "100.16919",
+			"codeSystem": "1.2.36.1.2001.1001.101",
+			"codeSystemName": "NCTIS Data Components",
+			"displayName": "Child Parent Questionnaire",
+			"documentGenerationClassification": "Document",
+			"actors": [
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": true,
+						"recommendedSpecified": true
+					},
+					"type": "CIS",
+					"typeSpecified": true
+				},
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": true,
+						"recommendedSpecified": true
+					},
+					"type": "CSP",
+					"typeSpecified": true
+				}
+			],
+			"description": "Child Parent Questionnaire Document",
+			"documentSubTypes": [
+				{
+					"code": "100.16919",
+					"codeSystem": "1.2.36.1.2001.1001.101",
+					"codeSystemName": "NCTIS Data Components",
+					"category": "Child eHealth Record (CeHR) Document",
+					"displayName": "Child Parent Questionnaire",
+					"description": "Child Parent Questionnaire Document",
+					"activationDate": "2010-01-01T00:00:00",
+					"deprecationDateSpecified": false,
+					"retirementDateSpecified": false,
+					"actors": [
+						{
+							"uploadSpecified": false,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": true,
+								"recommendedSpecified": true
+							},
+							"type": "CIS",
+							"typeSpecified": true
+						},
+						{
+							"uploadSpecified": false,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": true,
+								"recommendedSpecified": true
+							},
+							"type": "CSP",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Consumer",
+							"uploadSpecified": true,
+							"download": null,
+							"type": "MOS",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Consumer",
+							"uploadSpecified": true,
+							"download": null,
+							"type": "NCP",
+							"typeSpecified": true
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"relationshipSpecified": true,
+							"Value": "Patient Entered Information"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "100.16870",
+			"codeSystem": "1.2.36.1.2001.1001.101",
+			"codeSystemName": "NCTIS Data Components",
+			"displayName": "Consumer Entered Measurements",
+			"documentGenerationClassification": "Document",
+			"actors": [
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": true,
+						"recommendedSpecified": true
+					},
+					"type": "CIS",
+					"typeSpecified": true
+				},
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": true,
+						"recommendedSpecified": true
+					},
+					"type": "CSP",
+					"typeSpecified": true
+				}
+			],
+			"description": "Consumer Entered Measurements Document",
+			"documentSubTypes": [
+				{
+					"code": "100.16870",
+					"codeSystem": "1.2.36.1.2001.1001.101",
+					"codeSystemName": "NCTIS Data Components",
+					"category": "Consumer Document",
+					"displayName": "Consumer Entered Measurements",
+					"description": "Consumer Entered Measurements Document",
+					"activationDate": "2010-01-01T00:00:00",
+					"deprecationDateSpecified": false,
+					"retirementDateSpecified": false,
+					"actors": [
+						{
+							"uploadSpecified": false,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": true,
+								"recommendedSpecified": true
+							},
+							"type": "CIS",
+							"typeSpecified": true
+						},
+						{
+							"uploadSpecified": false,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": true,
+								"recommendedSpecified": true
+							},
+							"type": "CSP",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Consumer",
+							"uploadSpecified": true,
+							"download": null,
+							"type": "MOS",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Consumer",
+							"uploadSpecified": true,
+							"download": null,
+							"type": "NCP",
+							"typeSpecified": true
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"relationshipSpecified": true,
+							"Value": "Patient Entered Information"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "100.16696",
+			"codeSystem": "1.2.36.1.2001.1001.101",
+			"codeSystemName": "NCTIS Data Components",
+			"displayName": "Advance Care Directive Custodian Record",
+			"documentGenerationClassification": "Document",
+			"actors": [
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": true,
+						"recommendedSpecified": true
+					},
+					"type": "CIS",
+					"typeSpecified": true
+				},
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": true,
+						"recommendedSpecified": true
+					},
+					"type": "CSP",
+					"typeSpecified": true
+				}
+			],
+			"description": "The advance care document custodian form provides information about the custodian of the individual's advance care directive. Such documents do not contain the advance care directive itself.",
+			"documentSubTypes": [
+				{
+					"code": "100.16696",
+					"codeSystem": "1.2.36.1.2001.1001.101",
+					"codeSystemName": "NCTIS Data Components",
+					"category": "Consumer Document",
+					"displayName": "Advance Care Directive Custodian Record",
+					"description": "The advance care document custodian form provides information about the custodian of the individual's advance care directive. Such documents do not contain the advance care directive itself.",
+					"activationDate": "2010-01-01T00:00:00",
+					"deprecationDateSpecified": false,
+					"retirementDateSpecified": false,
+					"actors": [
+						{
+							"uploadSpecified": false,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": true,
+								"recommendedSpecified": true
+							},
+							"type": "CIS",
+							"typeSpecified": true
+						},
+						{
+							"uploadSpecified": false,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": true,
+								"recommendedSpecified": true
+							},
+							"type": "CSP",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Consumer",
+							"uploadSpecified": true,
+							"download": null,
+							"type": "MOS",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Consumer",
+							"uploadSpecified": true,
+							"download": null,
+							"type": "NCP",
+							"typeSpecified": true
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"relationshipSpecified": true,
+							"Value": "Patient Entered Information"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "100.16920",
+			"codeSystem": "1.2.36.1.2001.1001.101",
+			"codeSystemName": "NCTIS Data Components",
+			"displayName": "Health Check Assessment",
+			"documentGenerationClassification": "Document",
+			"actors": [
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": false,
+						"recommendedSpecified": true
+					},
+					"type": "CIS",
+					"typeSpecified": true
+				},
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": false,
+						"recommendedSpecified": true
+					},
+					"type": "CSP",
+					"typeSpecified": true
+				}
+			],
+			"description": "Health Check Assessment Document",
+			"documentSubTypes": [
+				{
+					"code": "100.16920",
+					"codeSystem": "1.2.36.1.2001.1001.101",
+					"codeSystemName": "NCTIS Data Components",
+					"category": "Consumer Document",
+					"displayName": "Health Check Assessment",
+					"description": "Health Check Assessment Document",
+					"activationDate": "2010-01-01T00:00:00",
+					"deprecationDateSpecified": false,
+					"retirementDateSpecified": false,
+					"actors": [
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": false,
+								"recommendedSpecified": true
+							},
+							"type": "CIS",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": false,
+								"recommendedSpecified": true
+							},
+							"type": "CSP",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Default",
+							"uploadSpecified": true,
+							"download": null,
+							"type": "NPP",
+							"typeSpecified": true
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"relationshipSpecified": true,
+							"Value": "Patient Entered Information"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "100.16812",
+			"codeSystem": "1.2.36.1.2001.1001.101",
+			"codeSystemName": "NCTIS Data Components",
+			"displayName": "Consumer Entered Achievements",
+			"documentGenerationClassification": "Document",
+			"actors": [
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": false,
+						"recommendedSpecified": true
+					},
+					"type": "CIS",
+					"typeSpecified": true
+				},
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": false,
+						"recommendedSpecified": true
+					},
+					"type": "CSP",
+					"typeSpecified": true
+				}
+			],
+			"description": "Consumer Entered Achievements Document",
+			"documentSubTypes": [
+				{
+					"code": "100.16812",
+					"codeSystem": "1.2.36.1.2001.1001.101",
+					"codeSystemName": "NCTIS Data Components",
+					"category": "Consumer Document",
+					"displayName": "Consumer Entered Achievements",
+					"description": "Consumer Entered Achievements Document",
+					"activationDate": "2010-01-01T00:00:00",
+					"deprecationDateSpecified": false,
+					"retirementDateSpecified": false,
+					"actors": [
+						{
+							"uploadSpecified": false,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": false,
+								"recommendedSpecified": true
+							},
+							"type": "CIS",
+							"typeSpecified": true
+						},
+						{
+							"uploadSpecified": false,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": false,
+								"recommendedSpecified": true
+							},
+							"type": "CSP",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Consumer",
+							"uploadSpecified": true,
+							"download": null,
+							"type": "MOS",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Consumer",
+							"uploadSpecified": true,
+							"download": null,
+							"type": "NCP",
+							"typeSpecified": true
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"relationshipSpecified": true,
+							"Value": "Patient Entered Information"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "100.16685",
+			"codeSystem": "1.2.36.1.2001.1001.101",
+			"codeSystemName": "NCTIS Data Components",
+			"displayName": "Consumer Entered Health Summary",
+			"documentGenerationClassification": "Document",
+			"actors": [
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": false,
+						"recommendedSpecified": true
+					},
+					"type": "CIS",
+					"typeSpecified": true
+				},
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": true,
+						"accessibleSpecified": true,
+						"requestable": true,
+						"requestableSpecified": true,
+						"recommended": false,
+						"recommendedSpecified": true
+					},
+					"type": "CSP",
+					"typeSpecified": true
+				}
+			],
+			"description": "Consumer Entered Health Summary Document",
+			"documentSubTypes": [
+				{
+					"code": "100.16685",
+					"codeSystem": "1.2.36.1.2001.1001.101",
+					"codeSystemName": "NCTIS Data Components",
+					"category": "Consumer Document",
+					"displayName": "Consumer Entered Health Summary",
+					"description": "Consumer Entered Health Summary Document",
+					"activationDate": "2010-01-01T00:00:00",
+					"deprecationDateSpecified": false,
+					"retirementDateSpecified": false,
+					"actors": [
+						{
+							"uploadSpecified": false,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": false,
+								"recommendedSpecified": true
+							},
+							"type": "CIS",
+							"typeSpecified": true
+						},
+						{
+							"uploadSpecified": false,
+							"download": {
+								"accessible": true,
+								"accessibleSpecified": true,
+								"requestable": true,
+								"requestableSpecified": true,
+								"recommended": false,
+								"recommendedSpecified": true
+							},
+							"type": "CSP",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Consumer",
+							"uploadSpecified": true,
+							"download": null,
+							"type": "MOS",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Consumer",
+							"uploadSpecified": true,
+							"download": null,
+							"type": "NCP",
+							"typeSpecified": true
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"relationshipSpecified": true,
+							"Value": "Patient Entered Information"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "100.16681",
+			"codeSystem": "1.2.36.1.2001.1001.101",
+			"codeSystemName": "NCTIS Data Components",
+			"displayName": "Consumer Entered Notes",
+			"documentGenerationClassification": "Document",
+			"actors": [
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": false,
+						"accessibleSpecified": true,
+						"requestable": false,
+						"requestableSpecified": true,
+						"recommended": false,
+						"recommendedSpecified": true
+					},
+					"type": "CIS",
+					"typeSpecified": true
+				},
+				{
+					"uploadSpecified": false,
+					"download": {
+						"accessible": false,
+						"accessibleSpecified": true,
+						"requestable": false,
+						"requestableSpecified": true,
+						"recommended": false,
+						"recommendedSpecified": true
+					},
+					"type": "CSP",
+					"typeSpecified": true
+				}
+			],
+			"description": "Consumer Entered Notes Document",
+			"documentSubTypes": [
+				{
+					"code": "100.16681",
+					"codeSystem": "1.2.36.1.2001.1001.101",
+					"codeSystemName": "NCTIS Data Components",
+					"category": "Consumer Document",
+					"displayName": "Consumer Entered Notes",
+					"description": "Consumer Entered Notes Document",
+					"activationDate": "2010-01-01T00:00:00",
+					"deprecationDateSpecified": false,
+					"retirementDateSpecified": false,
+					"actors": [
+						{
+							"uploadSpecified": false,
+							"download": {
+								"accessible": false,
+								"accessibleSpecified": true,
+								"requestable": false,
+								"requestableSpecified": true,
+								"recommended": false,
+								"recommendedSpecified": true
+							},
+							"type": "CIS",
+							"typeSpecified": true
+						},
+						{
+							"uploadSpecified": false,
+							"download": {
+								"accessible": false,
+								"accessibleSpecified": true,
+								"requestable": false,
+								"requestableSpecified": true,
+								"recommended": false,
+								"recommendedSpecified": true
+							},
+							"type": "CSP",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Consumer",
+							"uploadSpecified": true,
+							"download": null,
+							"type": "MOS",
+							"typeSpecified": true
+						},
+						{
+							"upload": "Consumer",
+							"uploadSpecified": true,
+							"download": null,
+							"type": "NCP",
+							"typeSpecified": true
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"relationshipSpecified": true,
+							"Value": "Patient Entered Information"
+						}
+					]
+				}
+			]
+		}
+	]
 }
