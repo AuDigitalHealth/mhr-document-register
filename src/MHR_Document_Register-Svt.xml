@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DocumentRegister xmlns="http://ns.electronichealth.net.au/pcehr/xsd/common/DocumentCoreElements/1.0">
-	<creationDate>2022-10-19T06:39:48.2748382Z</creationDate>
-	<version>2</version>
+	<creationDate>2022-11-25T05:59:34.3091565Z</creationDate>
+	<version>3</version>
 	<tags>
 		<tag>
 			<name>Continuity of Care</name>
@@ -147,6 +147,84 @@
 					<name relationship="Primary">Continuity of Care</name>
 				</tags>
 			</documentSubTypes>
+			<documentSubTypes>
+				<code>93899-3 </code>
+				<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+				<codeSystemName>LOINC</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>Psychiatry Letter</displayName>
+				<description>Psychiatry Letters are used in replying to a referral or reporting on a health event. They contain information related to the event or the requested diagnosis or treatment, by a psychiatrist.</description>
+				<activationDate>2022-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Default</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Continuity of Care</name>
+				</tags>
+			</documentSubTypes>
+			<documentSubTypes>
+				<code>85158-4 </code>
+				<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+				<codeSystemName>LOINC</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>Pharmacology Letter</displayName>
+				<description>Pharmacology Letters are used in replying to a referral or reporting on a health event. They contain information related to the event or the requested diagnosis or treatment, by a pharmacologist.</description>
+				<activationDate>2022-01-01</activationDate>
+				<deprecationDate>2022-10-01</deprecationDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Default</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Continuity of Care</name>
+				</tags>
+			</documentSubTypes>
+			<documentSubTypes>
+				<code>68620-4 </code>
+				<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+				<codeSystemName>LOINC</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>Adolescent Medicine Hospital Letter</displayName>
+				<description>Adolescent Medicine Hospital Letters are used to reply to a referral or to report on a health event. They contain information related to the event or the requested diagnosis or treatment, by an adolescent medicine specialist from a hospital setting.</description>
+				<activationDate>2022-01-01</activationDate>
+				<deprecationDate>2022-10-01</deprecationDate>
+				<retirementDate>2022-10-14</retirementDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Default</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Continuity of Care</name>
+				</tags>
+			</documentSubTypes>
 		</documentType>
 		<documentType>
 			<code>18842-5</code>
@@ -188,6 +266,84 @@
 					<name relationship="Primary">Continuity of Care</name>
 				</tags>
 			</documentSubTypes>
+			<documentSubTypes>
+				<code>83921-7 </code>
+				<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+				<codeSystemName>LOINC</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>Recreational Therapy Discharge summary</displayName>
+				<description>Recreational Therapy Discharge Summary documents support the transfer of a patient from a recreational therapy facility back to the care of their nominated primary healthcare provider. They capture details about the patient's stay, including the diagnosis, diagnostic procedures performed, the prognosis, medications prescribed and follow-up actions recommended.</description>
+				<activationDate>2022-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Default</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Continuity of Care</name>
+				</tags>
+			</documentSubTypes>
+			<documentSubTypes>
+				<code>68653-5 </code>
+				<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+				<codeSystemName>LOINC</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>Clinical Genetics Discharge Summary</displayName>
+				<description>Clinical Genetics Discharge Summary documents support the transfer of a patient from a clinical genetics facility back to the care of their nominated primary healthcare provider. They capture details about the patient's stay, including the diagnosis, diagnostic procedures performed, the prognosis, medications prescribed and follow-up actions recommended.</description>
+				<activationDate>2022-01-01</activationDate>
+				<deprecationDate>2022-10-01</deprecationDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Default</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Continuity of Care</name>
+				</tags>
+			</documentSubTypes>
+			<documentSubTypes>
+				<code>68674-1 </code>
+				<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+				<codeSystemName>LOINC</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>Multi-Specialty Program Discharge Summary</displayName>
+				<description>Multi-Specialty Program Discharge Summary documents support the transfer of a patient from a facility back to the care of their nominated primary healthcare provider. They capture details from multiple specialists regarding the patient's stay, including the diagnosis, diagnostic procedures performed, the prognosis, medications prescribed and follow-up actions recommended.</description>
+				<activationDate>2022-01-01</activationDate>
+				<deprecationDate>2022-10-01</deprecationDate>
+				<retirementDate>2022-10-14</retirementDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Default</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Continuity of Care</name>
+				</tags>
+			</documentSubTypes>
 		</documentType>
 		<documentType>
 			<code>34133-9</code>
@@ -212,6 +368,84 @@
 				<displayName>Event Summary</displayName>
 				<description>Event Summary documents are used to capture key health information about significant healthcare events that are relevant to the ongoing care of an individual.</description>
 				<activationDate>2010-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Default</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Continuity of Care</name>
+				</tags>
+			</documentSubTypes>
+			<documentSubTypes>
+				<code>34868-0 </code>
+				<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+				<codeSystemName>LOINC</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>Orthopaedic Surgery - Surgical Operation Note</displayName>
+				<description>Orthopaedic Surgery - Surgical Operation Note documents are used to record key information related to an orthopaedic surgical event of an individual.</description>
+				<activationDate>2022-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Default</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Continuity of Care</name>
+				</tags>
+			</documentSubTypes>
+			<documentSubTypes>
+				<code>84174-2</code>
+				<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+				<codeSystemName>LOINC</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>Interventional Cardiology Note</displayName>
+				<description>Interventional Cardiology Note documents are used to capture key health information relevant to an individual's interventional cardiology treatment.</description>
+				<activationDate>2022-01-01</activationDate>
+				<deprecationDate>2022-10-01</deprecationDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Default</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Continuity of Care</name>
+				</tags>
+			</documentSubTypes>
+			<documentSubTypes>
+				<code>67865-6 </code>
+				<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+				<codeSystemName>LOINC</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>Outpatient Supervisory Note</displayName>
+				<description>Outpatient Supervisory Note documents are used to capture a supervisor's notes regarding significiant healthcare events of an outpatient.</description>
+				<activationDate>2022-01-01</activationDate>
+				<deprecationDate>2022-10-01</deprecationDate>
+				<retirementDate>2022-10-14</retirementDate>
 				<actors>
 					<actor type="CIS">
 						<upload>Default</upload>

@@ -1,6 +1,6 @@
 {
-	"creationDate": "2022-10-19T06:39:48.2748382Z",
-	"version": 2,
+	"creationDate": "2022-11-25T05:59:34.3091565Z",
+	"version": 3,
 	"tags": [
 		{
 			"name": "Continuity of Care",
@@ -225,6 +225,129 @@
 							"Value": "Continuity of Care"
 						}
 					]
+				},
+				{
+					"code": "93899-3 ",
+					"codeSystem": "2.16.840.1.113883.6.1",
+					"codeSystemName": "LOINC",
+					"category": "Clinical Document",
+					"displayName": "Psychiatry Letter",
+					"description": "Psychiatry Letters are used in replying to a referral or reporting on a health event. They contain information related to the event or the requested diagnosis or treatment, by a psychiatrist.",
+					"activationDate": "2022-01-01T00:00:00",
+					"actors": [
+						{
+							"upload": "Default",
+							"download": {
+								"accessible": true,
+								"requestable": true,
+								"recommended": true
+							},
+							"type": "CIS"
+						},
+						{
+							"upload": "Default",
+							"download": {
+								"accessible": true,
+								"requestable": true,
+								"recommended": true
+							},
+							"type": "CSP"
+						},
+						{
+							"upload": "Default",
+							"download": null,
+							"type": "CRP"
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"Value": "Continuity of Care"
+						}
+					]
+				},
+				{
+					"code": "85158-4 ",
+					"codeSystem": "2.16.840.1.113883.6.1",
+					"codeSystemName": "LOINC",
+					"category": "Clinical Document",
+					"displayName": "Pharmacology Letter",
+					"description": "Pharmacology Letters are used in replying to a referral or reporting on a health event. They contain information related to the event or the requested diagnosis or treatment, by a pharmacologist.",
+					"activationDate": "2022-01-01T00:00:00",
+					"deprecationDate": "2022-10-01T00:00:00",
+					"actors": [
+						{
+							"upload": "Default",
+							"download": {
+								"accessible": true,
+								"requestable": true,
+								"recommended": true
+							},
+							"type": "CIS"
+						},
+						{
+							"upload": "Default",
+							"download": {
+								"accessible": true,
+								"requestable": true,
+								"recommended": true
+							},
+							"type": "CSP"
+						},
+						{
+							"upload": "Default",
+							"download": null,
+							"type": "CRP"
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"Value": "Continuity of Care"
+						}
+					]
+				},
+				{
+					"code": "68620-4 ",
+					"codeSystem": "2.16.840.1.113883.6.1",
+					"codeSystemName": "LOINC",
+					"category": "Clinical Document",
+					"displayName": "Adolescent Medicine Hospital Letter",
+					"description": "Adolescent Medicine Hospital Letters are used to reply to a referral or to report on a health event. They contain information related to the event or the requested diagnosis or treatment, by an adolescent medicine specialist from a hospital setting.",
+					"activationDate": "2022-01-01T00:00:00",
+					"deprecationDate": "2022-10-01T00:00:00",
+					"retirementDate": "2022-10-14T00:00:00",
+					"actors": [
+						{
+							"upload": "Default",
+							"download": {
+								"accessible": true,
+								"requestable": true,
+								"recommended": true
+							},
+							"type": "CIS"
+						},
+						{
+							"upload": "Default",
+							"download": {
+								"accessible": true,
+								"requestable": true,
+								"recommended": true
+							},
+							"type": "CSP"
+						},
+						{
+							"upload": "Default",
+							"download": null,
+							"type": "CRP"
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"Value": "Continuity of Care"
+						}
+					]
 				}
 			]
 		},
@@ -293,6 +416,129 @@
 							"Value": "Continuity of Care"
 						}
 					]
+				},
+				{
+					"code": "83921-7 ",
+					"codeSystem": "2.16.840.1.113883.6.1",
+					"codeSystemName": "LOINC",
+					"category": "Clinical Document",
+					"displayName": "Recreational Therapy Discharge summary",
+					"description": "Recreational Therapy Discharge Summary documents support the transfer of a patient from a recreational therapy facility back to the care of their nominated primary healthcare provider. They capture details about the patient's stay, including the diagnosis, diagnostic procedures performed, the prognosis, medications prescribed and follow-up actions recommended.",
+					"activationDate": "2022-01-01T00:00:00",
+					"actors": [
+						{
+							"upload": "Default",
+							"download": {
+								"accessible": true,
+								"requestable": true,
+								"recommended": true
+							},
+							"type": "CIS"
+						},
+						{
+							"upload": "Default",
+							"download": {
+								"accessible": true,
+								"requestable": true,
+								"recommended": true
+							},
+							"type": "CSP"
+						},
+						{
+							"upload": "Default",
+							"download": null,
+							"type": "CRP"
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"Value": "Continuity of Care"
+						}
+					]
+				},
+				{
+					"code": "68653-5 ",
+					"codeSystem": "2.16.840.1.113883.6.1",
+					"codeSystemName": "LOINC",
+					"category": "Clinical Document",
+					"displayName": "Clinical Genetics Discharge Summary",
+					"description": "Clinical Genetics Discharge Summary documents support the transfer of a patient from a clinical genetics facility back to the care of their nominated primary healthcare provider. They capture details about the patient's stay, including the diagnosis, diagnostic procedures performed, the prognosis, medications prescribed and follow-up actions recommended.",
+					"activationDate": "2022-01-01T00:00:00",
+					"deprecationDate": "2022-10-01T00:00:00",
+					"actors": [
+						{
+							"upload": "Default",
+							"download": {
+								"accessible": true,
+								"requestable": true,
+								"recommended": true
+							},
+							"type": "CIS"
+						},
+						{
+							"upload": "Default",
+							"download": {
+								"accessible": true,
+								"requestable": true,
+								"recommended": true
+							},
+							"type": "CSP"
+						},
+						{
+							"upload": "Default",
+							"download": null,
+							"type": "CRP"
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"Value": "Continuity of Care"
+						}
+					]
+				},
+				{
+					"code": "68674-1 ",
+					"codeSystem": "2.16.840.1.113883.6.1",
+					"codeSystemName": "LOINC",
+					"category": "Clinical Document",
+					"displayName": "Multi-Specialty Program Discharge Summary",
+					"description": "Multi-Specialty Program Discharge Summary documents support the transfer of a patient from a facility back to the care of their nominated primary healthcare provider. They capture details from multiple specialists regarding the patient's stay, including the diagnosis, diagnostic procedures performed, the prognosis, medications prescribed and follow-up actions recommended.",
+					"activationDate": "2022-01-01T00:00:00",
+					"deprecationDate": "2022-10-01T00:00:00",
+					"retirementDate": "2022-10-14T00:00:00",
+					"actors": [
+						{
+							"upload": "Default",
+							"download": {
+								"accessible": true,
+								"requestable": true,
+								"recommended": true
+							},
+							"type": "CIS"
+						},
+						{
+							"upload": "Default",
+							"download": {
+								"accessible": true,
+								"requestable": true,
+								"recommended": true
+							},
+							"type": "CSP"
+						},
+						{
+							"upload": "Default",
+							"download": null,
+							"type": "CRP"
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"Value": "Continuity of Care"
+						}
+					]
 				}
 			]
 		},
@@ -330,6 +576,129 @@
 					"displayName": "Event Summary",
 					"description": "Event Summary documents are used to capture key health information about significant healthcare events that are relevant to the ongoing care of an individual.",
 					"activationDate": "2010-01-01T00:00:00",
+					"actors": [
+						{
+							"upload": "Default",
+							"download": {
+								"accessible": true,
+								"requestable": true,
+								"recommended": true
+							},
+							"type": "CIS"
+						},
+						{
+							"upload": "Default",
+							"download": {
+								"accessible": true,
+								"requestable": true,
+								"recommended": true
+							},
+							"type": "CSP"
+						},
+						{
+							"upload": "Default",
+							"download": null,
+							"type": "CRP"
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"Value": "Continuity of Care"
+						}
+					]
+				},
+				{
+					"code": "34868-0 ",
+					"codeSystem": "2.16.840.1.113883.6.1",
+					"codeSystemName": "LOINC",
+					"category": "Clinical Document",
+					"displayName": "Orthopaedic Surgery - Surgical Operation Note",
+					"description": "Orthopaedic Surgery - Surgical Operation Note documents are used to record key information related to an orthopaedic surgical event of an individual.",
+					"activationDate": "2022-01-01T00:00:00",
+					"actors": [
+						{
+							"upload": "Default",
+							"download": {
+								"accessible": true,
+								"requestable": true,
+								"recommended": true
+							},
+							"type": "CIS"
+						},
+						{
+							"upload": "Default",
+							"download": {
+								"accessible": true,
+								"requestable": true,
+								"recommended": true
+							},
+							"type": "CSP"
+						},
+						{
+							"upload": "Default",
+							"download": null,
+							"type": "CRP"
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"Value": "Continuity of Care"
+						}
+					]
+				},
+				{
+					"code": "84174-2",
+					"codeSystem": "2.16.840.1.113883.6.1",
+					"codeSystemName": "LOINC",
+					"category": "Clinical Document",
+					"displayName": "Interventional Cardiology Note",
+					"description": "Interventional Cardiology Note documents are used to capture key health information relevant to an individual's interventional cardiology treatment.",
+					"activationDate": "2022-01-01T00:00:00",
+					"deprecationDate": "2022-10-01T00:00:00",
+					"actors": [
+						{
+							"upload": "Default",
+							"download": {
+								"accessible": true,
+								"requestable": true,
+								"recommended": true
+							},
+							"type": "CIS"
+						},
+						{
+							"upload": "Default",
+							"download": {
+								"accessible": true,
+								"requestable": true,
+								"recommended": true
+							},
+							"type": "CSP"
+						},
+						{
+							"upload": "Default",
+							"download": null,
+							"type": "CRP"
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"Value": "Continuity of Care"
+						}
+					]
+				},
+				{
+					"code": "67865-6 ",
+					"codeSystem": "2.16.840.1.113883.6.1",
+					"codeSystemName": "LOINC",
+					"category": "Clinical Document",
+					"displayName": "Outpatient Supervisory Note",
+					"description": "Outpatient Supervisory Note documents are used to capture a supervisor's notes regarding significiant healthcare events of an outpatient.",
+					"activationDate": "2022-01-01T00:00:00",
+					"deprecationDate": "2022-10-01T00:00:00",
+					"retirementDate": "2022-10-14T00:00:00",
 					"actors": [
 						{
 							"upload": "Default",
