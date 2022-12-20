@@ -11,3 +11,7 @@ Added CRP to ePrescription and eDispense (Was missed in config file)
 3.0   25/11/2022
 -----
 Added 9 test files to the SVT files only
+
+3.0   20/12/2022
+-----
+Removed trailing spaces in codes for SVT files (no ver change)

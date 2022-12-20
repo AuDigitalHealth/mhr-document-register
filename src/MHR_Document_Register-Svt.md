@@ -1,6 +1,6 @@
 # My Health Record Document Types and Sub Types Register
 
-## Version 3 - 25 Nov 2022
+## Version 3 - 20 Dec 2022
 
 The list below are the recommended tags for document types each document may have (there may be more than one).
 

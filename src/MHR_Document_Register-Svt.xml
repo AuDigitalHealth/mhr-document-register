@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DocumentRegister xmlns="http://ns.electronichealth.net.au/pcehr/xsd/common/DocumentCoreElements/1.0">
-	<creationDate>2022-11-25T05:59:34.3091565Z</creationDate>
+	<creationDate>2022-12-20T00:34:39.3963325Z</creationDate>
 	<version>3</version>
 	<tags>
 		<tag>
@@ -148,7 +148,7 @@
 				</tags>
 			</documentSubTypes>
 			<documentSubTypes>
-				<code>93899-3 </code>
+				<code>93899-3</code>
 				<codeSystem>2.16.840.1.113883.6.1</codeSystem>
 				<codeSystemName>LOINC</codeSystemName>
 				<category>Clinical Document</category>
@@ -173,7 +173,7 @@
 				</tags>
 			</documentSubTypes>
 			<documentSubTypes>
-				<code>85158-4 </code>
+				<code>85158-4</code>
 				<codeSystem>2.16.840.1.113883.6.1</codeSystem>
 				<codeSystemName>LOINC</codeSystemName>
 				<category>Clinical Document</category>
@@ -199,7 +199,7 @@
 				</tags>
 			</documentSubTypes>
 			<documentSubTypes>
-				<code>68620-4 </code>
+				<code>68620-4</code>
 				<codeSystem>2.16.840.1.113883.6.1</codeSystem>
 				<codeSystemName>LOINC</codeSystemName>
 				<category>Clinical Document</category>
@@ -267,7 +267,7 @@
 				</tags>
 			</documentSubTypes>
 			<documentSubTypes>
-				<code>83921-7 </code>
+				<code>83921-7</code>
 				<codeSystem>2.16.840.1.113883.6.1</codeSystem>
 				<codeSystemName>LOINC</codeSystemName>
 				<category>Clinical Document</category>
@@ -292,7 +292,7 @@
 				</tags>
 			</documentSubTypes>
 			<documentSubTypes>
-				<code>68653-5 </code>
+				<code>68653-5</code>
 				<codeSystem>2.16.840.1.113883.6.1</codeSystem>
 				<codeSystemName>LOINC</codeSystemName>
 				<category>Clinical Document</category>
@@ -318,7 +318,7 @@
 				</tags>
 			</documentSubTypes>
 			<documentSubTypes>
-				<code>68674-1 </code>
+				<code>68674-1</code>
 				<codeSystem>2.16.840.1.113883.6.1</codeSystem>
 				<codeSystemName>LOINC</codeSystemName>
 				<category>Clinical Document</category>
@@ -386,7 +386,7 @@
 				</tags>
 			</documentSubTypes>
 			<documentSubTypes>
-				<code>34868-0 </code>
+				<code>34868-0</code>
 				<codeSystem>2.16.840.1.113883.6.1</codeSystem>
 				<codeSystemName>LOINC</codeSystemName>
 				<category>Clinical Document</category>
@@ -437,7 +437,7 @@
 				</tags>
 			</documentSubTypes>
 			<documentSubTypes>
-				<code>67865-6 </code>
+				<code>67865-6</code>
 				<codeSystem>2.16.840.1.113883.6.1</codeSystem>
 				<codeSystemName>LOINC</codeSystemName>
 				<category>Clinical Document</category>
@@ -524,7 +524,7 @@
 				<codeSystemName>NCTIS</codeSystemName>
 				<category>Medicare Document</category>
 				<displayName>Australian Organ Donor Register</displayName>
-				<description>The Australian Organ Donor Register (AODR) is the national register for people to record their decision about becoming an organ and tissue donor. The AODR is the only national register for people to record their decision about becoming an organ and tissue donor for transplantation after death. </description>
+				<description>The Australian Organ Donor Register (AODR) is the national register for people to record their decision about becoming an organ and tissue donor. The AODR is the only national register for people to record their decision about becoming an organ and tissue donor for transplantation after death.</description>
 				<activationDate>2010-01-01</activationDate>
 				<actors>
 					<actor type="CIS">
@@ -1043,7 +1043,7 @@
 				<codeSystemName>NCTIS Data Components</codeSystemName>
 				<category>Clinical Document</category>
 				<displayName>Advance Care Planning Document</displayName>
-				<description>Advance care planning information can include a statement by a competent person expressing decisions about his or her future care, should they become incapable of participating in medical treatment decisions. These statements are currently recorded in paper-based advance care directives. </description>
+				<description>Advance care planning information can include a statement by a competent person expressing decisions about his or her future care, should they become incapable of participating in medical treatment decisions. These statements are currently recorded in paper-based advance care directives.</description>
 				<activationDate>2010-01-01</activationDate>
 				<actors>
 					<actor type="CIS">

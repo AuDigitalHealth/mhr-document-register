@@ -1,5 +1,5 @@
 {
-	"creationDate": "2022-11-25T05:59:34.3091565Z",
+	"creationDate": "2022-12-20T00:34:39.3963325Z",
 	"version": 3,
 	"tags": [
 		{
@@ -227,7 +227,7 @@
 					]
 				},
 				{
-					"code": "93899-3 ",
+					"code": "93899-3",
 					"codeSystem": "2.16.840.1.113883.6.1",
 					"codeSystemName": "LOINC",
 					"category": "Clinical Document",
@@ -267,7 +267,7 @@
 					]
 				},
 				{
-					"code": "85158-4 ",
+					"code": "85158-4",
 					"codeSystem": "2.16.840.1.113883.6.1",
 					"codeSystemName": "LOINC",
 					"category": "Clinical Document",
@@ -308,7 +308,7 @@
 					]
 				},
 				{
-					"code": "68620-4 ",
+					"code": "68620-4",
 					"codeSystem": "2.16.840.1.113883.6.1",
 					"codeSystemName": "LOINC",
 					"category": "Clinical Document",
@@ -418,7 +418,7 @@
 					]
 				},
 				{
-					"code": "83921-7 ",
+					"code": "83921-7",
 					"codeSystem": "2.16.840.1.113883.6.1",
 					"codeSystemName": "LOINC",
 					"category": "Clinical Document",
@@ -458,7 +458,7 @@
 					]
 				},
 				{
-					"code": "68653-5 ",
+					"code": "68653-5",
 					"codeSystem": "2.16.840.1.113883.6.1",
 					"codeSystemName": "LOINC",
 					"category": "Clinical Document",
@@ -499,7 +499,7 @@
 					]
 				},
 				{
-					"code": "68674-1 ",
+					"code": "68674-1",
 					"codeSystem": "2.16.840.1.113883.6.1",
 					"codeSystemName": "LOINC",
 					"category": "Clinical Document",
@@ -609,7 +609,7 @@
 					]
 				},
 				{
-					"code": "34868-0 ",
+					"code": "34868-0",
 					"codeSystem": "2.16.840.1.113883.6.1",
 					"codeSystemName": "LOINC",
 					"category": "Clinical Document",
@@ -690,7 +690,7 @@
 					]
 				},
 				{
-					"code": "67865-6 ",
+					"code": "67865-6",
 					"codeSystem": "2.16.840.1.113883.6.1",
 					"codeSystemName": "LOINC",
 					"category": "Clinical Document",
@@ -831,7 +831,7 @@
 					"codeSystemName": "NCTIS",
 					"category": "Medicare Document",
 					"displayName": "Australian Organ Donor Register",
-					"description": "The Australian Organ Donor Register (AODR) is the national register for people to record their decision about becoming an organ and tissue donor. The AODR is the only national register for people to record their decision about becoming an organ and tissue donor for transplantation after death. ",
+					"description": "The Australian Organ Donor Register (AODR) is the national register for people to record their decision about becoming an organ and tissue donor. The AODR is the only national register for people to record their decision about becoming an organ and tissue donor for transplantation after death.",
 					"activationDate": "2010-01-01T00:00:00",
 					"actors": [
 						{
@@ -1702,7 +1702,7 @@
 					"codeSystemName": "NCTIS Data Components",
 					"category": "Clinical Document",
 					"displayName": "Advance Care Planning Document",
-					"description": "Advance care planning information can include a statement by a competent person expressing decisions about his or her future care, should they become incapable of participating in medical treatment decisions. These statements are currently recorded in paper-based advance care directives. ",
+					"description": "Advance care planning information can include a statement by a competent person expressing decisions about his or her future care, should they become incapable of participating in medical treatment decisions. These statements are currently recorded in paper-based advance care directives.",
 					"activationDate": "2010-01-01T00:00:00",
 					"actors": [
 						{
