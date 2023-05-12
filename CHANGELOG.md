@@ -8,10 +8,10 @@ Original release - DRAFT ONLY
 -----
 Added CRP to ePrescription and eDispense (Was missed in config file)
 
-3.0   25/11/2022
+3.0   12/05/2023
 -----
-Added 9 test files to the SVT files only
-
-3.0   20/12/2022
------
+Added SVT files as well
 Removed trailing spaces in codes for SVT files (no ver change)
+Added 9 test files to the SVT files only
+Added the 3 new ACTS documents
+Added MyMedicare Registered Practice Information
