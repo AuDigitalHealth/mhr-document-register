@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DocumentRegister xmlns="http://ns.electronichealth.net.au/pcehr/xsd/common/DocumentCoreElements/1.0">
-	<creationDate>2023-05-12T04:11:29.6001011Z</creationDate>
+	<creationDate>2023-05-30T05:13:15.7565122Z</creationDate>
 	<version>3</version>
 	<tags>
 		<tag>
@@ -1145,10 +1145,10 @@
 			</documentSubTypes>
 		</documentType>
 		<documentType>
-			<code>100.32044</code>
-			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
-			<codeSystemName>NCTIS Data Components</codeSystemName>
-			<displayName>Residential Care Transfer Reason</displayName>
+			<code>18761-7</code>
+			<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+			<codeSystemName>LOINC</codeSystemName>
+			<displayName>Residential Care Transfer Reason </displayName>
 			<documentGenerationClassification>Document</documentGenerationClassification>
 			<actors>
 				<actor type="CIS">
@@ -1186,9 +1186,9 @@
 			</documentSubTypes>
 		</documentType>
 		<documentType>
-			<code>100.32046</code>
-			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
-			<codeSystemName>NCTIS Data Components</codeSystemName>
+			<code>80565-5</code>
+			<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+			<codeSystemName>LOINC</codeSystemName>
 			<displayName>Residential Care Medication Chart</displayName>
 			<documentGenerationClassification>Document</documentGenerationClassification>
 			<actors>
@@ -1227,7 +1227,7 @@
 			</documentSubTypes>
 		</documentType>
 		<documentType>
-			<code>100.32049</code>
+			<code>100.32050</code>
 			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
 			<codeSystemName>NCTIS Data Components</codeSystemName>
 			<displayName>Residential Care Health Summary</displayName>

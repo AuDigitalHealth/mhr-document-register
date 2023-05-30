@@ -15,3 +15,7 @@ Removed trailing spaces in codes for SVT files (no ver change)
 Added 9 test files to the SVT files only
 Added the 3 new ACTS documents
 Added MyMedicare Registered Practice Information
+
+3.0   30/05/2023
+-----
+Fixed ACTS Class Codes
