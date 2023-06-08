@@ -19,3 +19,7 @@ Added MyMedicare Registered Practice Information
 3.0   30/05/2023
 -----
 Fixed ACTS Class Codes
+
+3.0   08/06/2023
+-----
+Fixed ACTS Descriptions and grouping
