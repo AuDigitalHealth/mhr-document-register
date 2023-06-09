@@ -1149,7 +1149,7 @@
 			<codeSystem>2.16.840.1.113883.6.1</codeSystem>
 			<codeSystemName>LOINC</codeSystemName>
 			<displayName>Transfer Summary</displayName>
-			<documentGenerationClassification>DocumentView</documentGenerationClassification>
+			<documentGenerationClassification>Document</documentGenerationClassification>
 			<actors>
 				<actor type="CIS">
 					<download accessible="true" requestable="true" recommended="true"/>

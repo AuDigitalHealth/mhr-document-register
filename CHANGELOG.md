@@ -23,3 +23,7 @@ Fixed ACTS Class Codes
 3.0   08/06/2023
 -----
 Fixed ACTS Descriptions and grouping
+
+3.0   09/06/2023
+-----
+Fixed Transfer Summary Classification
