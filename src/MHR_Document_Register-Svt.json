@@ -1,6 +1,6 @@
 {
-	"creationDate": "2023-06-08T01:03:33.7320737Z",
-	"version": 3,
+	"creationDate": "2023-09-14T00:45:20.8959111Z",
+	"version": 4,
 	"tags": [
 		{
 			"name": "Continuity of Care",
@@ -227,13 +227,13 @@
 					]
 				},
 				{
-					"code": "93899-3",
+					"code": "84106-4",
 					"codeSystem": "2.16.840.1.113883.6.1",
 					"codeSystemName": "LOINC",
 					"category": "Clinical Document",
-					"displayName": "Psychiatry Letter",
-					"description": "Psychiatry Letters are used in replying to a referral or reporting on a health event. They contain information related to the event or the requested diagnosis or treatment, by a psychiatrist.",
-					"activationDate": "2022-01-01T00:00:00",
+					"displayName": "Gastroenterology Letter",
+					"description": "Document that contains information about an individual's gastrointestinal health conditions and include relevant findings, assessments, recommendations, and treatment plans. It is typically authored by a gastroenterologist.",
+					"activationDate": "2023-10-01T00:00:00",
 					"actors": [
 						{
 							"upload": "Default",
@@ -267,56 +267,13 @@
 					]
 				},
 				{
-					"code": "85158-4",
+					"code": "68593-3",
 					"codeSystem": "2.16.840.1.113883.6.1",
 					"codeSystemName": "LOINC",
 					"category": "Clinical Document",
-					"displayName": "Pharmacology Letter",
-					"description": "Pharmacology Letters are used in replying to a referral or reporting on a health event. They contain information related to the event or the requested diagnosis or treatment, by a pharmacologist.",
-					"activationDate": "2022-01-01T00:00:00",
-					"deprecationDate": "2022-10-01T00:00:00",
-					"actors": [
-						{
-							"upload": "Default",
-							"download": {
-								"accessible": true,
-								"requestable": true,
-								"recommended": true
-							},
-							"type": "CIS"
-						},
-						{
-							"upload": "Default",
-							"download": {
-								"accessible": true,
-								"requestable": true,
-								"recommended": true
-							},
-							"type": "CSP"
-						},
-						{
-							"upload": "Default",
-							"download": null,
-							"type": "CRP"
-						}
-					],
-					"tags": [
-						{
-							"relationship": "Primary",
-							"Value": "Continuity of Care"
-						}
-					]
-				},
-				{
-					"code": "68620-4",
-					"codeSystem": "2.16.840.1.113883.6.1",
-					"codeSystemName": "LOINC",
-					"category": "Clinical Document",
-					"displayName": "Adolescent Medicine Hospital Letter",
-					"description": "Adolescent Medicine Hospital Letters are used to reply to a referral or to report on a health event. They contain information related to the event or the requested diagnosis or treatment, by an adolescent medicine specialist from a hospital setting.",
-					"activationDate": "2022-01-01T00:00:00",
-					"deprecationDate": "2022-10-01T00:00:00",
-					"retirementDate": "2022-10-14T00:00:00",
+					"displayName": "Plastic Surgery Letter",
+					"description": "Document that contains information about an individual's health condition or concerns requiring reconstructive surgery to restore and/or improve functions and appearance. They include evaluations, treatments, and recommendations. It is typically composed by a plastic surgeon.",
+					"activationDate": "2023-10-01T00:00:00",
 					"actors": [
 						{
 							"upload": "Default",
@@ -418,13 +375,13 @@
 					]
 				},
 				{
-					"code": "83921-7",
+					"code": "88645-7",
 					"codeSystem": "2.16.840.1.113883.6.1",
 					"codeSystemName": "LOINC",
 					"category": "Clinical Document",
-					"displayName": "Recreational Therapy Discharge summary",
-					"description": "Recreational Therapy Discharge Summary documents support the transfer of a patient from a recreational therapy facility back to the care of their nominated primary healthcare provider. They capture details about the patient's stay, including the diagnosis, diagnostic procedures performed, the prognosis, medications prescribed and follow-up actions recommended.",
-					"activationDate": "2022-01-01T00:00:00",
+					"displayName": "Outpatient hospital Discharge Summary",
+					"description": "A collection of information about events during care by a provider or organisation in the outpatient or ambulatory care setting, which is released when an individual is discharged from the care of the provider organisation without being formally admitted to the hospital as an inpatient.",
+					"activationDate": "2023-10-01T00:00:00",
 					"actors": [
 						{
 							"upload": "Default",
@@ -458,56 +415,13 @@
 					]
 				},
 				{
-					"code": "68653-5",
+					"code": "59258-4",
 					"codeSystem": "2.16.840.1.113883.6.1",
 					"codeSystemName": "LOINC",
 					"category": "Clinical Document",
-					"displayName": "Clinical Genetics Discharge Summary",
-					"description": "Clinical Genetics Discharge Summary documents support the transfer of a patient from a clinical genetics facility back to the care of their nominated primary healthcare provider. They capture details about the patient's stay, including the diagnosis, diagnostic procedures performed, the prognosis, medications prescribed and follow-up actions recommended.",
-					"activationDate": "2022-01-01T00:00:00",
-					"deprecationDate": "2022-10-01T00:00:00",
-					"actors": [
-						{
-							"upload": "Default",
-							"download": {
-								"accessible": true,
-								"requestable": true,
-								"recommended": true
-							},
-							"type": "CIS"
-						},
-						{
-							"upload": "Default",
-							"download": {
-								"accessible": true,
-								"requestable": true,
-								"recommended": true
-							},
-							"type": "CSP"
-						},
-						{
-							"upload": "Default",
-							"download": null,
-							"type": "CRP"
-						}
-					],
-					"tags": [
-						{
-							"relationship": "Primary",
-							"Value": "Continuity of Care"
-						}
-					]
-				},
-				{
-					"code": "68674-1",
-					"codeSystem": "2.16.840.1.113883.6.1",
-					"codeSystemName": "LOINC",
-					"category": "Clinical Document",
-					"displayName": "Multi-Specialty Program Discharge Summary",
-					"description": "Multi-Specialty Program Discharge Summary documents support the transfer of a patient from a facility back to the care of their nominated primary healthcare provider. They capture details from multiple specialists regarding the patient's stay, including the diagnosis, diagnostic procedures performed, the prognosis, medications prescribed and follow-up actions recommended.",
-					"activationDate": "2022-01-01T00:00:00",
-					"deprecationDate": "2022-10-01T00:00:00",
-					"retirementDate": "2022-10-14T00:00:00",
+					"displayName": "Emergency department Discharge Summary",
+					"description": "Emergency department discharge summary documents are generated when an individual is treated in an emergency department and is subsequently discharged. They capture details about an individual's presenting complaint, assessment, the diagnosis, diagnostic procedures performed, the prognosis, medications prescribed and follow-up actions recommended.",
+					"activationDate": "2023-10-01T00:00:00",
 					"actors": [
 						{
 							"upload": "Default",
@@ -609,96 +523,13 @@
 					]
 				},
 				{
-					"code": "34868-0",
+					"code": "96344-7",
 					"codeSystem": "2.16.840.1.113883.6.1",
 					"codeSystemName": "LOINC",
 					"category": "Clinical Document",
-					"displayName": "Orthopaedic Surgery - Surgical Operation Note",
-					"description": "Orthopaedic Surgery - Surgical Operation Note documents are used to record key information related to an orthopaedic surgical event of an individual.",
-					"activationDate": "2022-01-01T00:00:00",
-					"actors": [
-						{
-							"upload": "Default",
-							"download": {
-								"accessible": true,
-								"requestable": true,
-								"recommended": true
-							},
-							"type": "CIS"
-						},
-						{
-							"upload": "Default",
-							"download": {
-								"accessible": true,
-								"requestable": true,
-								"recommended": true
-							},
-							"type": "CSP"
-						},
-						{
-							"upload": "Default",
-							"download": null,
-							"type": "CRP"
-						}
-					],
-					"tags": [
-						{
-							"relationship": "Primary",
-							"Value": "Continuity of Care"
-						}
-					]
-				},
-				{
-					"code": "84174-2",
-					"codeSystem": "2.16.840.1.113883.6.1",
-					"codeSystemName": "LOINC",
-					"category": "Clinical Document",
-					"displayName": "Interventional Cardiology Note",
-					"description": "Interventional Cardiology Note documents are used to capture key health information relevant to an individual's interventional cardiology treatment.",
-					"activationDate": "2022-01-01T00:00:00",
-					"deprecationDate": "2022-10-01T00:00:00",
-					"actors": [
-						{
-							"upload": "Default",
-							"download": {
-								"accessible": true,
-								"requestable": true,
-								"recommended": true
-							},
-							"type": "CIS"
-						},
-						{
-							"upload": "Default",
-							"download": {
-								"accessible": true,
-								"requestable": true,
-								"recommended": true
-							},
-							"type": "CSP"
-						},
-						{
-							"upload": "Default",
-							"download": null,
-							"type": "CRP"
-						}
-					],
-					"tags": [
-						{
-							"relationship": "Primary",
-							"Value": "Continuity of Care"
-						}
-					]
-				},
-				{
-					"code": "67865-6",
-					"codeSystem": "2.16.840.1.113883.6.1",
-					"codeSystemName": "LOINC",
-					"category": "Clinical Document",
-					"displayName": "Outpatient Supervisory Note",
-					"description": "Outpatient Supervisory Note documents are used to capture a supervisor's notes regarding significiant healthcare events of an outpatient.",
-					"activationDate": "2022-01-01T00:00:00",
-					"deprecationDate": "2022-10-01T00:00:00",
-					"retirementDate": "2022-10-14T00:00:00",
+					"displayName": "Oncology Summary Note",
+					"description": "Information about an oncology treatment event. It includes pertinent data about diagnostic, provision of cancer treatment and care. It is typically written by an oncology specialist.",
+					"activationDate": "2023-10-01T00:00:00",
 					"actors": [
 						{
 							"upload": "Default",
@@ -2294,6 +2125,39 @@
 			"description": "A summary of information related to an individual's transfer from one healthcare facility to another. ",
 			"documentSubTypes": [
 				{
+					"code": "100.32047",
+					"codeSystem": "1.2.36.1.2001.1001.101",
+					"codeSystemName": "NCTIS Data Components",
+					"category": "Clinical View",
+					"displayName": "Residential Care Transfer Overview",
+					"description": "A residential care transfer overview is a logical view/document generated by My Health Record and contains information relevant to create safe, effective communication, ensuring continuity as the individual moves through care transition from a residential care setting. A residential care transfer overview includes the particulars of the transfer from a residential care setting and a summary of an individual's record.",
+					"activationDate": "2023-01-01T00:00:00",
+					"actors": [
+						{
+							"download": {
+								"accessible": true,
+								"requestable": true,
+								"recommended": true
+							},
+							"type": "CIS"
+						},
+						{
+							"download": {
+								"accessible": true,
+								"requestable": true,
+								"recommended": true
+							},
+							"type": "CSP"
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"Value": "Continuity of Care"
+						}
+					]
+				},
+				{
 					"code": "100.32044",
 					"codeSystem": "1.2.36.1.2001.1001.101",
 					"codeSystemName": "NCTIS Data Components",
@@ -2324,39 +2188,6 @@
 							"upload": "Default",
 							"download": null,
 							"type": "CRP"
-						}
-					],
-					"tags": [
-						{
-							"relationship": "Primary",
-							"Value": "Continuity of Care"
-						}
-					]
-				},
-				{
-					"code": "100.32047",
-					"codeSystem": "1.2.36.1.2001.1001.101",
-					"codeSystemName": "NCTIS Data Components",
-					"category": "Clinical View",
-					"displayName": "Residential Care Transfer Overview",
-					"description": "A residential care transfer overview is a logical view/document generated by My Health Record and contains information relevant to create safe, effective communication, ensuring continuity as the individual moves through care transition from a residential care setting. A residential care transfer overview includes the particulars of the transfer from a residential care setting and a summary of an individual's record.",
-					"activationDate": "2023-01-01T00:00:00",
-					"actors": [
-						{
-							"download": {
-								"accessible": true,
-								"requestable": true,
-								"recommended": true
-							},
-							"type": "CIS"
-						},
-						{
-							"download": {
-								"accessible": true,
-								"requestable": true,
-								"recommended": true
-							},
-							"type": "CSP"
 						}
 					],
 					"tags": [

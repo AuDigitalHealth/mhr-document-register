@@ -27,3 +27,7 @@ Fixed ACTS Descriptions and grouping
 3.0   09/06/2023
 -----
 Fixed Transfer Summary Classification
+
+4.0   14/09/2023
+-----
+Added 2 x SL, 2 x DS, 1 x ES sub types

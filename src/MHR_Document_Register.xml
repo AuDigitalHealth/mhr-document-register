@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DocumentRegister xmlns="http://ns.electronichealth.net.au/pcehr/xsd/common/DocumentCoreElements/1.0">
-	<creationDate>2023-06-08T01:03:32.4946283Z</creationDate>
-	<version>3</version>
+	<creationDate>2023-09-14T00:45:18.5905286Z</creationDate>
+	<version>4</version>
 	<tags>
 		<tag>
 			<name>Continuity of Care</name>
@@ -147,6 +147,56 @@
 					<name relationship="Primary">Continuity of Care</name>
 				</tags>
 			</documentSubTypes>
+			<documentSubTypes>
+				<code>84106-4</code>
+				<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+				<codeSystemName>LOINC</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>Gastroenterology Letter</displayName>
+				<description>Document that contains information about an individual's gastrointestinal health conditions and include relevant findings, assessments, recommendations, and treatment plans. It is typically authored by a gastroenterologist.</description>
+				<activationDate>2023-10-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Default</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Continuity of Care</name>
+				</tags>
+			</documentSubTypes>
+			<documentSubTypes>
+				<code>68593-3</code>
+				<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+				<codeSystemName>LOINC</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>Plastic Surgery Letter</displayName>
+				<description>Document that contains information about an individual's health condition or concerns requiring reconstructive surgery to restore and/or improve functions and appearance. They include evaluations, treatments, and recommendations. It is typically composed by a plastic surgeon.</description>
+				<activationDate>2023-10-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Default</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Continuity of Care</name>
+				</tags>
+			</documentSubTypes>
 		</documentType>
 		<documentType>
 			<code>18842-5</code>
@@ -188,6 +238,56 @@
 					<name relationship="Primary">Continuity of Care</name>
 				</tags>
 			</documentSubTypes>
+			<documentSubTypes>
+				<code>88645-7</code>
+				<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+				<codeSystemName>LOINC</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>Outpatient hospital Discharge Summary</displayName>
+				<description>A collection of information about events during care by a provider or organisation in the outpatient or ambulatory care setting, which is released when an individual is discharged from the care of the provider organisation without being formally admitted to the hospital as an inpatient.</description>
+				<activationDate>2023-10-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Default</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Continuity of Care</name>
+				</tags>
+			</documentSubTypes>
+			<documentSubTypes>
+				<code>59258-4</code>
+				<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+				<codeSystemName>LOINC</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>Emergency department Discharge Summary</displayName>
+				<description>Emergency department discharge summary documents are generated when an individual is treated in an emergency department and is subsequently discharged. They capture details about an individual's presenting complaint, assessment, the diagnosis, diagnostic procedures performed, the prognosis, medications prescribed and follow-up actions recommended.</description>
+				<activationDate>2023-10-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Default</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Continuity of Care</name>
+				</tags>
+			</documentSubTypes>
 		</documentType>
 		<documentType>
 			<code>34133-9</code>
@@ -212,6 +312,31 @@
 				<displayName>Event Summary</displayName>
 				<description>Event Summary documents are used to capture key health information about significant healthcare events that are relevant to the ongoing care of an individual.</description>
 				<activationDate>2010-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Default</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Continuity of Care</name>
+				</tags>
+			</documentSubTypes>
+			<documentSubTypes>
+				<code>96344-7</code>
+				<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+				<codeSystemName>LOINC</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>Oncology Summary Note</displayName>
+				<description>Information about an oncology treatment event. It includes pertinent data about diagnostic, provision of cancer treatment and care. It is typically written by an oncology specialist.</description>
+				<activationDate>2023-10-01</activationDate>
 				<actors>
 					<actor type="CIS">
 						<upload>Default</upload>
@@ -1160,6 +1285,26 @@
 			</actors>
 			<description>A summary of information related to an individual's transfer from one healthcare facility to another. </description>
 			<documentSubTypes>
+				<code>100.32047</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
+				<category>Clinical View</category>
+				<displayName>Residential Care Transfer Overview</displayName>
+				<description>A residential care transfer overview is a logical view/document generated by My Health Record and contains information relevant to create safe, effective communication, ensuring continuity as the individual moves through care transition from a residential care setting. A residential care transfer overview includes the particulars of the transfer from a residential care setting and a summary of an individual's record.</description>
+				<activationDate>2023-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Continuity of Care</name>
+				</tags>
+			</documentSubTypes>
+			<documentSubTypes>
 				<code>100.32044</code>
 				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
 				<codeSystemName>NCTIS Data Components</codeSystemName>
@@ -1178,26 +1323,6 @@
 					</actor>
 					<actor type="CRP">
 						<upload>Default</upload>
-					</actor>
-				</actors>
-				<tags>
-					<name relationship="Primary">Continuity of Care</name>
-				</tags>
-			</documentSubTypes>
-			<documentSubTypes>
-				<code>100.32047</code>
-				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
-				<codeSystemName>NCTIS Data Components</codeSystemName>
-				<category>Clinical View</category>
-				<displayName>Residential Care Transfer Overview</displayName>
-				<description>A residential care transfer overview is a logical view/document generated by My Health Record and contains information relevant to create safe, effective communication, ensuring continuity as the individual moves through care transition from a residential care setting. A residential care transfer overview includes the particulars of the transfer from a residential care setting and a summary of an individual's record.</description>
-				<activationDate>2023-01-01</activationDate>
-				<actors>
-					<actor type="CIS">
-						<download accessible="true" requestable="true" recommended="true"/>
-					</actor>
-					<actor type="CSP">
-						<download accessible="true" requestable="true" recommended="true"/>
 					</actor>
 				</actors>
 				<tags>
