@@ -122,6 +122,7 @@
 			<xs:enumeration value="Default" />
 			<xs:enumeration value="Medicare" />
 			<xs:enumeration value="NPDR" />
+			<xs:enumeration value="Health" />
 		</xs:restriction>			
 	</xs:simpleType>
 

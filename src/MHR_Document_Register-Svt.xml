@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DocumentRegister xmlns="http://ns.electronichealth.net.au/pcehr/xsd/common/DocumentCoreElements/1.0">
-	<creationDate>2023-09-14T00:45:20.8959111Z</creationDate>
-	<version>4</version>
+	<creationDate>2024-05-19T23:23:24.5854766Z</creationDate>
+	<version>5</version>
 	<tags>
 		<tag>
 			<name>Continuity of Care</name>
@@ -514,7 +514,7 @@
 		<documentType>
 			<code>100.16767</code>
 			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
-			<codeSystemName>NCTIS</codeSystemName>
+			<codeSystemName>NCTIS Data Components</codeSystemName>
 			<displayName>Medicare Overview</displayName>
 			<documentGenerationClassification>DocumentView</documentGenerationClassification>
 			<actors>
@@ -529,7 +529,7 @@
 			<documentSubTypes>
 				<code>100.16767.1</code>
 				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
-				<codeSystemName>NCTIS</codeSystemName>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
 				<category>Medicare Document</category>
 				<displayName>Medicare Overview - all</displayName>
 				<description>Medicare Overview documents provide an overview of Medicare-sourced information stored in an individual's My Health Record.</description>
@@ -549,7 +549,7 @@
 			<documentSubTypes>
 				<code>100.16767.2</code>
 				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
-				<codeSystemName>NCTIS</codeSystemName>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
 				<category>Medicare Document</category>
 				<displayName>Medicare Overview - past 12 months</displayName>
 				<description>Medicare Overview documents provide an overview of Medicare-sourced information stored in an individual's My Health Record.</description>
@@ -690,7 +690,7 @@
 		<documentType>
 			<code>100.32002</code>
 			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
-			<codeSystemName>NCTIS</codeSystemName>
+			<codeSystemName>NCTIS Data Components</codeSystemName>
 			<displayName>Medicines View</displayName>
 			<documentGenerationClassification>DocumentView</documentGenerationClassification>
 			<actors>
@@ -705,7 +705,7 @@
 			<documentSubTypes>
 				<code>100.32002</code>
 				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
-				<codeSystemName>NCTIS</codeSystemName>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
 				<category>Clinical View</category>
 				<displayName>Medicines View</displayName>
 				<description>Medicines View Document</description>
@@ -726,7 +726,7 @@
 		<documentType>
 			<code>100.32034</code>
 			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
-			<codeSystemName>NCTIS</codeSystemName>
+			<codeSystemName>NCTIS Data Components</codeSystemName>
 			<displayName>Immunisation Consolidated View</displayName>
 			<documentGenerationClassification>DocumentView</documentGenerationClassification>
 			<actors>
@@ -741,7 +741,7 @@
 			<documentSubTypes>
 				<code>100.32034</code>
 				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
-				<codeSystemName>NCTIS</codeSystemName>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
 				<category>Clinical View</category>
 				<displayName>Immunisation Consolidated View</displayName>
 				<description>Immunisation Consolidated View Document</description>
@@ -844,7 +844,7 @@
 		<documentType>
 			<code>100.32026</code>
 			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
-			<codeSystemName>NCTIS</codeSystemName>
+			<codeSystemName>NCTIS Data Components</codeSystemName>
 			<displayName>Pathology Overview</displayName>
 			<documentGenerationClassification>DocumentView</documentGenerationClassification>
 			<actors>
@@ -859,7 +859,7 @@
 			<documentSubTypes>
 				<code>100.32026</code>
 				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
-				<codeSystemName>NCTIS</codeSystemName>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
 				<category>Clinical View</category>
 				<displayName>Pathology Overview</displayName>
 				<description>A consolidated overview of some of the Pathology Reports in a patient's record.</description>
@@ -880,7 +880,7 @@
 		<documentType>
 			<code>100.32025</code>
 			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
-			<codeSystemName>NCTIS</codeSystemName>
+			<codeSystemName>NCTIS Data Components</codeSystemName>
 			<displayName>Diagnostic Imaging Overview</displayName>
 			<documentGenerationClassification>DocumentView</documentGenerationClassification>
 			<actors>
@@ -895,7 +895,7 @@
 			<documentSubTypes>
 				<code>100.32025</code>
 				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
-				<codeSystemName>NCTIS</codeSystemName>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
 				<category>Clinical View</category>
 				<displayName>Diagnostic Imaging Overview</displayName>
 				<description>A consolidated overview of some of the Diagnostic Imaging Reports in a patient's record.</description>
@@ -1444,6 +1444,81 @@
 					</actor>
 					<actor type="CRP">
 						<upload>Medicare</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Health Program</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>100.32050</code>
+			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+			<codeSystemName>NCTIS Data Components</codeSystemName>
+			<displayName>Patient Health Summary</displayName>
+			<documentGenerationClassification>Document</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+			</actors>
+			<description>A summary of an individual's health information needed for healthcare coordination, supporting continuity of care during unexpected healthcare encounters or when the individual seeks care from providers other than their regular healthcare provider.</description>
+			<documentSubTypes>
+				<code>100.32051</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
+				<category>Clinical View</category>
+				<displayName>Medical Conditions View</displayName>
+				<description>The patients and their representatives, and providers have easier access to healthcare recipients' medical conditions and other relevant clinical information such as procedures, symptoms, medical implants, devices, allergies/ adverse reactions and medicines by enabling them to view them all in a consolidated location, thereby improve clinical decision making and user experience.</description>
+				<activationDate>2024-06-30</activationDate>
+				<actors>
+					<actor type="CIS">
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Continuity of Care</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>18776-5</code>
+			<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+			<codeSystemName>LOINC</codeSystemName>
+			<displayName>Care or Support Plan</displayName>
+			<documentGenerationClassification>Document</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+			</actors>
+			<description>Care and support plan data that include identified concerns | problems about healthcare recipient, and the goals and strategies and | or recommended interventions, services and support to be provided. The plan may also contain information about ongoing care of the patient and information regarding goals and care | clinical reminder.</description>
+			<documentSubTypes>
+				<code>100.32052</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>Aged Care Support Plan</displayName>
+				<description>Aged care support plan data that capture assessment of an Aged Care recipient's health concerns | needs that also include goals to achieve, and the recipient's at home support needs, recommended support activities, procedures and services required.</description>
+				<activationDate>2024-08-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Health</upload>
 					</actor>
 				</actors>
 				<tags>

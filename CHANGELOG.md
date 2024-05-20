@@ -1,12 +1,13 @@
 ### Change Log/Revision History
 
-1.0   16/09/2021
+5.0   20/05/2024
 -----
-Original release - DRAFT ONLY
+Added Medical Conditions View and Aged Care Support Plan
+Fixed NCTIS to NCTIS Data Components (for the none medicare docs)
 
-2.0   16/03/2022
+4.0   14/09/2023
 -----
-Added CRP to ePrescription and eDispense (Was missed in config file)
+Added 2 x SL, 2 x DS, 1 x ES sub types
 
 3.0   12/05/2023
 -----
@@ -28,6 +29,10 @@ Fixed ACTS Descriptions and grouping
 -----
 Fixed Transfer Summary Classification
 
-4.0   14/09/2023
+2.0   16/03/2022
 -----
-Added 2 x SL, 2 x DS, 1 x ES sub types
+Added CRP to ePrescription and eDispense (Was missed in config file)
+
+1.0   16/09/2021
+-----
+Original release - DRAFT ONLY

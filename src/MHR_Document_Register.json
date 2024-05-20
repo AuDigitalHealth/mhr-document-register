@@ -1,6 +1,6 @@
 {
-	"creationDate": "2023-09-14T00:45:18.5905286Z",
-	"version": 4,
+	"creationDate": "2024-05-19T23:23:22.9011581Z",
+	"version": 5,
 	"tags": [
 		{
 			"name": "Continuity of Care",
@@ -831,7 +831,7 @@
 		{
 			"code": "100.16767",
 			"codeSystem": "1.2.36.1.2001.1001.101",
-			"codeSystemName": "NCTIS",
+			"codeSystemName": "NCTIS Data Components",
 			"displayName": "Medicare Overview",
 			"documentGenerationClassification": "DocumentView",
 			"actors": [
@@ -857,7 +857,7 @@
 				{
 					"code": "100.16767.1",
 					"codeSystem": "1.2.36.1.2001.1001.101",
-					"codeSystemName": "NCTIS",
+					"codeSystemName": "NCTIS Data Components",
 					"category": "Medicare Document",
 					"displayName": "Medicare Overview - all",
 					"description": "Medicare Overview documents provide an overview of Medicare-sourced information stored in an individual's My Health Record.",
@@ -890,7 +890,7 @@
 				{
 					"code": "100.16767.2",
 					"codeSystem": "1.2.36.1.2001.1001.101",
-					"codeSystemName": "NCTIS",
+					"codeSystemName": "NCTIS Data Components",
 					"category": "Medicare Document",
 					"displayName": "Medicare Overview - past 12 months",
 					"description": "Medicare Overview documents provide an overview of Medicare-sourced information stored in an individual's My Health Record.",
@@ -1124,7 +1124,7 @@
 		{
 			"code": "100.32002",
 			"codeSystem": "1.2.36.1.2001.1001.101",
-			"codeSystemName": "NCTIS",
+			"codeSystemName": "NCTIS Data Components",
 			"displayName": "Medicines View",
 			"documentGenerationClassification": "DocumentView",
 			"actors": [
@@ -1150,7 +1150,7 @@
 				{
 					"code": "100.32002",
 					"codeSystem": "1.2.36.1.2001.1001.101",
-					"codeSystemName": "NCTIS",
+					"codeSystemName": "NCTIS Data Components",
 					"category": "Clinical View",
 					"displayName": "Medicines View",
 					"description": "Medicines View Document",
@@ -1185,7 +1185,7 @@
 		{
 			"code": "100.32034",
 			"codeSystem": "1.2.36.1.2001.1001.101",
-			"codeSystemName": "NCTIS",
+			"codeSystemName": "NCTIS Data Components",
 			"displayName": "Immunisation Consolidated View",
 			"documentGenerationClassification": "DocumentView",
 			"actors": [
@@ -1211,7 +1211,7 @@
 				{
 					"code": "100.32034",
 					"codeSystem": "1.2.36.1.2001.1001.101",
-					"codeSystemName": "NCTIS",
+					"codeSystemName": "NCTIS Data Components",
 					"category": "Clinical View",
 					"displayName": "Immunisation Consolidated View",
 					"description": "Immunisation Consolidated View Document",
@@ -1382,7 +1382,7 @@
 		{
 			"code": "100.32026",
 			"codeSystem": "1.2.36.1.2001.1001.101",
-			"codeSystemName": "NCTIS",
+			"codeSystemName": "NCTIS Data Components",
 			"displayName": "Pathology Overview",
 			"documentGenerationClassification": "DocumentView",
 			"actors": [
@@ -1408,7 +1408,7 @@
 				{
 					"code": "100.32026",
 					"codeSystem": "1.2.36.1.2001.1001.101",
-					"codeSystemName": "NCTIS",
+					"codeSystemName": "NCTIS Data Components",
 					"category": "Clinical View",
 					"displayName": "Pathology Overview",
 					"description": "A consolidated overview of some of the Pathology Reports in a patient's record.",
@@ -1443,7 +1443,7 @@
 		{
 			"code": "100.32025",
 			"codeSystem": "1.2.36.1.2001.1001.101",
-			"codeSystemName": "NCTIS",
+			"codeSystemName": "NCTIS Data Components",
 			"displayName": "Diagnostic Imaging Overview",
 			"documentGenerationClassification": "DocumentView",
 			"actors": [
@@ -1469,7 +1469,7 @@
 				{
 					"code": "100.32025",
 					"codeSystem": "1.2.36.1.2001.1001.101",
-					"codeSystemName": "NCTIS",
+					"codeSystemName": "NCTIS Data Components",
 					"category": "Clinical View",
 					"displayName": "Diagnostic Imaging Overview",
 					"description": "A consolidated overview of some of the Diagnostic Imaging Reports in a patient's record.",
@@ -2388,6 +2388,133 @@
 						},
 						{
 							"upload": "Medicare",
+							"download": null,
+							"type": "CRP"
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"Value": "Health Program"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "100.32050",
+			"codeSystem": "1.2.36.1.2001.1001.101",
+			"codeSystemName": "NCTIS Data Components",
+			"displayName": "Patient Health Summary",
+			"documentGenerationClassification": "Document",
+			"actors": [
+				{
+					"download": {
+						"accessible": true,
+						"requestable": true,
+						"recommended": true
+					},
+					"type": "CIS"
+				},
+				{
+					"download": {
+						"accessible": true,
+						"requestable": true,
+						"recommended": true
+					},
+					"type": "CSP"
+				}
+			],
+			"description": "A summary of an individual's health information needed for healthcare coordination, supporting continuity of care during unexpected healthcare encounters or when the individual seeks care from providers other than their regular healthcare provider.",
+			"documentSubTypes": [
+				{
+					"code": "100.32051",
+					"codeSystem": "1.2.36.1.2001.1001.101",
+					"codeSystemName": "NCTIS Data Components",
+					"category": "Clinical View",
+					"displayName": "Medical Conditions View",
+					"description": "The patients and their representatives, and providers have easier access to healthcare recipients' medical conditions and other relevant clinical information such as procedures, symptoms, medical implants, devices, allergies/ adverse reactions and medicines by enabling them to view them all in a consolidated location, thereby improve clinical decision making and user experience.",
+					"activationDate": "2024-06-30T00:00:00",
+					"actors": [
+						{
+							"download": {
+								"accessible": true,
+								"requestable": true,
+								"recommended": true
+							},
+							"type": "CIS"
+						},
+						{
+							"download": {
+								"accessible": true,
+								"requestable": true,
+								"recommended": true
+							},
+							"type": "CSP"
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"Value": "Continuity of Care"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": "18776-5",
+			"codeSystem": "2.16.840.1.113883.6.1",
+			"codeSystemName": "LOINC",
+			"displayName": "Care or Support Plan",
+			"documentGenerationClassification": "Document",
+			"actors": [
+				{
+					"download": {
+						"accessible": true,
+						"requestable": true,
+						"recommended": true
+					},
+					"type": "CIS"
+				},
+				{
+					"download": {
+						"accessible": true,
+						"requestable": true,
+						"recommended": true
+					},
+					"type": "CSP"
+				}
+			],
+			"description": "Care and support plan data that include identified concerns | problems about healthcare recipient, and the goals and strategies and | or recommended interventions, services and support to be provided. The plan may also contain information about ongoing care of the patient and information regarding goals and care | clinical reminder.",
+			"documentSubTypes": [
+				{
+					"code": "100.32052",
+					"codeSystem": "1.2.36.1.2001.1001.101",
+					"codeSystemName": "NCTIS Data Components",
+					"category": "Clinical Document",
+					"displayName": "Aged Care Support Plan",
+					"description": "Aged care support plan data that capture assessment of an Aged Care recipient's health concerns | needs that also include goals to achieve, and the recipient's at home support needs, recommended support activities, procedures and services required.",
+					"activationDate": "2024-08-01T00:00:00",
+					"actors": [
+						{
+							"download": {
+								"accessible": true,
+								"requestable": true,
+								"recommended": true
+							},
+							"type": "CIS"
+						},
+						{
+							"download": {
+								"accessible": true,
+								"requestable": true,
+								"recommended": true
+							},
+							"type": "CSP"
+						},
+						{
+							"upload": "Health",
 							"download": null,
 							"type": "CRP"
 						}
