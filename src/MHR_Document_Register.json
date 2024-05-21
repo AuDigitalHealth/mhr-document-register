@@ -1,5 +1,5 @@
 {
-	"creationDate": "2024-05-19T23:23:22.9011581Z",
+	"creationDate": "2024-05-21T00:20:50.1319937Z",
 	"version": 5,
 	"tags": [
 		{
@@ -2268,74 +2268,6 @@
 			]
 		},
 		{
-			"code": "100.32050",
-			"codeSystem": "1.2.36.1.2001.1001.101",
-			"codeSystemName": "NCTIS Data Components",
-			"displayName": "Patient Health Summary",
-			"documentGenerationClassification": "Document",
-			"actors": [
-				{
-					"download": {
-						"accessible": true,
-						"requestable": true,
-						"recommended": true
-					},
-					"type": "CIS"
-				},
-				{
-					"download": {
-						"accessible": true,
-						"requestable": true,
-						"recommended": true
-					},
-					"type": "CSP"
-				}
-			],
-			"description": "A summary of an individual's health information needed for healthcare coordination, supporting continuity of care during unexpected healthcare encounters or when the individual seeks care from providers other than their regular healthcare provider.",
-			"documentSubTypes": [
-				{
-					"code": "100.32049",
-					"codeSystem": "1.2.36.1.2001.1001.101",
-					"codeSystemName": "NCTIS Data Components",
-					"category": "Clinical Document",
-					"displayName": "Residential Care Health Summary",
-					"description": "A residential care health summary contains information about a residential care individual's environment, health and care to support continuity of care.",
-					"activationDate": "2023-01-01T00:00:00",
-					"actors": [
-						{
-							"upload": "Default",
-							"download": {
-								"accessible": true,
-								"requestable": true,
-								"recommended": true
-							},
-							"type": "CIS"
-						},
-						{
-							"upload": "Default",
-							"download": {
-								"accessible": true,
-								"requestable": true,
-								"recommended": true
-							},
-							"type": "CSP"
-						},
-						{
-							"upload": "Default",
-							"download": null,
-							"type": "CRP"
-						}
-					],
-					"tags": [
-						{
-							"relationship": "Primary",
-							"Value": "Continuity of Care"
-						}
-					]
-				}
-			]
-		},
-		{
 			"code": "100.32048",
 			"codeSystem": "1.2.36.1.2001.1001.101",
 			"codeSystemName": "NCTIS Data Components",
@@ -2427,6 +2359,46 @@
 			],
 			"description": "A summary of an individual's health information needed for healthcare coordination, supporting continuity of care during unexpected healthcare encounters or when the individual seeks care from providers other than their regular healthcare provider.",
 			"documentSubTypes": [
+				{
+					"code": "100.32049",
+					"codeSystem": "1.2.36.1.2001.1001.101",
+					"codeSystemName": "NCTIS Data Components",
+					"category": "Clinical Document",
+					"displayName": "Residential Care Health Summary",
+					"description": "A residential care health summary contains information about a residential care individual's environment, health and care to support continuity of care.",
+					"activationDate": "2023-01-01T00:00:00",
+					"actors": [
+						{
+							"upload": "Default",
+							"download": {
+								"accessible": true,
+								"requestable": true,
+								"recommended": true
+							},
+							"type": "CIS"
+						},
+						{
+							"upload": "Default",
+							"download": {
+								"accessible": true,
+								"requestable": true,
+								"recommended": true
+							},
+							"type": "CSP"
+						},
+						{
+							"upload": "Default",
+							"download": null,
+							"type": "CRP"
+						}
+					],
+					"tags": [
+						{
+							"relationship": "Primary",
+							"Value": "Continuity of Care"
+						}
+					]
+				},
 				{
 					"code": "100.32051",
 					"codeSystem": "1.2.36.1.2001.1001.101",

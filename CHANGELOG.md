@@ -1,5 +1,9 @@
 ### Change Log/Revision History
 
+5.0   21/05/2024
+-----
+Fixed Order for Patient Health Summary
+
 5.0   20/05/2024
 -----
 Added Medical Conditions View and Aged Care Support Plan

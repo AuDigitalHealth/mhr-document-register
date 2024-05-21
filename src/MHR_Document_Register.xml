@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DocumentRegister xmlns="http://ns.electronichealth.net.au/pcehr/xsd/common/DocumentCoreElements/1.0">
-	<creationDate>2024-05-19T23:23:22.9011581Z</creationDate>
+	<creationDate>2024-05-21T00:20:50.1319937Z</creationDate>
 	<version>5</version>
 	<tags>
 		<tag>
@@ -1372,47 +1372,6 @@
 			</documentSubTypes>
 		</documentType>
 		<documentType>
-			<code>100.32050</code>
-			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
-			<codeSystemName>NCTIS Data Components</codeSystemName>
-			<displayName>Patient Health Summary</displayName>
-			<documentGenerationClassification>Document</documentGenerationClassification>
-			<actors>
-				<actor type="CIS">
-					<download accessible="true" requestable="true" recommended="true"/>
-				</actor>
-				<actor type="CSP">
-					<download accessible="true" requestable="true" recommended="true"/>
-				</actor>
-			</actors>
-			<description>A summary of an individual's health information needed for healthcare coordination, supporting continuity of care during unexpected healthcare encounters or when the individual seeks care from providers other than their regular healthcare provider.</description>
-			<documentSubTypes>
-				<code>100.32049</code>
-				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
-				<codeSystemName>NCTIS Data Components</codeSystemName>
-				<category>Clinical Document</category>
-				<displayName>Residential Care Health Summary</displayName>
-				<description>A residential care health summary contains information about a residential care individual's environment, health and care to support continuity of care.</description>
-				<activationDate>2023-01-01</activationDate>
-				<actors>
-					<actor type="CIS">
-						<upload>Default</upload>
-						<download accessible="true" requestable="true" recommended="true"/>
-					</actor>
-					<actor type="CSP">
-						<upload>Default</upload>
-						<download accessible="true" requestable="true" recommended="true"/>
-					</actor>
-					<actor type="CRP">
-						<upload>Default</upload>
-					</actor>
-				</actors>
-				<tags>
-					<name relationship="Primary">Continuity of Care</name>
-				</tags>
-			</documentSubTypes>
-		</documentType>
-		<documentType>
 			<code>100.32048</code>
 			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
 			<codeSystemName>NCTIS Data Components</codeSystemName>
@@ -1466,6 +1425,31 @@
 				</actor>
 			</actors>
 			<description>A summary of an individual's health information needed for healthcare coordination, supporting continuity of care during unexpected healthcare encounters or when the individual seeks care from providers other than their regular healthcare provider.</description>
+			<documentSubTypes>
+				<code>100.32049</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>Residential Care Health Summary</displayName>
+				<description>A residential care health summary contains information about a residential care individual's environment, health and care to support continuity of care.</description>
+				<activationDate>2023-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Default</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Continuity of Care</name>
+				</tags>
+			</documentSubTypes>
 			<documentSubTypes>
 				<code>100.32051</code>
 				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
