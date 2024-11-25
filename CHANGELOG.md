@@ -1,5 +1,9 @@
 ### Change Log/Revision History
 
+6.0   25/11/2024
+-----
+Removed 2 x SL subtypes as not required
+
 5.0   21/05/2024
 -----
 Fixed Order for Patient Health Summary
