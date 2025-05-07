@@ -1,5 +1,9 @@
 ### Change Log/Revision History
 
+7.0   07/05/2025
+-----
+Added Consumer for ACP document for mobile channel
+
 6.0   25/11/2024
 -----
 Removed 2 x SL subtypes as not required
