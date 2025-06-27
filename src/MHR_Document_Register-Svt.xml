@@ -1,1 +1,1467 @@
-﻿<?xml version="1.0" encoding="utf-8"?><DocumentRegister xmlns="http://ns.electronichealth.net.au/pcehr/xsd/common/DocumentCoreElements/1.0"><creationDate>2025-05-07T04:12:20.7641018Z</creationDate><version>7</version><tags><tag><name>Continuity of Care</name><description>Continuity of Care Tag</description></tag><tag><name>Health Program</name><description>Health Program Tag</description></tag><tag><name>Medicines</name><description>Medicines Tag</description></tag><tag><name>Diagnostics</name><description>Diagnostics Tag</description></tag><tag><name>Patient Entered Information</name><description>Patient Entered Information Tag</description></tag></tags><documentTypes><documentType><code>60591-5</code><codeSystem>2.16.840.1.113883.6.1</codeSystem><codeSystemName>LOINC</codeSystemName><displayName>Shared Health Summary</displayName><documentGenerationClassification>Document</documentGenerationClassification><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="true" /></actor></actors><description>The shared health summary provides key pieces of information about an individual's health status, facilitating care across their entire healthcare domain. Nominated healthcare providers author a shared health summary during or soon after a consultation with a patient. It might contain information about allergies and adverse reactions, past medical history and or immunisation information.</description><documentSubTypes><code>60591-5</code><codeSystem>2.16.840.1.113883.6.1</codeSystem><codeSystemName>LOINC</codeSystemName><category>Clinical Document</category><displayName>Shared Health Summary</displayName><description>The shared health summary provides key pieces of information about an individual's health status, facilitating care across their entire healthcare domain. Nominated healthcare providers author a shared health summary during or soon after a consultation with a patient. It might contain information about allergies and adverse reactions, past medical history and or immunisation information.</description><activationDate>2010-01-01</activationDate><actors><actor type="CIS"><upload>Default</upload><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><upload>Default</upload><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CRP"><upload>Default</upload></actor></actors><tags><name relationship="Primary">Continuity of Care</name></tags></documentSubTypes></documentType><documentType><code>57133-1</code><codeSystem>2.16.840.1.113883.6.1</codeSystem><codeSystemName>LOINC</codeSystemName><displayName>e-Referral</displayName><documentGenerationClassification>Document</documentGenerationClassification><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="true" /></actor></actors><description>Referrals are communications with the intention of initiating a transfer of responsibility for some aspects of a consumer's ongoing management from one provider to another across a range of healthcare and human services fields.</description><documentSubTypes><code>57133-1</code><codeSystem>2.16.840.1.113883.6.1</codeSystem><codeSystemName>LOINC</codeSystemName><category>Clinical Document</category><displayName>e-Referral</displayName><description>Referrals are communications with the intention of initiating a transfer of responsibility for some aspects of a consumer's ongoing management from one provider to another across a range of healthcare and human services fields.</description><activationDate>2010-01-01</activationDate><actors><actor type="CIS"><upload>Default</upload><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><upload>Default</upload><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CRP"><upload>Default</upload></actor></actors><tags><name relationship="Primary">Continuity of Care</name></tags></documentSubTypes></documentType><documentType><code>51852-2</code><codeSystem>2.16.840.1.113883.6.1</codeSystem><codeSystemName>LOINC</codeSystemName><displayName>Specialist Letter</displayName><documentGenerationClassification>Document</documentGenerationClassification><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="true" /></actor></actors><description>Specialist letters are used in replying to a referral or reporting on a health event. They contain information related to the event or the requested diagnosis or treatment by a specialist.</description><documentSubTypes><code>51852-2</code><codeSystem>2.16.840.1.113883.6.1</codeSystem><codeSystemName>LOINC</codeSystemName><category>Clinical Document</category><displayName>Specialist Letter</displayName><description>Specialist letters are used in replying to a referral or reporting on a health event. They contain information related to the event or the requested diagnosis or treatment by a specialist.</description><activationDate>2010-01-01</activationDate><actors><actor type="CIS"><upload>Default</upload><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><upload>Default</upload><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CRP"><upload>Default</upload></actor></actors><tags><name relationship="Primary">Continuity of Care</name></tags></documentSubTypes></documentType><documentType><code>18842-5</code><codeSystem>2.16.840.1.113883.6.1</codeSystem><codeSystemName>LOINC</codeSystemName><displayName>Discharge Summary</displayName><documentGenerationClassification>Document</documentGenerationClassification><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="true" /></actor></actors><description>Discharge Summary documents support the transfer of a patient from a hospital back to the care of their nominated primary healthcare provider. They capture details about the patient's hospital stay, including the diagnosis, diagnostic procedures performed, the prognosis, medications prescribed and follow-up actions recommended.</description><documentSubTypes><code>18842-5</code><codeSystem>2.16.840.1.113883.6.1</codeSystem><codeSystemName>LOINC</codeSystemName><category>Clinical Document</category><displayName>Discharge Summary</displayName><description>Discharge Summary documents support the transfer of a patient from a hospital back to the care of their nominated primary healthcare provider. They capture details about the patient's hospital stay, including the diagnosis, diagnostic procedures performed, the prognosis, medications prescribed and follow-up actions recommended.</description><activationDate>2010-01-01</activationDate><actors><actor type="CIS"><upload>Default</upload><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><upload>Default</upload><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CRP"><upload>Default</upload></actor></actors><tags><name relationship="Primary">Continuity of Care</name></tags></documentSubTypes><documentSubTypes><code>88645-7</code><codeSystem>2.16.840.1.113883.6.1</codeSystem><codeSystemName>LOINC</codeSystemName><category>Clinical Document</category><displayName>Outpatient hospital Discharge Summary</displayName><description>A collection of information about events during care by a provider or organisation in the outpatient or ambulatory care setting, which is released when an individual is discharged from the care of the provider organisation without being formally admitted to the hospital as an inpatient.</description><activationDate>2023-10-01</activationDate><actors><actor type="CIS"><upload>Default</upload><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><upload>Default</upload><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CRP"><upload>Default</upload></actor></actors><tags><name relationship="Primary">Continuity of Care</name></tags></documentSubTypes><documentSubTypes><code>59258-4</code><codeSystem>2.16.840.1.113883.6.1</codeSystem><codeSystemName>LOINC</codeSystemName><category>Clinical Document</category><displayName>Emergency department Discharge Summary</displayName><description>Emergency department discharge summary documents are generated when an individual is treated in an emergency department and is subsequently discharged. They capture details about an individual's presenting complaint, assessment, the diagnosis, diagnostic procedures performed, the prognosis, medications prescribed and follow-up actions recommended.</description><activationDate>2023-10-01</activationDate><actors><actor type="CIS"><upload>Default</upload><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><upload>Default</upload><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CRP"><upload>Default</upload></actor></actors><tags><name relationship="Primary">Continuity of Care</name></tags></documentSubTypes></documentType><documentType><code>34133-9</code><codeSystem>2.16.840.1.113883.6.1</codeSystem><codeSystemName>LOINC</codeSystemName><displayName>Event Summary</displayName><documentGenerationClassification>Document</documentGenerationClassification><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="true" /></actor></actors><description>Event Summary documents are used to capture key health information about significant healthcare events that are relevant to the ongoing care of an individual.</description><documentSubTypes><code>34133-9</code><codeSystem>2.16.840.1.113883.6.1</codeSystem><codeSystemName>LOINC</codeSystemName><category>Clinical Document</category><displayName>Event Summary</displayName><description>Event Summary documents are used to capture key health information about significant healthcare events that are relevant to the ongoing care of an individual.</description><activationDate>2010-01-01</activationDate><actors><actor type="CIS"><upload>Default</upload><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><upload>Default</upload><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CRP"><upload>Default</upload></actor></actors><tags><name relationship="Primary">Continuity of Care</name></tags></documentSubTypes><documentSubTypes><code>96344-7</code><codeSystem>2.16.840.1.113883.6.1</codeSystem><codeSystemName>LOINC</codeSystemName><category>Clinical Document</category><displayName>Oncology Summary Note</displayName><description>Information about an oncology treatment event. It includes pertinent data about diagnostic, provision of cancer treatment and care. It is typically written by an oncology specialist.</description><activationDate>2023-10-01</activationDate><actors><actor type="CIS"><upload>Default</upload><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><upload>Default</upload><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CRP"><upload>Default</upload></actor></actors><tags><name relationship="Primary">Continuity of Care</name></tags></documentSubTypes></documentType><documentType><code>100.16650</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS</codeSystemName><displayName>Pharmaceutical Benefits Report</displayName><documentGenerationClassification>Document</documentGenerationClassification><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="true" /></actor></actors><description>Information about pharmaceutical items prescribed and dispensed to an individual that were partially or fully funded under the Pharmaceutical Benefit Schedule (PBS) or Repatriation Pharmaceutical Benefits Scheme (RPBS).</description><documentSubTypes><code>100.16650</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS</codeSystemName><category>Medicare Document</category><displayName>Pharmaceutical Benefits Report</displayName><description>Information about pharmaceutical items prescribed and dispensed to an individual that were partially or fully funded under the Pharmaceutical Benefit Schedule (PBS) or Repatriation Pharmaceutical Benefits Scheme (RPBS).</description><activationDate>2010-01-01</activationDate><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CRP"><upload>Medicare</upload></actor></actors><tags><name relationship="Primary">Continuity of Care</name></tags></documentSubTypes></documentType><documentType><code>100.16671</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS</codeSystemName><displayName>Australian Organ Donor Register</displayName><documentGenerationClassification>Document</documentGenerationClassification><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="true" /></actor></actors><description>The Australian Organ Donor Register (AODR) is the national register for people to record their decision about becoming an organ and tissue donor. The AODR is the only national register for people to record their decision about becoming an organ and tissue donor for transplantation after death. </description><documentSubTypes><code>100.16671</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS</codeSystemName><category>Medicare Document</category><displayName>Australian Organ Donor Register</displayName><description>The Australian Organ Donor Register (AODR) is the national register for people to record their decision about becoming an organ and tissue donor. The AODR is the only national register for people to record their decision about becoming an organ and tissue donor for transplantation after death.</description><activationDate>2010-01-01</activationDate><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CRP"><upload>Medicare</upload></actor></actors><tags><name relationship="Primary">Health Program</name></tags></documentSubTypes></documentType><documentType><code>100.17042</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS</codeSystemName><displayName>Australian Immunisation Register</displayName><documentGenerationClassification>Document</documentGenerationClassification><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="true" /></actor></actors><description>The Australian Immunisation Register (AIR) (Formally the Australian Childhood Immunisation Register) is a national register that records vaccinations given to people of all ages in Australia.</description><documentSubTypes><code>100.17042</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS</codeSystemName><category>Medicare Document</category><displayName>Australian Immunisation Register</displayName><description>The Australian Immunisation Register (AIR) (Formally the Australian Childhood Immunisation Register) is a national register that records vaccinations given to people of all ages in Australia.</description><activationDate>2010-01-01</activationDate><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CRP"><upload>Medicare</upload></actor></actors><tags><name relationship="Primary">Health Program</name></tags></documentSubTypes></documentType><documentType><code>100.16644</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS</codeSystemName><displayName>Medicare/DVA Benefits Report</displayName><documentGenerationClassification>Document</documentGenerationClassification><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="false" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="false" /></actor></actors><description>Information about a Medicare or DVA partially or fully funded service under the Medicare Benefits Schedule or Department of Veterans' Affairs (DVA).</description><documentSubTypes><code>100.16644</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS</codeSystemName><category>Medicare Document</category><displayName>Medicare/DVA Benefits Report</displayName><description>Information about a Medicare or DVA partially or fully funded service under the Medicare Benefits Schedule or Department of Veterans' Affairs (DVA).</description><activationDate>2010-01-01</activationDate><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CRP"><upload>Medicare</upload></actor></actors><tags><name relationship="Primary">Health Program</name></tags></documentSubTypes></documentType><documentType><code>100.16767</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><displayName>Medicare Overview</displayName><documentGenerationClassification>DocumentView</documentGenerationClassification><actors><actor type="CIS"><download accessible="true" requestable="false" recommended="false" /></actor><actor type="CSP"><download accessible="true" requestable="false" recommended="false" /></actor></actors><description>Medicare Overview documents provide an overview of Medicare-sourced information stored in an individual's My Health Record.</description><documentSubTypes><code>100.16767.1</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><category>Medicare Document</category><displayName>Medicare Overview - all</displayName><description>Medicare Overview documents provide an overview of Medicare-sourced information stored in an individual's My Health Record.</description><activationDate>2010-01-01</activationDate><actors><actor type="CIS"><download accessible="true" requestable="false" recommended="false" /></actor><actor type="CSP"><download accessible="true" requestable="false" recommended="false" /></actor></actors><tags><name relationship="Primary">Health Program</name></tags></documentSubTypes><documentSubTypes><code>100.16767.2</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><category>Medicare Document</category><displayName>Medicare Overview - past 12 months</displayName><description>Medicare Overview documents provide an overview of Medicare-sourced information stored in an individual's My Health Record.</description><activationDate>2010-01-01</activationDate><actors><actor type="CIS"><download accessible="true" requestable="false" recommended="false" /></actor><actor type="CSP"><download accessible="true" requestable="false" recommended="false" /></actor></actors><tags><name relationship="Primary">Health Program</name></tags></documentSubTypes></documentType><documentType><code>100.16764</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><displayName>eHealth Prescription Record</displayName><documentGenerationClassification>Document</documentGenerationClassification><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="false" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="false" /></actor></actors><description>Prescription records are a digital record of prescribed medications. These documents do not represent actual prescriptions, but instead support the sharing of information about medication prescriptions.</description><documentSubTypes><code>100.16764</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><category>Clinical Document</category><displayName>eHealth Prescription Record</displayName><description>Prescription records are a digital record of prescribed medications. These documents do not represent actual prescriptions, but instead support the sharing of information about medication prescriptions.</description><activationDate>2010-01-01</activationDate><actors><actor type="CIS"><upload>Default</upload><download accessible="true" requestable="true" recommended="false" /></actor><actor type="CSP"><upload>Default</upload><download accessible="true" requestable="true" recommended="false" /></actor><actor type="CRP"><upload>NPDR</upload></actor></actors><tags><name relationship="Primary">Medicines</name></tags></documentSubTypes></documentType><documentType><code>100.16765</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><displayName>eHealth Dispense Record</displayName><documentGenerationClassification>Document</documentGenerationClassification><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="false" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="false" /></actor></actors><description>Dispense Records are a digital record of dispensed medications by a pharmacist.</description><documentSubTypes><code>100.16765</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><category>Clinical Document</category><displayName>eHealth Dispense Record</displayName><description>Dispense Records are a digital record of dispensed medications by a pharmacist.</description><activationDate>2010-01-01</activationDate><actors><actor type="CIS"><upload>Default</upload><download accessible="true" requestable="true" recommended="false" /></actor><actor type="CSP"><upload>Default</upload><download accessible="true" requestable="true" recommended="false" /></actor><actor type="CRP"><upload>NPDR</upload></actor></actors><tags><name relationship="Primary">Medicines</name></tags></documentSubTypes></documentType><documentType><code>56445-0</code><codeSystem>2.16.840.1.113883.6.1</codeSystem><codeSystemName>LOINC</codeSystemName><displayName>Pharmacist Shared Medicines List</displayName><documentGenerationClassification>Document</documentGenerationClassification><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="false" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="false" /></actor></actors><description>The Shared Medicine List contains detailed information about medicines the consumer is known to be taking when the list was created. This includes both prescription and non-prescription medicines, including 'over-the-counter' (OTC) medicines and complementary medicines such as vitamins and herbal products.</description><documentSubTypes><code>56445-0</code><codeSystem>2.16.840.1.113883.6.1</codeSystem><codeSystemName>LOINC</codeSystemName><category>Clinical Document</category><displayName>Pharmacist Shared Medicines List</displayName><description>The Shared Medicine List contains detailed information about medicines the consumer is known to be taking when the list was created. This includes both prescription and non-prescription medicines, including 'over-the-counter' (OTC) medicines and complementary medicines such as vitamins and herbal products.</description><activationDate>2010-01-01</activationDate><actors><actor type="CIS"><upload>Default</upload><download accessible="true" requestable="true" recommended="false" /></actor><actor type="CSP"><upload>Default</upload><download accessible="true" requestable="true" recommended="false" /></actor></actors><tags><name relationship="Primary">Medicines</name></tags></documentSubTypes></documentType><documentType><code>100.32002</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><displayName>Medicines View</displayName><documentGenerationClassification>DocumentView</documentGenerationClassification><actors><actor type="CIS"><download accessible="true" requestable="false" recommended="false" /></actor><actor type="CSP"><download accessible="true" requestable="false" recommended="false" /></actor></actors><description>Medicines View Document</description><documentSubTypes><code>100.32002</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><category>Clinical View</category><displayName>Medicines View</displayName><description>Medicines View Document</description><activationDate>2010-01-01</activationDate><actors><actor type="CIS"><download accessible="true" requestable="false" recommended="false" /></actor><actor type="CSP"><download accessible="true" requestable="false" recommended="false" /></actor></actors><tags><name relationship="Primary">Medicines</name></tags></documentSubTypes></documentType><documentType><code>100.32034</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><displayName>Immunisation Consolidated View</displayName><documentGenerationClassification>DocumentView</documentGenerationClassification><actors><actor type="CIS"><download accessible="true" requestable="false" recommended="false" /></actor><actor type="CSP"><download accessible="true" requestable="false" recommended="false" /></actor></actors><description>Immunisation Consolidated View Document</description><documentSubTypes><code>100.32034</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><category>Clinical View</category><displayName>Immunisation Consolidated View</displayName><description>Immunisation Consolidated View Document</description><activationDate>2010-01-01</activationDate><actors><actor type="CIS"><download accessible="true" requestable="false" recommended="false" /></actor><actor type="CSP"><download accessible="true" requestable="false" recommended="false" /></actor></actors><tags><name relationship="Primary">Medicines</name></tags></documentSubTypes></documentType><documentType><code>100.16957</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><displayName>Diagnostic Imaging Report</displayName><documentGenerationClassification>Document</documentGenerationClassification><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="true" /></actor></actors><description>Diagnostic imaging reports are used to share information about diagnostic imaging examinations via an individual's digital health record. The Diagnostic Imaging Report PDF may contain one or more examinations that are uploaded by the diagnostic imaging provider to the individual's digital health record.</description><documentSubTypes><code>100.16957</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><category>Clinical Document</category><displayName>Diagnostic Imaging Report</displayName><description>Diagnostic imaging reports are used to share information about diagnostic imaging examinations via an individual's digital health record. The Diagnostic Imaging Report PDF may contain one or more examinations that are uploaded by the diagnostic imaging provider to the individual's digital health record.</description><activationDate>2010-01-01</activationDate><actors><actor type="CIS"><upload>Default</upload><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><upload>Default</upload><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CRP"><upload>Default</upload></actor></actors><tags><name relationship="Primary">Diagnostics</name></tags></documentSubTypes></documentType><documentType><code>100.32001</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><displayName>Pathology Report</displayName><documentGenerationClassification>Document</documentGenerationClassification><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="false" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="false" /></actor></actors><description>Pathology reports can be used to share information about pathology tests via an individual's digital health record. The Pathology Report PDF may contain one or more tests that are uploaded by the pathology provider to the individual's digital health record.</description><documentSubTypes><code>100.32001</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><category>Clinical Document</category><displayName>Pathology Report</displayName><description>Pathology reports can be used to share information about pathology tests via an individual's digital health record. The Pathology Report PDF may contain one or more tests that are uploaded by the pathology provider to the individual's digital health record.</description><activationDate>2010-01-01</activationDate><actors><actor type="CIS"><upload>Default</upload><download accessible="true" requestable="true" recommended="false" /></actor><actor type="CSP"><upload>Default</upload><download accessible="true" requestable="true" recommended="false" /></actor><actor type="CRP"><upload>Default</upload></actor></actors><tags><name relationship="Primary">Diagnostics</name></tags></documentSubTypes></documentType><documentType><code>100.32026</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><displayName>Pathology Overview</displayName><documentGenerationClassification>DocumentView</documentGenerationClassification><actors><actor type="CIS"><download accessible="true" requestable="false" recommended="false" /></actor><actor type="CSP"><download accessible="true" requestable="false" recommended="false" /></actor></actors><description>A consolidated overview of some of the Pathology Reports in a patient's record.</description><documentSubTypes><code>100.32026</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><category>Clinical View</category><displayName>Pathology Overview</displayName><description>A consolidated overview of some of the Pathology Reports in a patient's record.</description><activationDate>2010-01-01</activationDate><actors><actor type="CIS"><download accessible="true" requestable="false" recommended="false" /></actor><actor type="CSP"><download accessible="true" requestable="false" recommended="false" /></actor></actors><tags><name relationship="Primary">Diagnostics</name></tags></documentSubTypes></documentType><documentType><code>100.32025</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><displayName>Diagnostic Imaging Overview</displayName><documentGenerationClassification>DocumentView</documentGenerationClassification><actors><actor type="CIS"><download accessible="true" requestable="false" recommended="false" /></actor><actor type="CSP"><download accessible="true" requestable="false" recommended="false" /></actor></actors><description>A consolidated overview of some of the Diagnostic Imaging Reports in a patient's record.</description><documentSubTypes><code>100.32025</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><category>Clinical View</category><displayName>Diagnostic Imaging Overview</displayName><description>A consolidated overview of some of the Diagnostic Imaging Reports in a patient's record.</description><activationDate>2010-01-01</activationDate><actors><actor type="CIS"><download accessible="true" requestable="false" recommended="false" /></actor><actor type="CSP"><download accessible="true" requestable="false" recommended="false" /></actor></actors><tags><name relationship="Primary">Diagnostics</name></tags></documentSubTypes></documentType><documentType><code>100.16975</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><displayName>Advance Care Information</displayName><documentGenerationClassification>Document</documentGenerationClassification><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="true" /></actor></actors><description>Advance care planning information can include a statement by a competent person expressing decisions about his or her future care, should they become incapable of participating in medical treatment decisions. These statements are currently recorded in paper-based advance care directives. </description><documentSubTypes><code>100.16998</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><category>Clinical Document</category><displayName>Advance Care Planning Document</displayName><description>Advance care planning information can include a statement by a competent person expressing decisions about his or her future care, should they become incapable of participating in medical treatment decisions. These statements are currently recorded in paper-based advance care directives.</description><activationDate>2010-01-01</activationDate><actors><actor type="CIS"><upload>Default</upload><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><upload>Default</upload><download accessible="true" requestable="true" recommended="true" /></actor><actor type="MOS"><upload>Consumer</upload></actor><actor type="NCP"><upload>Consumer</upload></actor></actors><tags><name relationship="Primary">Patient Entered Information</name></tags></documentSubTypes><documentSubTypes><code>100.32016</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><category>Clinical Document</category><displayName>Goals of Care Document</displayName><description>The Goals of Care clinical document type is used to capture advance care information and can a statement related to a person's care in the context of a serious illness, as agreed between him/her, his/her family, carers and healthcare team.</description><activationDate>2010-01-01</activationDate><actors><actor type="CIS"><upload>Default</upload><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><upload>Default</upload><download accessible="true" requestable="true" recommended="true" /></actor></actors><tags><name relationship="Primary">Patient Entered Information</name></tags></documentSubTypes></documentType><documentType><code>100.16919</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><displayName>Child Parent Questionnaire</displayName><documentGenerationClassification>Document</documentGenerationClassification><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="true" /></actor></actors><description>Child Parent Questionnaire Document</description><documentSubTypes><code>100.16919</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><category>Child eHealth Record (CeHR) Document</category><displayName>Child Parent Questionnaire</displayName><description>Child Parent Questionnaire Document</description><activationDate>2010-01-01</activationDate><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="MOS"><upload>Consumer</upload></actor><actor type="NCP"><upload>Consumer</upload></actor></actors><tags><name relationship="Primary">Patient Entered Information</name></tags></documentSubTypes></documentType><documentType><code>100.16870</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><displayName>Consumer Entered Measurements</displayName><documentGenerationClassification>Document</documentGenerationClassification><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="true" /></actor></actors><description>Consumer Entered Measurements Document</description><documentSubTypes><code>100.16870</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><category>Consumer Document</category><displayName>Consumer Entered Measurements</displayName><description>Consumer Entered Measurements Document</description><activationDate>2010-01-01</activationDate><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="MOS"><upload>Consumer</upload></actor><actor type="NCP"><upload>Consumer</upload></actor></actors><tags><name relationship="Primary">Patient Entered Information</name></tags></documentSubTypes></documentType><documentType><code>100.16696</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><displayName>Advance Care Directive Custodian Record</displayName><documentGenerationClassification>Document</documentGenerationClassification><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="true" /></actor></actors><description>The advance care document custodian form provides information about the custodian of the individual's advance care directive. Such documents do not contain the advance care directive itself.</description><documentSubTypes><code>100.16696</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><category>Consumer Document</category><displayName>Advance Care Directive Custodian Record</displayName><description>The advance care document custodian form provides information about the custodian of the individual's advance care directive. Such documents do not contain the advance care directive itself.</description><activationDate>2010-01-01</activationDate><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="MOS"><upload>Consumer</upload></actor><actor type="NCP"><upload>Consumer</upload></actor></actors><tags><name relationship="Primary">Patient Entered Information</name></tags></documentSubTypes></documentType><documentType><code>100.16920</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><displayName>Health Check Assessment</displayName><documentGenerationClassification>Document</documentGenerationClassification><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="false" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="false" /></actor></actors><description>Health Check Assessment Document</description><documentSubTypes><code>100.16920</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><category>Consumer Document</category><displayName>Health Check Assessment</displayName><description>Health Check Assessment Document</description><activationDate>2010-01-01</activationDate><actors><actor type="CIS"><upload>Default</upload><download accessible="true" requestable="true" recommended="false" /></actor><actor type="CSP"><upload>Default</upload><download accessible="true" requestable="true" recommended="false" /></actor><actor type="NPP"><upload>Default</upload></actor></actors><tags><name relationship="Primary">Patient Entered Information</name></tags></documentSubTypes></documentType><documentType><code>100.16812</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><displayName>Consumer Entered Achievements</displayName><documentGenerationClassification>Document</documentGenerationClassification><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="false" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="false" /></actor></actors><description>Consumer Entered Achievements Document</description><documentSubTypes><code>100.16812</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><category>Consumer Document</category><displayName>Consumer Entered Achievements</displayName><description>Consumer Entered Achievements Document</description><activationDate>2010-01-01</activationDate><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="false" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="false" /></actor><actor type="MOS"><upload>Consumer</upload></actor><actor type="NCP"><upload>Consumer</upload></actor></actors><tags><name relationship="Primary">Patient Entered Information</name></tags></documentSubTypes></documentType><documentType><code>100.16685</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><displayName>Consumer Entered Health Summary</displayName><documentGenerationClassification>Document</documentGenerationClassification><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="false" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="false" /></actor></actors><description>Consumer Entered Health Summary Document</description><documentSubTypes><code>100.16685</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><category>Consumer Document</category><displayName>Consumer Entered Health Summary</displayName><description>Consumer Entered Health Summary Document</description><activationDate>2010-01-01</activationDate><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="false" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="false" /></actor><actor type="MOS"><upload>Consumer</upload></actor><actor type="NCP"><upload>Consumer</upload></actor></actors><tags><name relationship="Primary">Patient Entered Information</name></tags></documentSubTypes></documentType><documentType><code>100.16681</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><displayName>Consumer Entered Notes</displayName><documentGenerationClassification>Document</documentGenerationClassification><actors><actor type="CIS"><download accessible="false" requestable="false" recommended="false" /></actor><actor type="CSP"><download accessible="false" requestable="false" recommended="false" /></actor></actors><description>Consumer Entered Notes Document</description><documentSubTypes><code>100.16681</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><category>Consumer Document</category><displayName>Consumer Entered Notes</displayName><description>Consumer Entered Notes Document</description><activationDate>2010-01-01</activationDate><actors><actor type="CIS"><download accessible="false" requestable="false" recommended="false" /></actor><actor type="CSP"><download accessible="false" requestable="false" recommended="false" /></actor><actor type="MOS"><upload>Consumer</upload></actor><actor type="NCP"><upload>Consumer</upload></actor></actors><tags><name relationship="Primary">Patient Entered Information</name></tags></documentSubTypes></documentType><documentType><code>18761-7</code><codeSystem>2.16.840.1.113883.6.1</codeSystem><codeSystemName>LOINC</codeSystemName><displayName>Transfer Summary</displayName><documentGenerationClassification>Document</documentGenerationClassification><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="true" /></actor></actors><description>A summary of information related to an individual's transfer from one healthcare facility to another. </description><documentSubTypes><code>100.32047</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><category>Clinical View</category><displayName>Residential Care Transfer Overview</displayName><description>A residential care transfer overview is a logical view/document generated by My Health Record and contains information relevant to create safe, effective communication, ensuring continuity as the individual moves through care transition from a residential care setting. A residential care transfer overview includes the particulars of the transfer from a residential care setting and a summary of an individual's record.</description><activationDate>2023-01-01</activationDate><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="true" /></actor></actors><tags><name relationship="Primary">Continuity of Care</name></tags></documentSubTypes><documentSubTypes><code>100.32044</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><category>Clinical Document</category><displayName>Residential Care Transfer Reason</displayName><description>A residential care transfer reason is generated by the originating residential care facility and contains the particulars of the transfer from a residential care setting including provider information, reason for transfer, and date of transfer.</description><activationDate>2023-01-01</activationDate><actors><actor type="CIS"><upload>Default</upload><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><upload>Default</upload><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CRP"><upload>Default</upload></actor></actors><tags><name relationship="Primary">Continuity of Care</name></tags></documentSubTypes></documentType><documentType><code>80565-5</code><codeSystem>2.16.840.1.113883.6.1</codeSystem><codeSystemName>LOINC</codeSystemName><displayName>Medication Chart</displayName><documentGenerationClassification>Document</documentGenerationClassification><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="true" /></actor></actors><description>A summary of all of the medications for an individual over a certain period of time.</description><documentSubTypes><code>100.32046</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><category>Clinical Document</category><displayName>Residential Care Medication Chart</displayName><description>A residential medication chart is used as a record of orders and administration of prescription medicines, non-prescription medicines and nutritional supplements for individuals living in residential care facilities.</description><activationDate>2023-01-01</activationDate><actors><actor type="CIS"><upload>Default</upload><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><upload>Default</upload><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CRP"><upload>Default</upload></actor></actors><tags><name relationship="Primary">Continuity of Care</name></tags></documentSubTypes></documentType><documentType><code>100.32048</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><displayName>MyMedicare Registered Practice Information</displayName><documentGenerationClassification>Document</documentGenerationClassification><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="true" /></actor></actors><description>Displays the practice information that the person is registered with, as well as their preferred health professional from that practice.</description><documentSubTypes><code>100.32048</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><category>Medicare Document</category><displayName>MyMedicare Registered Practice Information</displayName><description>Displays the practice information that the person is registered with, as well as their preferred health professional from that practice.</description><activationDate>2023-01-01</activationDate><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CRP"><upload>Medicare</upload></actor></actors><tags><name relationship="Primary">Health Program</name></tags></documentSubTypes></documentType><documentType><code>100.32050</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><displayName>Patient Health Summary</displayName><documentGenerationClassification>Document</documentGenerationClassification><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="true" /></actor></actors><description>A summary of an individual's health information needed for healthcare coordination, supporting continuity of care during unexpected healthcare encounters or when the individual seeks care from providers other than their regular healthcare provider.</description><documentSubTypes><code>100.32049</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><category>Clinical Document</category><displayName>Residential Care Health Summary</displayName><description>A residential care health summary contains information about a residential care individual's environment, health and care to support continuity of care.</description><activationDate>2023-01-01</activationDate><actors><actor type="CIS"><upload>Default</upload><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><upload>Default</upload><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CRP"><upload>Default</upload></actor></actors><tags><name relationship="Primary">Continuity of Care</name></tags></documentSubTypes><documentSubTypes><code>100.32051</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><category>Clinical View</category><displayName>Medical Conditions View</displayName><description>The patients and their representatives, and providers have easier access to healthcare recipients' medical conditions and other relevant clinical information such as procedures, symptoms, medical implants, devices, allergies/ adverse reactions and medicines by enabling them to view them all in a consolidated location, thereby improve clinical decision making and user experience.</description><activationDate>2024-06-30</activationDate><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="true" /></actor></actors><tags><name relationship="Primary">Continuity of Care</name></tags></documentSubTypes></documentType><documentType><code>18776-5</code><codeSystem>2.16.840.1.113883.6.1</codeSystem><codeSystemName>LOINC</codeSystemName><displayName>Care or Support Plan</displayName><documentGenerationClassification>Document</documentGenerationClassification><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="true" /></actor></actors><description>Care and support plan data that include identified concerns | problems about healthcare recipient, and the goals and strategies and | or recommended interventions, services and support to be provided. The plan may also contain information about ongoing care of the patient and information regarding goals and care | clinical reminder.</description><documentSubTypes><code>100.32052</code><codeSystem>1.2.36.1.2001.1001.101</codeSystem><codeSystemName>NCTIS Data Components</codeSystemName><category>Clinical Document</category><displayName>Aged Care Support Plan</displayName><description>Aged care support plan data that capture assessment of an Aged Care recipient's health concerns | needs that also include goals to achieve, and the recipient's at home support needs, recommended support activities, procedures and services required.</description><activationDate>2024-08-01</activationDate><actors><actor type="CIS"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CSP"><download accessible="true" requestable="true" recommended="true" /></actor><actor type="CRP"><upload>Health</upload></actor></actors><tags><name relationship="Primary">Health Program</name></tags></documentSubTypes></documentType></documentTypes></DocumentRegister>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocumentRegister xmlns="http://ns.electronichealth.net.au/pcehr/xsd/common/DocumentCoreElements/1.0">
+	<creationDate>2025-06-27T05:49:01.9835739Z</creationDate>
+	<version>7</version>
+	<tags>
+		<tag>
+			<name>Continuity of Care</name>
+			<description>Continuity of Care Tag</description>
+		</tag>
+		<tag>
+			<name>Health Program</name>
+			<description>Health Program Tag</description>
+		</tag>
+		<tag>
+			<name>Medicines</name>
+			<description>Medicines Tag</description>
+		</tag>
+		<tag>
+			<name>Diagnostics</name>
+			<description>Diagnostics Tag</description>
+		</tag>
+		<tag>
+			<name>Patient Entered Information</name>
+			<description>Patient Entered Information Tag</description>
+		</tag>
+	</tags>
+	<documentTypes>
+		<documentType>
+			<code>60591-5</code>
+			<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+			<codeSystemName>LOINC</codeSystemName>
+			<displayName>Shared Health Summary</displayName>
+			<documentGenerationClassification>Document</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+			</actors>
+			<description>The shared health summary provides key pieces of information about an individual's health status, facilitating care across their entire healthcare domain. Nominated healthcare providers author a shared health summary during or soon after a consultation with a patient. It might contain information about allergies and adverse reactions, past medical history and or immunisation information.</description>
+			<documentSubTypes>
+				<code>60591-5</code>
+				<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+				<codeSystemName>LOINC</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>Shared Health Summary</displayName>
+				<description>The shared health summary provides key pieces of information about an individual's health status, facilitating care across their entire healthcare domain. Nominated healthcare providers author a shared health summary during or soon after a consultation with a patient. It might contain information about allergies and adverse reactions, past medical history and or immunisation information.</description>
+				<activationDate>2010-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Default</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Continuity of Care</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>57133-1</code>
+			<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+			<codeSystemName>LOINC</codeSystemName>
+			<displayName>e-Referral</displayName>
+			<documentGenerationClassification>Document</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+			</actors>
+			<description>Referrals are communications with the intention of initiating a transfer of responsibility for some aspects of a consumer's ongoing management from one provider to another across a range of healthcare and human services fields.</description>
+			<documentSubTypes>
+				<code>57133-1</code>
+				<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+				<codeSystemName>LOINC</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>e-Referral</displayName>
+				<description>Referrals are communications with the intention of initiating a transfer of responsibility for some aspects of a consumer's ongoing management from one provider to another across a range of healthcare and human services fields.</description>
+				<activationDate>2010-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Default</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Continuity of Care</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>51852-2</code>
+			<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+			<codeSystemName>LOINC</codeSystemName>
+			<displayName>Specialist Letter</displayName>
+			<documentGenerationClassification>Document</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+			</actors>
+			<description>Specialist letters are used in replying to a referral or reporting on a health event. They contain information related to the event or the requested diagnosis or treatment by a specialist.</description>
+			<documentSubTypes>
+				<code>51852-2</code>
+				<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+				<codeSystemName>LOINC</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>Specialist Letter</displayName>
+				<description>Specialist letters are used in replying to a referral or reporting on a health event. They contain information related to the event or the requested diagnosis or treatment by a specialist.</description>
+				<activationDate>2010-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Default</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Continuity of Care</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>18842-5</code>
+			<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+			<codeSystemName>LOINC</codeSystemName>
+			<displayName>Discharge Summary</displayName>
+			<documentGenerationClassification>Document</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+			</actors>
+			<description>Discharge Summary documents support the transfer of a patient from a hospital back to the care of their nominated primary healthcare provider. They capture details about the patient's hospital stay, including the diagnosis, diagnostic procedures performed, the prognosis, medications prescribed and follow-up actions recommended.</description>
+			<documentSubTypes>
+				<code>18842-5</code>
+				<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+				<codeSystemName>LOINC</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>Discharge Summary</displayName>
+				<description>Discharge Summary documents support the transfer of a patient from a hospital back to the care of their nominated primary healthcare provider. They capture details about the patient's hospital stay, including the diagnosis, diagnostic procedures performed, the prognosis, medications prescribed and follow-up actions recommended.</description>
+				<activationDate>2010-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Default</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Continuity of Care</name>
+				</tags>
+			</documentSubTypes>
+			<documentSubTypes>
+				<code>88645-7</code>
+				<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+				<codeSystemName>LOINC</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>Outpatient hospital Discharge Summary</displayName>
+				<description>A collection of information about events during care by a provider or organisation in the outpatient or ambulatory care setting, which is released when an individual is discharged from the care of the provider organisation without being formally admitted to the hospital as an inpatient.</description>
+				<activationDate>2023-10-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Default</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Continuity of Care</name>
+				</tags>
+			</documentSubTypes>
+			<documentSubTypes>
+				<code>59258-4</code>
+				<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+				<codeSystemName>LOINC</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>Emergency department Discharge Summary</displayName>
+				<description>Emergency department discharge summary documents are generated when an individual is treated in an emergency department and is subsequently discharged. They capture details about an individual's presenting complaint, assessment, the diagnosis, diagnostic procedures performed, the prognosis, medications prescribed and follow-up actions recommended.</description>
+				<activationDate>2023-10-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Default</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Continuity of Care</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>34133-9</code>
+			<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+			<codeSystemName>LOINC</codeSystemName>
+			<displayName>Event Summary</displayName>
+			<documentGenerationClassification>Document</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+			</actors>
+			<description>Event Summary documents are used to capture key health information about significant healthcare events that are relevant to the ongoing care of an individual.</description>
+			<documentSubTypes>
+				<code>34133-9</code>
+				<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+				<codeSystemName>LOINC</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>Event Summary</displayName>
+				<description>Event Summary documents are used to capture key health information about significant healthcare events that are relevant to the ongoing care of an individual.</description>
+				<activationDate>2010-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Default</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Continuity of Care</name>
+				</tags>
+			</documentSubTypes>
+			<documentSubTypes>
+				<code>96344-7</code>
+				<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+				<codeSystemName>LOINC</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>Oncology Summary Note</displayName>
+				<description>Information about an oncology treatment event. It includes pertinent data about diagnostic, provision of cancer treatment and care. It is typically written by an oncology specialist.</description>
+				<activationDate>2023-10-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Default</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Continuity of Care</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>100.16650</code>
+			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+			<codeSystemName>NCTIS</codeSystemName>
+			<displayName>Pharmaceutical Benefits Report</displayName>
+			<documentGenerationClassification>Document</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+			</actors>
+			<description>Information about pharmaceutical items prescribed and dispensed to an individual that were partially or fully funded under the Pharmaceutical Benefit Schedule (PBS) or Repatriation Pharmaceutical Benefits Scheme (RPBS).</description>
+			<documentSubTypes>
+				<code>100.16650</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS</codeSystemName>
+				<category>Medicare Document</category>
+				<displayName>Pharmaceutical Benefits Report</displayName>
+				<description>Information about pharmaceutical items prescribed and dispensed to an individual that were partially or fully funded under the Pharmaceutical Benefit Schedule (PBS) or Repatriation Pharmaceutical Benefits Scheme (RPBS).</description>
+				<activationDate>2010-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Medicare</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Continuity of Care</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>100.16671</code>
+			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+			<codeSystemName>NCTIS</codeSystemName>
+			<displayName>Australian Organ Donor Register</displayName>
+			<documentGenerationClassification>Document</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+			</actors>
+			<description>The Australian Organ Donor Register (AODR) is the national register for people to record their decision about becoming an organ and tissue donor. The AODR is the only national register for people to record their decision about becoming an organ and tissue donor for transplantation after death. </description>
+			<documentSubTypes>
+				<code>100.16671</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS</codeSystemName>
+				<category>Medicare Document</category>
+				<displayName>Australian Organ Donor Register</displayName>
+				<description>The Australian Organ Donor Register (AODR) is the national register for people to record their decision about becoming an organ and tissue donor. The AODR is the only national register for people to record their decision about becoming an organ and tissue donor for transplantation after death.</description>
+				<activationDate>2010-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Medicare</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Health Program</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>100.17042</code>
+			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+			<codeSystemName>NCTIS</codeSystemName>
+			<displayName>Australian Immunisation Register</displayName>
+			<documentGenerationClassification>Document</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+			</actors>
+			<description>The Australian Immunisation Register (AIR) (Formally the Australian Childhood Immunisation Register) is a national register that records vaccinations given to people of all ages in Australia.</description>
+			<documentSubTypes>
+				<code>100.17042</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS</codeSystemName>
+				<category>Medicare Document</category>
+				<displayName>Australian Immunisation Register</displayName>
+				<description>The Australian Immunisation Register (AIR) (Formally the Australian Childhood Immunisation Register) is a national register that records vaccinations given to people of all ages in Australia.</description>
+				<activationDate>2010-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Medicare</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Health Program</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>100.16644</code>
+			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+			<codeSystemName>NCTIS</codeSystemName>
+			<displayName>Medicare/DVA Benefits Report</displayName>
+			<documentGenerationClassification>Document</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="true" recommended="false"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="true" recommended="false"/>
+				</actor>
+			</actors>
+			<description>Information about a Medicare or DVA partially or fully funded service under the Medicare Benefits Schedule or Department of Veterans' Affairs (DVA).</description>
+			<documentSubTypes>
+				<code>100.16644</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS</codeSystemName>
+				<category>Medicare Document</category>
+				<displayName>Medicare/DVA Benefits Report</displayName>
+				<description>Information about a Medicare or DVA partially or fully funded service under the Medicare Benefits Schedule or Department of Veterans' Affairs (DVA).</description>
+				<activationDate>2010-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Medicare</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Health Program</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>100.16767</code>
+			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+			<codeSystemName>NCTIS Data Components</codeSystemName>
+			<displayName>Medicare Overview</displayName>
+			<documentGenerationClassification>DocumentView</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="false" recommended="false"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="false" recommended="false"/>
+				</actor>
+			</actors>
+			<description>Medicare Overview documents provide an overview of Medicare-sourced information stored in an individual's My Health Record.</description>
+			<documentSubTypes>
+				<code>100.16767.1</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
+				<category>Medicare Document</category>
+				<displayName>Medicare Overview - all</displayName>
+				<description>Medicare Overview documents provide an overview of Medicare-sourced information stored in an individual's My Health Record.</description>
+				<activationDate>2010-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<download accessible="true" requestable="false" recommended="false"/>
+					</actor>
+					<actor type="CSP">
+						<download accessible="true" requestable="false" recommended="false"/>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Health Program</name>
+				</tags>
+			</documentSubTypes>
+			<documentSubTypes>
+				<code>100.16767.2</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
+				<category>Medicare Document</category>
+				<displayName>Medicare Overview - past 12 months</displayName>
+				<description>Medicare Overview documents provide an overview of Medicare-sourced information stored in an individual's My Health Record.</description>
+				<activationDate>2010-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<download accessible="true" requestable="false" recommended="false"/>
+					</actor>
+					<actor type="CSP">
+						<download accessible="true" requestable="false" recommended="false"/>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Health Program</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>100.16764</code>
+			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+			<codeSystemName>NCTIS Data Components</codeSystemName>
+			<displayName>eHealth Prescription Record</displayName>
+			<documentGenerationClassification>Document</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="true" recommended="false"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="true" recommended="false"/>
+				</actor>
+			</actors>
+			<description>Prescription records are a digital record of prescribed medications. These documents do not represent actual prescriptions, but instead support the sharing of information about medication prescriptions.</description>
+			<documentSubTypes>
+				<code>100.16764</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>eHealth Prescription Record</displayName>
+				<description>Prescription records are a digital record of prescribed medications. These documents do not represent actual prescriptions, but instead support the sharing of information about medication prescriptions.</description>
+				<activationDate>2010-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="false"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="false"/>
+					</actor>
+					<actor type="CRP">
+						<upload>NPDR</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Medicines</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>100.16765</code>
+			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+			<codeSystemName>NCTIS Data Components</codeSystemName>
+			<displayName>eHealth Dispense Record</displayName>
+			<documentGenerationClassification>Document</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="true" recommended="false"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="true" recommended="false"/>
+				</actor>
+			</actors>
+			<description>Dispense Records are a digital record of dispensed medications by a pharmacist.</description>
+			<documentSubTypes>
+				<code>100.16765</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>eHealth Dispense Record</displayName>
+				<description>Dispense Records are a digital record of dispensed medications by a pharmacist.</description>
+				<activationDate>2010-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="false"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="false"/>
+					</actor>
+					<actor type="CRP">
+						<upload>NPDR</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Medicines</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>56445-0</code>
+			<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+			<codeSystemName>LOINC</codeSystemName>
+			<displayName>Pharmacist Shared Medicines List</displayName>
+			<documentGenerationClassification>Document</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="true" recommended="false"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="true" recommended="false"/>
+				</actor>
+			</actors>
+			<description>The Shared Medicine List contains detailed information about medicines the consumer is known to be taking when the list was created. This includes both prescription and non-prescription medicines, including 'over-the-counter' (OTC) medicines and complementary medicines such as vitamins and herbal products.</description>
+			<documentSubTypes>
+				<code>56445-0</code>
+				<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+				<codeSystemName>LOINC</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>Pharmacist Shared Medicines List</displayName>
+				<description>The Shared Medicine List contains detailed information about medicines the consumer is known to be taking when the list was created. This includes both prescription and non-prescription medicines, including 'over-the-counter' (OTC) medicines and complementary medicines such as vitamins and herbal products.</description>
+				<activationDate>2010-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="false"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="false"/>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Medicines</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>100.32002</code>
+			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+			<codeSystemName>NCTIS Data Components</codeSystemName>
+			<displayName>Medicines View</displayName>
+			<documentGenerationClassification>DocumentView</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="false" recommended="false"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="false" recommended="false"/>
+				</actor>
+			</actors>
+			<description>Medicines View Document</description>
+			<documentSubTypes>
+				<code>100.32002</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
+				<category>Clinical View</category>
+				<displayName>Medicines View</displayName>
+				<description>Medicines View Document</description>
+				<activationDate>2010-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<download accessible="true" requestable="false" recommended="false"/>
+					</actor>
+					<actor type="CSP">
+						<download accessible="true" requestable="false" recommended="false"/>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Medicines</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>100.32034</code>
+			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+			<codeSystemName>NCTIS Data Components</codeSystemName>
+			<displayName>Immunisation Consolidated View</displayName>
+			<documentGenerationClassification>DocumentView</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="false" recommended="false"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="false" recommended="false"/>
+				</actor>
+			</actors>
+			<description>Immunisation Consolidated View Document</description>
+			<documentSubTypes>
+				<code>100.32034</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
+				<category>Clinical View</category>
+				<displayName>Immunisation Consolidated View</displayName>
+				<description>Immunisation Consolidated View Document</description>
+				<activationDate>2010-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<download accessible="true" requestable="false" recommended="false"/>
+					</actor>
+					<actor type="CSP">
+						<download accessible="true" requestable="false" recommended="false"/>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Medicines</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>100.16957</code>
+			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+			<codeSystemName>NCTIS Data Components</codeSystemName>
+			<displayName>Diagnostic Imaging Report</displayName>
+			<documentGenerationClassification>Document</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+			</actors>
+			<description>Diagnostic imaging reports are used to share information about diagnostic imaging examinations via an individual's digital health record. The Diagnostic Imaging Report PDF may contain one or more examinations that are uploaded by the diagnostic imaging provider to the individual's digital health record.</description>
+			<documentSubTypes>
+				<code>100.16957</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>Diagnostic Imaging Report</displayName>
+				<description>Diagnostic imaging reports are used to share information about diagnostic imaging examinations via an individual's digital health record. The Diagnostic Imaging Report PDF may contain one or more examinations that are uploaded by the diagnostic imaging provider to the individual's digital health record.</description>
+				<activationDate>2010-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Default</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Diagnostics</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>100.32001</code>
+			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+			<codeSystemName>NCTIS Data Components</codeSystemName>
+			<displayName>Pathology Report</displayName>
+			<documentGenerationClassification>Document</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="true" recommended="false"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="true" recommended="false"/>
+				</actor>
+			</actors>
+			<description>Pathology reports can be used to share information about pathology tests via an individual's digital health record. The Pathology Report PDF may contain one or more tests that are uploaded by the pathology provider to the individual's digital health record.</description>
+			<documentSubTypes>
+				<code>100.32001</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>Pathology Report</displayName>
+				<description>Pathology reports can be used to share information about pathology tests via an individual's digital health record. The Pathology Report PDF may contain one or more tests that are uploaded by the pathology provider to the individual's digital health record.</description>
+				<activationDate>2010-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="false"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="false"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Default</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Diagnostics</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>100.32026</code>
+			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+			<codeSystemName>NCTIS Data Components</codeSystemName>
+			<displayName>Pathology Overview</displayName>
+			<documentGenerationClassification>DocumentView</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="false" recommended="false"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="false" recommended="false"/>
+				</actor>
+			</actors>
+			<description>A consolidated overview of some of the Pathology Reports in a patient's record.</description>
+			<documentSubTypes>
+				<code>100.32026</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
+				<category>Clinical View</category>
+				<displayName>Pathology Overview</displayName>
+				<description>A consolidated overview of some of the Pathology Reports in a patient's record.</description>
+				<activationDate>2010-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<download accessible="true" requestable="false" recommended="false"/>
+					</actor>
+					<actor type="CSP">
+						<download accessible="true" requestable="false" recommended="false"/>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Diagnostics</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>100.32025</code>
+			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+			<codeSystemName>NCTIS Data Components</codeSystemName>
+			<displayName>Diagnostic Imaging Overview</displayName>
+			<documentGenerationClassification>DocumentView</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="false" recommended="false"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="false" recommended="false"/>
+				</actor>
+			</actors>
+			<description>A consolidated overview of some of the Diagnostic Imaging Reports in a patient's record.</description>
+			<documentSubTypes>
+				<code>100.32025</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
+				<category>Clinical View</category>
+				<displayName>Diagnostic Imaging Overview</displayName>
+				<description>A consolidated overview of some of the Diagnostic Imaging Reports in a patient's record.</description>
+				<activationDate>2010-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<download accessible="true" requestable="false" recommended="false"/>
+					</actor>
+					<actor type="CSP">
+						<download accessible="true" requestable="false" recommended="false"/>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Diagnostics</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>100.16975</code>
+			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+			<codeSystemName>NCTIS Data Components</codeSystemName>
+			<displayName>Advance Care Information</displayName>
+			<documentGenerationClassification>Document</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+			</actors>
+			<description>Advance care planning information can include a statement by a competent person expressing decisions about his or her future care, should they become incapable of participating in medical treatment decisions. These statements are currently recorded in paper-based advance care directives. </description>
+			<documentSubTypes>
+				<code>100.16998</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>Advance Care Planning Document</displayName>
+				<description>Advance care planning information can include a statement by a competent person expressing decisions about his or her future care, should they become incapable of participating in medical treatment decisions. These statements are currently recorded in paper-based advance care directives.</description>
+				<activationDate>2010-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="MOS">
+						<upload>Consumer</upload>
+					</actor>
+					<actor type="NCP">
+						<upload>Consumer</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Patient Entered Information</name>
+				</tags>
+			</documentSubTypes>
+			<documentSubTypes>
+				<code>100.32016</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>Goals of Care Document</displayName>
+				<description>The Goals of Care clinical document type is used to capture advance care information and can a statement related to a person's care in the context of a serious illness, as agreed between him/her, his/her family, carers and healthcare team.</description>
+				<activationDate>2010-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Patient Entered Information</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>100.16919</code>
+			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+			<codeSystemName>NCTIS Data Components</codeSystemName>
+			<displayName>Child Parent Questionnaire</displayName>
+			<documentGenerationClassification>Document</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+			</actors>
+			<description>Child Parent Questionnaire Document</description>
+			<documentSubTypes>
+				<code>100.16919</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
+				<category>Child eHealth Record (CeHR) Document</category>
+				<displayName>Child Parent Questionnaire</displayName>
+				<description>Child Parent Questionnaire Document</description>
+				<activationDate>2010-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="MOS">
+						<upload>Consumer</upload>
+					</actor>
+					<actor type="NCP">
+						<upload>Consumer</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Patient Entered Information</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>100.16870</code>
+			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+			<codeSystemName>NCTIS Data Components</codeSystemName>
+			<displayName>Consumer Entered Measurements</displayName>
+			<documentGenerationClassification>Document</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+			</actors>
+			<description>Consumer Entered Measurements Document</description>
+			<documentSubTypes>
+				<code>100.16870</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
+				<category>Consumer Document</category>
+				<displayName>Consumer Entered Measurements</displayName>
+				<description>Consumer Entered Measurements Document</description>
+				<activationDate>2010-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="MOS">
+						<upload>Consumer</upload>
+					</actor>
+					<actor type="NCP">
+						<upload>Consumer</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Patient Entered Information</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>100.16696</code>
+			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+			<codeSystemName>NCTIS Data Components</codeSystemName>
+			<displayName>Advance Care Directive Custodian Record</displayName>
+			<documentGenerationClassification>Document</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+			</actors>
+			<description>The advance care document custodian form provides information about the custodian of the individual's advance care directive. Such documents do not contain the advance care directive itself.</description>
+			<documentSubTypes>
+				<code>100.16696</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
+				<category>Consumer Document</category>
+				<displayName>Advance Care Directive Custodian Record</displayName>
+				<description>The advance care document custodian form provides information about the custodian of the individual's advance care directive. Such documents do not contain the advance care directive itself.</description>
+				<activationDate>2010-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="MOS">
+						<upload>Consumer</upload>
+					</actor>
+					<actor type="NCP">
+						<upload>Consumer</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Patient Entered Information</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>100.16920</code>
+			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+			<codeSystemName>NCTIS Data Components</codeSystemName>
+			<displayName>Health Check Assessment</displayName>
+			<documentGenerationClassification>Document</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="true" recommended="false"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="true" recommended="false"/>
+				</actor>
+			</actors>
+			<description>Health Check Assessment Document</description>
+			<documentSubTypes>
+				<code>100.16920</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
+				<category>Consumer Document</category>
+				<displayName>Health Check Assessment</displayName>
+				<description>Health Check Assessment Document</description>
+				<activationDate>2010-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="false"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="false"/>
+					</actor>
+					<actor type="NPP">
+						<upload>Default</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Patient Entered Information</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>100.16812</code>
+			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+			<codeSystemName>NCTIS Data Components</codeSystemName>
+			<displayName>Consumer Entered Achievements</displayName>
+			<documentGenerationClassification>Document</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="true" recommended="false"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="true" recommended="false"/>
+				</actor>
+			</actors>
+			<description>Consumer Entered Achievements Document</description>
+			<documentSubTypes>
+				<code>100.16812</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
+				<category>Consumer Document</category>
+				<displayName>Consumer Entered Achievements</displayName>
+				<description>Consumer Entered Achievements Document</description>
+				<activationDate>2010-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<download accessible="true" requestable="true" recommended="false"/>
+					</actor>
+					<actor type="CSP">
+						<download accessible="true" requestable="true" recommended="false"/>
+					</actor>
+					<actor type="MOS">
+						<upload>Consumer</upload>
+					</actor>
+					<actor type="NCP">
+						<upload>Consumer</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Patient Entered Information</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>100.16685</code>
+			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+			<codeSystemName>NCTIS Data Components</codeSystemName>
+			<displayName>Consumer Entered Health Summary</displayName>
+			<documentGenerationClassification>Document</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="true" recommended="false"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="true" recommended="false"/>
+				</actor>
+			</actors>
+			<description>Consumer Entered Health Summary Document</description>
+			<documentSubTypes>
+				<code>100.16685</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
+				<category>Consumer Document</category>
+				<displayName>Consumer Entered Health Summary</displayName>
+				<description>Consumer Entered Health Summary Document</description>
+				<activationDate>2010-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<download accessible="true" requestable="true" recommended="false"/>
+					</actor>
+					<actor type="CSP">
+						<download accessible="true" requestable="true" recommended="false"/>
+					</actor>
+					<actor type="MOS">
+						<upload>Consumer</upload>
+					</actor>
+					<actor type="NCP">
+						<upload>Consumer</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Patient Entered Information</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>100.16681</code>
+			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+			<codeSystemName>NCTIS Data Components</codeSystemName>
+			<displayName>Consumer Entered Notes</displayName>
+			<documentGenerationClassification>Document</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="false" requestable="false" recommended="false"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="false" requestable="false" recommended="false"/>
+				</actor>
+			</actors>
+			<description>Consumer Entered Notes Document</description>
+			<documentSubTypes>
+				<code>100.16681</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
+				<category>Consumer Document</category>
+				<displayName>Consumer Entered Notes</displayName>
+				<description>Consumer Entered Notes Document</description>
+				<activationDate>2010-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<download accessible="false" requestable="false" recommended="false"/>
+					</actor>
+					<actor type="CSP">
+						<download accessible="false" requestable="false" recommended="false"/>
+					</actor>
+					<actor type="MOS">
+						<upload>Consumer</upload>
+					</actor>
+					<actor type="NCP">
+						<upload>Consumer</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Patient Entered Information</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>18761-7</code>
+			<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+			<codeSystemName>LOINC</codeSystemName>
+			<displayName>Transfer Summary</displayName>
+			<documentGenerationClassification>Document</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+			</actors>
+			<description>A summary of information related to an individual's transfer from one healthcare facility to another. </description>
+			<documentSubTypes>
+				<code>100.32047</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
+				<category>Clinical View</category>
+				<displayName>Residential Care Transfer Overview</displayName>
+				<description>A residential care transfer overview is a logical view/document generated by My Health Record and contains information relevant to create safe, effective communication, ensuring continuity as the individual moves through care transition from a residential care setting. A residential care transfer overview includes the particulars of the transfer from a residential care setting and a summary of an individual's record.</description>
+				<activationDate>2023-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Continuity of Care</name>
+				</tags>
+			</documentSubTypes>
+			<documentSubTypes>
+				<code>100.32044</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>Residential Care Transfer Reason</displayName>
+				<description>A residential care transfer reason is generated by the originating residential care facility and contains the particulars of the transfer from a residential care setting including provider information, reason for transfer, and date of transfer.</description>
+				<activationDate>2023-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Default</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Continuity of Care</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>80565-5</code>
+			<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+			<codeSystemName>LOINC</codeSystemName>
+			<displayName>Medication Chart</displayName>
+			<documentGenerationClassification>Document</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+			</actors>
+			<description>A summary of all of the medications for an individual over a certain period of time.</description>
+			<documentSubTypes>
+				<code>100.32046</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>Residential Care Medication Chart</displayName>
+				<description>A residential medication chart is used as a record of orders and administration of prescription medicines, non-prescription medicines and nutritional supplements for individuals living in residential care facilities.</description>
+				<activationDate>2023-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Default</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Continuity of Care</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>100.32048</code>
+			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+			<codeSystemName>NCTIS Data Components</codeSystemName>
+			<displayName>MyMedicare Registered Practice Information</displayName>
+			<documentGenerationClassification>Document</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+			</actors>
+			<description>Displays the practice information that the person is registered with, as well as their preferred health professional from that practice.</description>
+			<documentSubTypes>
+				<code>100.32048</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
+				<category>Medicare Document</category>
+				<displayName>MyMedicare Registered Practice Information</displayName>
+				<description>Displays the practice information that the person is registered with, as well as their preferred health professional from that practice.</description>
+				<activationDate>2023-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Medicare</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Health Program</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>100.32050</code>
+			<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+			<codeSystemName>NCTIS Data Components</codeSystemName>
+			<displayName>Patient Health Summary</displayName>
+			<documentGenerationClassification>Document</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+			</actors>
+			<description>A summary of an individual's health information needed for healthcare coordination, supporting continuity of care during unexpected healthcare encounters or when the individual seeks care from providers other than their regular healthcare provider.</description>
+			<documentSubTypes>
+				<code>100.32049</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>Residential Care Health Summary</displayName>
+				<description>A residential care health summary contains information about a residential care individual's environment, health and care to support continuity of care.</description>
+				<activationDate>2023-01-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<upload>Default</upload>
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Default</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Continuity of Care</name>
+				</tags>
+			</documentSubTypes>
+			<documentSubTypes>
+				<code>100.32051</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
+				<category>Clinical View</category>
+				<displayName>Medical Conditions View</displayName>
+				<description>The patients and their representatives, and providers have easier access to healthcare recipients' medical conditions and other relevant clinical information such as procedures, symptoms, medical implants, devices, allergies/ adverse reactions and medicines by enabling them to view them all in a consolidated location, thereby improve clinical decision making and user experience.</description>
+				<activationDate>2024-06-30</activationDate>
+				<actors>
+					<actor type="CIS">
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Continuity of Care</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+		<documentType>
+			<code>18776-5</code>
+			<codeSystem>2.16.840.1.113883.6.1</codeSystem>
+			<codeSystemName>LOINC</codeSystemName>
+			<displayName>Care or Support Plan</displayName>
+			<documentGenerationClassification>Document</documentGenerationClassification>
+			<actors>
+				<actor type="CIS">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+				<actor type="CSP">
+					<download accessible="true" requestable="true" recommended="true"/>
+				</actor>
+			</actors>
+			<description>Care and support plan data that include identified concerns ; problems about healthcare recipient, and the goals and strategies and ; or recommended interventions, services and support to be provided. The plan may also contain information about ongoing care of the patient and information regarding goals and care ; clinical reminder.</description>
+			<documentSubTypes>
+				<code>100.32052</code>
+				<codeSystem>1.2.36.1.2001.1001.101</codeSystem>
+				<codeSystemName>NCTIS Data Components</codeSystemName>
+				<category>Clinical Document</category>
+				<displayName>Aged Care Support Plan</displayName>
+				<description>Aged care support plan data that capture assessment of an Aged Care recipient's health concerns ; needs that also include goals to achieve, and the recipient's at home support needs, recommended support activities, procedures and services required.</description>
+				<activationDate>2024-08-01</activationDate>
+				<actors>
+					<actor type="CIS">
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CSP">
+						<download accessible="true" requestable="true" recommended="true"/>
+					</actor>
+					<actor type="CRP">
+						<upload>Health</upload>
+					</actor>
+				</actors>
+				<tags>
+					<name relationship="Primary">Health Program</name>
+				</tags>
+			</documentSubTypes>
+		</documentType>
+	</documentTypes>
+</DocumentRegister>

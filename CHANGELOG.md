@@ -1,8 +1,9 @@
 ### Change Log/Revision History
 
-7.0   07/05/2025
+7.0   07/05/2025 + 27/06/2025
 -----
 Added Consumer for ACP document for mobile channel
+Republished as text had | in it messing up MD file
 
 6.0   25/11/2024
 -----

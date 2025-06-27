@@ -1,5 +1,5 @@
 {
-  "creationDate": "2025-05-07T04:12:08.1990055Z",
+  "creationDate": "2025-06-27T05:49:00.9773269Z",
   "version": 7,
   "tags": [
     {
@@ -2383,7 +2383,7 @@
           "type": "CSP"
         }
       ],
-      "description": "Care and support plan data that include identified concerns | problems about healthcare recipient, and the goals and strategies and | or recommended interventions, services and support to be provided. The plan may also contain information about ongoing care of the patient and information regarding goals and care | clinical reminder.",
+      "description": "Care and support plan data that include identified concerns ; problems about healthcare recipient, and the goals and strategies and ; or recommended interventions, services and support to be provided. The plan may also contain information about ongoing care of the patient and information regarding goals and care ; clinical reminder.",
       "documentSubTypes": [
         {
           "code": "100.32052",
@@ -2391,7 +2391,7 @@
           "codeSystemName": "NCTIS Data Components",
           "category": "Clinical Document",
           "displayName": "Aged Care Support Plan",
-          "description": "Aged care support plan data that capture assessment of an Aged Care recipient's health concerns | needs that also include goals to achieve, and the recipient's at home support needs, recommended support activities, procedures and services required.",
+          "description": "Aged care support plan data that capture assessment of an Aged Care recipient's health concerns ; needs that also include goals to achieve, and the recipient's at home support needs, recommended support activities, procedures and services required.",
           "activationDate": "2024-08-01T00:00:00",
           "actors": [
             {
